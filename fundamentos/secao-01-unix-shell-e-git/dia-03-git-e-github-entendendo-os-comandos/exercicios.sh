@@ -11,4 +11,4 @@ Nova Atualização
 # ---//
 
 git add .
-git commit -m "Atualização de README"
+git commit -m "Atualização do README"
