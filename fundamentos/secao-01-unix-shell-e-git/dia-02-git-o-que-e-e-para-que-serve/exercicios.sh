@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir repositorio_git
 cd repositorio_git
 git init
