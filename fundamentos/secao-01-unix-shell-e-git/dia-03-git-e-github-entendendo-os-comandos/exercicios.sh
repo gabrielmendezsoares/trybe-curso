@@ -1,4 +1,4 @@
-# Exercício 01
+#!/bin/bash
 
 git checkout -b novaBranch
 cat >> README.md
