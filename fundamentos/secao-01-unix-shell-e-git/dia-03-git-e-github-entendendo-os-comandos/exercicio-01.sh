@@ -1,14 +1,15 @@
 #!/bin/bash
 
-git checkout -b novaBranch
+# Made by: Gabriel Mendez Soares
+# Feito por : Gabriel Mendez Soares
+
+git checkout -b newBranch
 cat >> README.md
 
-# ---//
-
-Adição de novas informações
-Nova Atualização
-
-# ---//
+# ---// Concatenation Log //
+README file
+First change
+# ---// Concatenation Log //
 
 git add .
-git commit -m "Atualização do README"
+git commit -m "Changing README file 📝"
