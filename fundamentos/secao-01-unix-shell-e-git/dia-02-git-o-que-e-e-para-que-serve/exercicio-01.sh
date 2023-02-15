@@ -1,63 +1,58 @@
 #!/bin/bash
 
-mkdir repositorio_git
-cd repositorio_git
+# Made by: Gabriel Mendez Soares
+# Feito por : Gabriel Mendez Soares
+
+mkdir git_repository
+cd git_repository
 git init
 code .
 touch README.md
 git add .
-git commit -m "Criação do arquivo README"
-git checkout -b adiciona-readme
+git commit -m "README file creation 📄"
+git checkout -b add-readme
 cat > README.md
 
-# ---//
-
-Meu repósitorio Git
-Minha alteração
-
+# ---// Insertion Log //
+Git repository
+First change
 # ---//
 
 git add .
-git commit -m "Alterando o README"
+git commit -m "Changing README file 📝"
 git checkout main
-git merge adiciona-readme
-git checkout -b atualiza-readme
-touch infos.txt
-cat > infos.txt
+git merge add-readme
+git checkout -b update-readme
+touch INFO.txt
+cat > INFO.txt
 
-# ---//
-
-Arquivo de informação
-Nova alteração
-
+# ---// Insertion Log //
+Information file
+First change
 # ---//
 
 git add .
-git commit -m "Alterando o arquivo infos"
-cat >> infos.txt
+git commit -m "INFO file creation 📄"
+cat >> INFO.txt
 
-# ---//
-
-Nome: Gabriel
-Sobrenome: Mendez Soares
-
+# ---// Insertion Log //
+Name: Gabriel
+Last name: Mendez Soares
 # --//
 
 git add .
-git commit -m "Adicionando nome e sobrenome em infos"
-git checkout -b adiciona-infos
-cat >> infos.txt
+git commit -m "Changing INFO file 📝"
+git checkout -b add-info
+cat >> INFO.txt
 
-# ---//
-
-Outra atualização
-Arquivo pronto
-
+# ---// Insertion Log //
+User information above
+Last change
 # ---//
 
 git add .
-git commit -m "Adicionando informações em infos"
-git checkout atualiza-readme
-git merge adiciona-infos
+git commit -m "Changing INFO file 📝"
+git checkout update-readme
+git merge add-info
 git checkout main
-git merge atualiza-readme
+git merge update-readme
