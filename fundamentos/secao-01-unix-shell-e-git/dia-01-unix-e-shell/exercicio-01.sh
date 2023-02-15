@@ -30,7 +30,7 @@ CSS
 JavaScript
 React
 SQL
-# ---// Concatenation Log //
+# ---//
 
 head -n 5 skills.txt
 tail -n 4 skills.txt
