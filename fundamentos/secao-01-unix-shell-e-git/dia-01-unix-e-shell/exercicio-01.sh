@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Made by: Gabriel Mendez Soares
-# Feito por : Gabriel Mendez Soares
-
 mkdir unix_tests
 cd unix_tests
 touch trybe.txt
