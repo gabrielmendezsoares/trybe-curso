@@ -21,7 +21,7 @@ clear
 touch skills.txt
 cat > skills.txt
 
-# ---// Insertion Log //
+# ---// Concatenation Log //
 Internet
 Unix
 Bash
@@ -30,7 +30,7 @@ CSS
 JavaScript
 React
 SQL
-# ---// Insertion Log //
+# ---// Concatenation Log //
 
 head -n 5 skills.txt
 tail -n 4 skills.txt
