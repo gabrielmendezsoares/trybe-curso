@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Made by: Gabriel Mendez Soares
-# Feito por : Gabriel Mendez Soares
-
 mkdir git_repository
 cd git_repository
 git init

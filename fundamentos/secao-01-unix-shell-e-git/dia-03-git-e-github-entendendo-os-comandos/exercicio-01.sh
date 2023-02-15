@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Made by: Gabriel Mendez Soares
-# Feito por : Gabriel Mendez Soares
-
 git checkout -b newBranch
 cat >> README.md
 
