@@ -13,7 +13,7 @@ git commit -m "README file creation 📄"
 git checkout -b add-readme
 cat > README.md
 
-# ---// Insertion Log //
+# ---// Concatenation Log //
 Git repository
 First change
 # ---//
@@ -26,7 +26,7 @@ git checkout -b update-readme
 touch INFO.txt
 cat > INFO.txt
 
-# ---// Insertion Log //
+# ---// Concatenation Log //
 Information file
 First change
 # ---//
@@ -35,7 +35,7 @@ git add .
 git commit -m "INFO file creation 📄"
 cat >> INFO.txt
 
-# ---// Insertion Log //
+# ---// Concatenation Log //
 Name: Gabriel
 Last name: Mendez Soares
 # --//
@@ -45,7 +45,7 @@ git commit -m "Changing INFO file 📝"
 git checkout -b add-info
 cat >> INFO.txt
 
-# ---// Insertion Log //
+# ---// Concatenation Log //
 User information above
 Last change
 # ---//
