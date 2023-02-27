@@ -1,6 +1,6 @@
-let myName = "Gabriel Mendez Soares";
-let birthCity = "Goiânia";
-let birthYear = 2004;
+const myName = "Gabriel Mendez Soares";
+const birthCity = "Goiânia";
+const birthYear = 2004;
 
 console.log(myName);
 console.log(birthCity);
