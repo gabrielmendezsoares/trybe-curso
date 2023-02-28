@@ -11,6 +11,6 @@ if (currentHour >= 22) {
     message = 'Hora do almoço!!!';
 } else if (currentHour >= 4 && currentHour < 11) {
     message = 'Hmmm, cheiro de café recém-passado';
-}
+};
 
 console.log(message);

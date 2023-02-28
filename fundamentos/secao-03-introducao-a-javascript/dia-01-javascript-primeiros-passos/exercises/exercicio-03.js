@@ -6,4 +6,4 @@ if (grade >= 80) {
     console.log("Você está na nossa lista de espera.");
 } else if (grade < 60) {
     console.log("Infelizmente, você reprovou.");
-}
+};
