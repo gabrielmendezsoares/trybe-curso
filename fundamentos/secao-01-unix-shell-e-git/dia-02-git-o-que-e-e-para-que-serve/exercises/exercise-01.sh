@@ -11,7 +11,7 @@ git checkout -b add-readme
 cat > README.md
 
 # ---// Concatenation Log //
-Git repository
+README file
 First change
 # ---//
 
@@ -24,7 +24,7 @@ touch INFO.txt
 cat > INFO.txt
 
 # ---// Concatenation Log //
-Information file
+README file
 First change
 # ---//
 
@@ -43,7 +43,7 @@ git checkout -b add-info
 cat >> INFO.txt
 
 # ---// Concatenation Log //
-User information above
+User information
 Last change
 # ---//
 
