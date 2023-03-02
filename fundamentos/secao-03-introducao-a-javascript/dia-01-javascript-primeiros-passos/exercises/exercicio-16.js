@@ -9,5 +9,5 @@ if (purchasePrice >= 0 && salePrice >= 0) {
    
     console.log(profitValue);
 } else {
-    console.log('Error, os valores não podem ser negativos!');
+    console.log('Erro, os valores não podem ser negativos!');
 };

@@ -1,6 +1,6 @@
 let aliquotINSS;
 let aliquotIR;
-let grossSalary = 2000.00;
+let grossSalary = 5000.00;
 
 if (grossSalary <= 1556.94) {
     aliquotINSS = grossSalary * 0.08;
