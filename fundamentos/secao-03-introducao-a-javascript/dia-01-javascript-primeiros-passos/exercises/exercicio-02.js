@@ -1,7 +1,7 @@
 const base = 5;
 const height = 8;
-let area = base * height;
-let perimeter = 5 + 5 + 8 + 8;
+const area = base * height;
+const perimeter = (base * 2) + (height * 2);
 
-console.log(area);
-console.log(perimeter);
+console.log('Area: ' + area);
+console.log('Perímetro: ' + perimeter);

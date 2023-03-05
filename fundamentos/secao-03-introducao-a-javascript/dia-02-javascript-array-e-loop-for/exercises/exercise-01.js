@@ -1,8 +1,8 @@
-let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
-let menuServices = menu[1];
-let indexOfPortfolio = menu.indexOf('Portfólio');
+const menu = ['Home', 'Services', 'Portfolio', 'Links'];
+const menuServices = menu[1];
+const indexOfPortfolio = menu.indexOf('Portfolio');
 
-menu.push('Contato');
+menu.push('Contact');
+console.log(menu);
 console.log(menuServices);
 console.log(indexOfPortfolio);
-console.log(menu);

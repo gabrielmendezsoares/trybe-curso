@@ -3,52 +3,57 @@
 mkdir git_repository
 cd git_repository
 git init
-code .
 touch README.md
 git add .
-git commit -m "README file creation 📄"
+git commit -m "[CREATE] README.md"
 git checkout -b add-readme
-cat > README.md
+cat >> README.md
 
-# ---// Concatenation Log //
-README file
-First change
+# ---// [cat] Logs //
+Name: Gabriel
+Last name: Soares
 # ---//
 
 git add .
-git commit -m "Changing README file 📝"
+git commit -m "[CHANGE] README.md"
 git checkout main
 git merge add-readme
 git checkout -b update-readme
 touch INFO.txt
-cat > INFO.txt
+cat >> INFO.txt
 
-# ---// Concatenation Log //
-README file
-First change
+# ---// [cat] Logs //
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
 # ---//
 
 git add .
-git commit -m "INFO file creation 📄"
+git commit -m "[CREATE] INFO.txt"
 cat >> INFO.txt
 
-# ---// Concatenation Log //
-Name: Gabriel
-Last name: Mendez Soares
+# ---// [cat] Logs //
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
 # --//
 
 git add .
-git commit -m "Changing INFO file 📝"
+git commit -m "[CHANGE] INFO.txt"
 git checkout -b add-info
 cat >> INFO.txt
 
-# ---// Concatenation Log //
-User information
-Last change
+# ---// [cat] Logs //
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
 # ---//
 
 git add .
-git commit -m "Changing INFO file 📝"
+git commit -m "[CHANGE] INFO.txt"
 git checkout update-readme
 git merge add-info
 git checkout main

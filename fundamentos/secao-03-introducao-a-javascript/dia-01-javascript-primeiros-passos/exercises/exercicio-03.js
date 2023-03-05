@@ -1,9 +1,11 @@
-const grade = 50;
+const currentHour = 13;
 
-if (grade >= 80) {
-    console.log("Parabéns, você faz parte do grupo de pessoas aprovadas!");    
-} else if (grade < 80 && grade >= 60) {
-    console.log("Você está na nossa lista de espera.");
-} else if (grade < 60) {
-    console.log("Infelizmente, você reprovou.");
-};
+if (currentHour >= 0 && currentHour < 5) {
+  console.log('Boa Madrugada');
+} else if (currentHour >= 18 && currentHour < 24) {
+  console.log('Boa Noite');
+} else if (currentHour >= 13 && currentHour < 18) {
+  console.log('Boa Tarde');
+} else if (currentHour >= 5 && currentHour < 13) {
+  console.log('Bom Dia');
+}

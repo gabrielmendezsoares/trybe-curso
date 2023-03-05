@@ -1,19 +1,8 @@
-const selectionStatus = 'lista';
+const valueA = 10;
+const valueB = 20;
 
-switch (selectionStatus) {
-    case 'aprovada':
-        console.log('Parabéns. você está no grupo de pessoas aprovadas!');
-        break;
-
-    case 'lista':
-        console.log('Você está na nossa lista de espera.');
-        break;
-
-    case 'reprovada':
-        console.log('Infelizmente, você reprovou.');
-        break;
-
-    default:
-        console.log('Informação incorreta.');
-        break;
-};
+console.log('Soma: ' + (valueA + valueB));
+console.log('Subtração: ' + (valueA - valueB));
+console.log('Multiplicação: ' + (valueA * valueB));
+console.log('Divisão: ' + (valueA / valueB));
+console.log('Módulo: ' + (valueA % valueB));

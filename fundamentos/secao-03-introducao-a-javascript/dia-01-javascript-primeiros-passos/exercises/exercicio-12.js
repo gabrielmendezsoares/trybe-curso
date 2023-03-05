@@ -1,31 +1,12 @@
-const chessPiece = 'king';
+const valueA = 10;
+const valueB = 20;
+const valueC = 30;
+let valueStatus;
 
-switch (chessPiece.toLowerCase()) {
-    case 'king':
-        console.log('Rei-> Uma casa apenas para qualquer direção.');
-        break;
+if (valueA % 2 !== 0 || valueB % 2 !== 0 || valueC % 2 !== 0) {
+  valueStatus = 'Ímpar';
+} else if (valueA % 2 === 0 || valueB % 2 === 0 || valueC % 2 === 0) {
+  valueStatus = 'Par';
+}
 
-    case 'queen':
-        console.log('Rainha-> Diagonal, horizontal e vertical.');
-        break;
-
-    case 'bishop':
-        console.log('Bispo-> Diagonal.');
-        break;
-
-    case 'horse':
-        console.log('Cavalo -> "L" pode pular sobre as peças.');
-        break;
-
-    case 'tower':
-        console.log('Torre -> Horizontal e vertical.');
-        break;
-
-    case 'pawn':
-        console.log('Peão -> Apenas uma casa para frente, no primeiro movimento podem ser duas casas.');
-        break;
-
-    default:
-        console.log('Erro, peça inválida!');
-        break;
-};
+console.log('Status Valor: ' + valueStatus);
