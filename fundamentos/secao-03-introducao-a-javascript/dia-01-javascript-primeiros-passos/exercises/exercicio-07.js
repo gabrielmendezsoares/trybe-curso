@@ -1,8 +1,13 @@
-const a = 25;
-const b = 15;
+const valueA = 10;
+const valueB = 20;
+const valueC = 30;
 
-console.log('Soma: ' + (a + b));
-console.log('Subtração: ' + (a - b));
-console.log('Multiplicação: ' + (a * b));
-console.log('Divisão: ' + (a / b));
-console.log('Módulo: ' + (a % b));
+if (a > b && a > c) {
+  console.log('O valor "A" é maior que o valor "B" e "C".');
+} else if (b > a && b > c) {
+  console.log('O valor "B" é maior que o valor "A" e "C".');
+} else if (c > a && c > b) {
+  console.log('O valor "C" é maior que o valor "A" e "B".');
+} else {
+  console.log('Erro, valor inválido!');
+}

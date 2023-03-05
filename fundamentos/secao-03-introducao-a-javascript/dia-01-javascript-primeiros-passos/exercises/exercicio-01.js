@@ -1,7 +1,7 @@
-const myName = "Gabriel Mendez Soares";
-const birthCity = "Goiânia";
-const birthYear = 2004;
+const firstName = 'Gabriel Mendez Soares';
+const birthCity = 'Goiânia';
+const birthYear = '2004';
 
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
+console.log('Nome: ' + firstName);
+console.log('Cidade de nascimento: ' + birthCity);
+console.log('Ano de nascismento: ' + birthYear);

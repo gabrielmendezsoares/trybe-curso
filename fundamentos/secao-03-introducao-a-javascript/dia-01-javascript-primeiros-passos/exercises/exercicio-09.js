@@ -1,13 +1,15 @@
-const a = 25;
-const b = 15;
-const c = 5;
+const degreeAngleA = 65;
+const degreeAngleB = 100;
+const degreeAngleC = 15;
+let sumOfAngles = degreeAngleA + degreeAngleB + degreeAngleC;
+let allAnglesArePositives = degreeAngleA > 0 && degreeAngleB > 0 && degreeAngleC > 0;
 
-if (a > b && a > c) {
-    console.log("'a' é maior que 'b' e 'c'.");
-} else if (b > a && b > c) {
-    console.log("'b' é maior que 'a' e 'c'.");
-} else if (c > a && c > b) {
-    console.log("'c' é maior que 'a' e 'b'.");
+if (allAnglesArePositives) {
+  if (sumOfAngles === 180) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 } else {
-    console.log("Resultado inválido.");
-};
+  console.log('Erro, ângulo inválido!');
+}

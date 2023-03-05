@@ -1,7 +1,19 @@
-const weekDay = 'quarta-feira';
+const currentStatus = 'Aprovada';
 
-if (weekDay === 'segunda-feira' || weekDay === 'terça-feira' || weekDay === 'quarta-feira' || weekDay === 'quinta-feira' || weekDay === 'sexta-feira') {
-    console.log('Oba, mais um dia de aprendizado na Trybe >:D');
-} else if (weekDay === 'sabado' || weekDay === 'domingo') {
-    console.log('FINALMENTE, descanso merecido! UwU!');
-};
+switch (currentStatus) {
+  case 'Aprovada':
+    console.log('Você está no grupo de pessoas aprovadas.');
+    break;
+
+  case 'Lista':
+    console.log('Você está na nossa lista de espera.');
+    break;
+
+  case 'Reprovada':
+    console.log('Você reprovou.');
+    break;
+
+  default:
+    console.log('Erro, informação incorreta!');
+    break;
+}

@@ -1,10 +1,9 @@
-const a = 25;
-const b = 15;
+const valueState = 100;
 
-if (a > b) {
-    console.log("'a' é maior que 'b'.");
-} else if (b > a) {
-    console.log("'b' é maior que 'a'.");
+if (valueState > 0) {
+  console.log('Valor Positivo');
+} else if (valueState < 0) {
+  console.log('Valor Negativo');
 } else {
-    console.log("Resultado inválido.");
-};
+  console.log('Valor Zero');
+}

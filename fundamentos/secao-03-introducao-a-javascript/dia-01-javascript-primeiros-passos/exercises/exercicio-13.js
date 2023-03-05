@@ -1,21 +1,13 @@
-const grade = 100;
+const purchasePrice = 10;
+const salePrice = 20;
+const percentage = 0.08;
+const quantity = 1000;
 
-if (grade >= 0 && grade <= 100) {
-    if (grade >= 90) {
-        console.log('A');
-    } else if (grade >= 80) {
-        console.log('B');
-    } else if (grade >= 70) {
-        console.log('C');
-    } else if (grade >= 60) {
-        console.log('D');
-    } else if (grade >= 50) {
-        console.log('E');
-    } else if (grade < 50) {
-        console.log('F');
-    } else {
-        console.log('Erro, nota incorreta!');
-    };
+if (purchasePrice >= 0 && salePrice >= 0) {  
+  const taxValue = purchasePrice * percentage;
+  const costValue = purchasePrice + taxValue;
+  const profitValue = (salePrice - costValue) * quantity;
+  console.log(profitValue);
 } else {
-    console.log('Erro, nota incorreta!');
-};
+  console.log('Erro, valor inválido!');
+}
