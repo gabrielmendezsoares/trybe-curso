@@ -10,7 +10,7 @@ git checkout -b add-readme
 cat >> README.md
 
 # ---// [cat] Logs //
-Name: Gabriel
+First name: Gabriel
 Last name: Soares
 # ---//
 
