@@ -23,3 +23,4 @@ const longestWord = (word) => {
   }
   return higherWord;
 };
+const longestWordSort = text => text.split(' ').sort((wordA, wordB) => wordB.length - wordA.length)[0];
