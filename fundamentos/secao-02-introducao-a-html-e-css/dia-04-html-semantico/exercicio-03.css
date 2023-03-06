@@ -1,0 +1,155 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: normal;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(50, 50, 50);
+}
+
+h2 {
+  margin: 0;
+  color: palegreen;
+}
+
+h3 , h4 {
+  margin: 0;
+  color: white;
+}
+
+p , li , th , td {
+  color: white;
+}
+
+strong {
+  color: crimson;
+}
+
+img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 300px;
+}
+
+a {
+  color: orangered;
+}
+  
+a:not( :hover ) {
+  text-decoration: none;
+  color: palegoldenrod;
+  transition: 0.5s;
+}
+  
+a:hover {
+  text-decoration: underline;
+  color: orangered;
+  transition: 0.5s;
+}
+
+#cabecalho {
+  background-color: black;
+}
+
+#titulo {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: palegreen;
+}
+
+#menu {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+#conteudo-principal {
+  margin-top: 200px;
+  text-align: center;
+}
+
+#conteudo-principal p {
+  margin: 0 auto;
+  text-align: justify;
+  width: 400px;
+}
+
+#secao-classificacao {
+  margin-top: 200px;
+}
+
+#secao-descricao {
+  margin-top: 200px;
+}
+
+#secao-capacidade {
+  margin-top: 200px;
+}
+
+#secao-bibliografia {
+  margin-top: 200px;
+}
+
+#tabela {
+  margin: 50px auto 0;
+  border-collapse: collapse;
+}
+
+#tabela th , td {
+  padding: 20px;
+  border: 1px solid white;
+}
+
+#secao-bibliografia ul {
+  margin: 50px 0 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+#secao-bibliografia ul li a {
+  font-size: medium;
+  font-weight: 700;
+}
+
+#documentario {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+#video {
+  margin-top: 50px;
+}
+
+#video a {  
+  font-size: larger;
+  font-weight: 700;
+}
+
+#rodape {
+  background-color: black;
+}
+
+#direitos {
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  color: palegreen;
+}
