@@ -5,6 +5,7 @@ const ligarDesligar = (state) => {
   console.log(`O motor está ${status}`);
   return status;
 };
+
 const circleArea = (radius) => {
   const pi = 3.14;
   const area = pi * (radius * radius);
@@ -13,6 +14,7 @@ const circleArea = (radius) => {
     : 'O parâmetro radius deve ser um número';
   return message;
 };
+
 const longestWord = (word) => {
   let wordsArray = word.split(' ');
   let higherWord = wordsArray[0];
@@ -23,4 +25,5 @@ const longestWord = (word) => {
   }
   return higherWord;
 };
+
 const longestWordSort = text => text.split(' ').sort((wordA, wordB) => wordB.length - wordA.length)[0];

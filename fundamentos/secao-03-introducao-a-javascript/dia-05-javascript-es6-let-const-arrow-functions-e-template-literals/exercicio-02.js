@@ -8,6 +8,7 @@ const stringInserter = (string) => {
   }  
   return wordArray.join(' ');
 };
+
 const stringFormatter = (callback) => {
   const skills = ['JavaScript', 'HTML', 'CSS'];
   let string = `
