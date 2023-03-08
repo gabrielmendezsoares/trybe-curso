@@ -9,7 +9,7 @@ git commit -m "[CREATE] README.md"
 git checkout -b add-readme
 cat >> README.md
 
-# ---// [cat] Logs //
+# ---// [cat] - Logs //
 First name: Gabriel
 Last name: Soares
 # ---//
@@ -22,7 +22,7 @@ git checkout -b update-readme
 touch INFO.txt
 cat >> INFO.txt
 
-# ---// [cat] Logs //
+# ---// [cat] - Logs //
 Lorem ipsum
 Lorem ipsum
 Lorem ipsum
@@ -33,7 +33,7 @@ git add .
 git commit -m "[CREATE] INFO.txt"
 cat >> INFO.txt
 
-# ---// [cat] Logs //
+# ---// [cat] - Logs //
 Lorem ipsum
 Lorem ipsum
 Lorem ipsum
@@ -45,7 +45,7 @@ git commit -m "[CHANGE] INFO.txt"
 git checkout -b add-info
 cat >> INFO.txt
 
-# ---// [cat] Logs //
+# ---// [cat] - Logs //
 Lorem ipsum
 Lorem ipsum
 Lorem ipsum

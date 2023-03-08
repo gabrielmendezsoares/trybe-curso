@@ -16,7 +16,7 @@ rm -rf backup
 touch skills.txt
 cat > skills.txt
 
-# ---// [cat] Logs //
+# ---// [cat] - Logs //
 Internet
 Unix
 Bash

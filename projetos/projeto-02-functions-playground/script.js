@@ -1,12 +1,24 @@
+// Part - 1
+
 const compareTrue = (A, B) => A && B;
+
+// Part - 2
 
 const splitSentence = (string) => string.split(' ');
 
+// Part - 3
+
 const concatName = (array) => `${array.slice(-1)}, ${array[0]}`;
+
+// Part - 4
 
 const footballPoints = (wins, ties) => (wins * 3) + ties;
 
+// Part - 5
+
 const highestCount = (array) => array.filter((x) => x === Math.max.apply(null, array)).length;
+
+// Part - 6
 
 const calcTriangleArea = (base, height) => (base * height) / 2;
 const calcRectangleArea = (base, height) => base * height;
@@ -20,6 +32,8 @@ const calcAllAreas = (base, height, form) => {
   return 'Não foi possível fazer o cálculo, insira uma forma geométrica válida';
 };
 
+// Part - 7
+
 const catAndMouse = (mouse, cat1, cat2) => {
   if (Math.abs(mouse - cat1) < Math.abs(mouse - cat2)) {
     return 'cat1';
@@ -31,6 +45,8 @@ const catAndMouse = (mouse, cat1, cat2) => {
     return 'os gatos trombam e o rato foge';
   }
 };
+
+// Part - 8
 
 const fizzBuzz = (array) => {
   const list = array.map((x) => {
@@ -47,6 +63,8 @@ const fizzBuzz = (array) => {
   });
   return list;
 };
+
+// Part - 9
 
 const encode = (string) => {
   const wordArray = string.split('');
@@ -82,6 +100,8 @@ const decode = (string) => {
   return wordArray.join('');
 };
 
+// Part - 10
+
 const techList = (array, string) => {
   array.sort();
   const list = [];
@@ -93,6 +113,8 @@ const techList = (array, string) => {
   }
   return list;
 };
+
+// Part - 10
 
 const getRepetitions = (array) => {
   const counter = {};
@@ -121,12 +143,16 @@ const generatePhoneNumber = (array) => {
   return `(${ddd}) ${firstNumbers}-${lastNumbers}`;
 };
 
+// Part - 11
+
 const triangleCheck = (lineA, lineB, lineC) => {
   const resultA = (lineA < (lineB + lineC));
   const resultB = (lineB < (lineA + lineC));
   const resultC = (lineC < (lineA + lineB));
   return (resultA && resultB && resultC);
 };
+
+// Part - 12
 
 const hydrate = (string) => {
   const numbersA = string.match(/\d+/g);
