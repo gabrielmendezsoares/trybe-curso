@@ -17,14 +17,14 @@ git checkout main
 git merge add-readme
 git checkout -b update-readme
 touch INFO.txt
-echo -e "Loream ipsum\nLorem ipsum\nLorem ipsum\nLorem ipsum" > INFO.txt
+echo -e "Lorem ipsum\nLorem ipsum\nLorem ipsum\nLorem ipsum" > INFO.txt
 git add .
 git commit -m "[CREATE] INFO.txt"
-echo -e "Loream ipsum\nLorem ipsum\nLorem ipsum\nLorem ipsum" >> INFO.txt
+echo -e "Lorem ipsum\nLorem ipsum\nLorem ipsum\nLorem ipsum" >> INFO.txt
 git add .
 git commit -m "[CHANGE] INFO.txt"
 git checkout -b add-info
-echo -e "Loream ipsum\nLorem ipsum\nLorem ipsum\nLorem ipsum" >> INFO.txt
+echo -e "Lorem ipsum\nLorem ipsum\nLorem ipsum\nLorem ipsum" >> INFO.txt
 git add .
 git commit -m "[CHANGE] INFO.txt"
 git checkout update-readme
