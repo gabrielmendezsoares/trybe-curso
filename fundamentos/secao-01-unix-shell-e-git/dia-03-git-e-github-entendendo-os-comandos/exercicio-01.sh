@@ -9,7 +9,7 @@ git commit -m "[CREATE] README.md"
 git checkout -b newBranch
 cat >> README.md
 
-# ---// [cat] Logs //
+# ---// [cat] - Logs //
 Lorem ipsum
 Lorem ipsum
 Lorem ipsum
