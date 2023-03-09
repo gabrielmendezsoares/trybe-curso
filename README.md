@@ -38,7 +38,47 @@
   - [x] Dia 05: JavaScript ES6 - let, const, arrow functions e template literals
 
 </details>
-</br>
+
+<details>
+  <summary><strong>Seção 04: JavaScript: DOM, Eventos e Web Storage ⏳</strong></summary></br>
+
+  - [x] Dia 01: JavaScript - DOM e seletores
+  - [ ] Dia 02: JavaScript - Trabalhando com elementos
+  - [ ] Dia 03: JavaScript - Eventos
+  - [ ] Dia 04: JavaScript - Web Storage
+
+</details>
+
+<details>
+  <summary><strong>Seção 05: HTML e CSS: Forms, Flexbox e Responsivo ⏳</strong></summary></br>
+
+  - [ ] Dia 01: HTML & CSS - Forms
+  - [ ] Dia 02: Bibliotecas JavaScript e Frameworks CSS
+  - [ ] Dia 03: CSS Flexbox - Parte 1
+  - [ ] Dia 04: CSS Flexbox - Parte 2
+  - [ ] Dia 05: CSS Responsivo - Mobile First
+
+</details>
+
+<details>
+  <summary><strong>Seção 06: Introdução à JavaScript ES6 e Testes Unitários ⏳</strong></summary></br>
+
+  - [ ] Dia 01: Fluxo de exceções e manipulação de objetos
+  - [ ] Dia 02: Primeiros passos em Jest
+  - [ ] Dia 03: Matchers e cobertura de código
+
+</details>
+
+<details>
+  <summary><strong>Seção 07: Higher Order Functions do JavaScript ES6 ⏳</strong></summary></br>
+
+  - [ ] Dia 01: Introdução a Higher Order Functions 
+  - [ ] Dia 02: Higher Order Functions - sort e map
+  - [ ] Dia 03: Higher Order Functions - filter e reduce
+  - [ ] Dia 04: JavaScript ES6 - spread operator, rest parameters e object destructuring
+  - [ ] Dia 05: JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e fault parameters
+
+</details>
 
 ### Bloco 02: Front-end ⏳
 ### Bloco 03: Back-end ⏳
