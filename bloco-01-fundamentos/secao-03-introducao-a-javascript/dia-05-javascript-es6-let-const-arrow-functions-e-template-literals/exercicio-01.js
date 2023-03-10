@@ -11,7 +11,7 @@ const getName = (A, B) => `${A} ${B}`;
 const getAge = (A, B) => {
   for (let idade = A; idade <= B; idade += 1) {
     console.log('Idade:', idade);
-  } 
+  }
 };
 const pessoa = {
   nome: 'Ninguém',

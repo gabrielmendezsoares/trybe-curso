@@ -17,9 +17,8 @@ rmdir backup
 mv storage backup
 rm -rf backup
 touch skills.txt
-echo -e "Internet\nUnix\nBash\nHTML\nCSS\nJavaScript\nReact\nSQL" > skills.txt
+echo -e "Internet\nUnix\nBash\nHTML\nCSS\nJavaScript\nReact\nSQL" >skills.txt
 head -n 4 skills.txt
 tail -n 4 skills.txt
 rm *.txt
 ls
-clear

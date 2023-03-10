@@ -67,7 +67,7 @@ function getNumberOfStudentsMath(obj) {
   let total = 0;
   let keys = Object.keys(obj);
   for (index in keys) {
-    if(obj[keys[index]].materia === 'Matemática'){
+    if (obj[keys[index]].materia === 'Matemática') {
       total += obj[keys[index]].numeroEstudantes;
     }
   }
@@ -86,8 +86,8 @@ function getInfo(obj, name) {
       numberStudents += values[index].numeroEstudantes;
     }
   }
-  return { 
-    aulas: allLessons, estudantes: numberStudents 
+  return {
+    aulas: allLessons, estudantes: numberStudents
   };
 }
 

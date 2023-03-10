@@ -5,7 +5,7 @@ const stringInserter = (string) => {
     if (wordArray[index] === 'x') {
       wordArray[index] = string;
     }
-  }  
+  }
   return wordArray.join(' ');
 };
 
@@ -21,5 +21,5 @@ const stringFormatter = (callback) => {
   }
   return string;
 };
-  
+
 console.log(stringFormatter(stringInserter('Gabriel')));
