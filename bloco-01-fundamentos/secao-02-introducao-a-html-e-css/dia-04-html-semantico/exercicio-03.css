@@ -14,12 +14,16 @@ h2 {
   color: palegreen;
 }
 
-h3 , h4 {
+h3,
+h4 {
   margin: 0;
   color: white;
 }
 
-p , li , th , td {
+p,
+li,
+th,
+td {
   color: white;
 }
 
@@ -36,13 +40,13 @@ img {
 a {
   color: orangered;
 }
-  
-a:not( :hover ) {
+
+a:not( :hover) {
   text-decoration: none;
   color: palegoldenrod;
   transition: 0.5s;
 }
-  
+
 a:hover {
   text-decoration: underline;
   color: orangered;
@@ -111,7 +115,8 @@ a:hover {
   border-collapse: collapse;
 }
 
-#tabela th , td {
+#tabela th,
+td {
   padding: 20px;
   border: 1px solid white;
 }
@@ -138,7 +143,7 @@ a:hover {
   margin-top: 50px;
 }
 
-#video a {  
+#video a {
   font-size: larger;
   font-weight: 700;
 }

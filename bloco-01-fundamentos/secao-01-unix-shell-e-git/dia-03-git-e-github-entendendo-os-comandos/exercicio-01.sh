@@ -7,6 +7,6 @@ touch README.md
 git add .
 git commit -m "[CREATE] README.md"
 git checkout -b newBranch
-echo -e "Loream ipsum\nLorem ipsum\nLorem ipsum\nLorem ipsum" > README.md
+echo -e "Loream ipsum\nLorem ipsum\nLorem ipsum\nLorem ipsum" >README.md
 git add .
 git commit -m "[CHANGE] README.md"

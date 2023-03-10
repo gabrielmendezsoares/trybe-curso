@@ -4,7 +4,7 @@ const inputFormat = 'Quadrado'
 const inputSymbol = '*';
 const bubbleSort = '+';
 
-for (let index = 0; index < arrayNumbers.length; index += 1) { 
+for (let index = 0; index < arrayNumbers.length; index += 1) {
   if (index < (arrayNumbers.length - 1)) {
     arrayMultiplied.push(arrayNumbers[index] * arrayNumbers[index + 1]);
   } else {
@@ -13,7 +13,7 @@ for (let index = 0; index < arrayNumbers.length; index += 1) {
 }
 
 if (bubbleSort === '+') {
-  for (let externalIndex = 1; externalIndex < arrayNumbers.length; externalIndex += 1) { 
+  for (let externalIndex = 1; externalIndex < arrayNumbers.length; externalIndex += 1) {
     for (let internalIndex = 0; internalIndex < externalIndex; internalIndex += 1) {
       if (arrayNumbers[externalIndex] < arrayNumbers[internalIndex]) {
         let externalObject = arrayNumbers[externalIndex];
@@ -23,8 +23,8 @@ if (bubbleSort === '+') {
     }
   }
   console.log('Números: ' + arrayNumbers);
-} else if ( bubbleSort === '-') {
-  for (let externalIndex = 1; externalIndex < arrayNumbers.length; externalIndex += 1) { 
+} else if (bubbleSort === '-') {
+  for (let externalIndex = 1; externalIndex < arrayNumbers.length; externalIndex += 1) {
     for (let internalIndex = 0; internalIndex < externalIndex; internalIndex += 1) {
       if (arrayNumbers[externalIndex] > arrayNumbers[internalIndex]) {
         let externalObject = arrayNumbers[externalIndex];
@@ -48,7 +48,7 @@ if (inputFormat === 'Quadrado') {
 } else if (inputFormat === 'Triângulo Retângulo Esquerdo') {
   let inputLine = '';
   let inputLimit = 25;
-  for (let index = 0; index < inputLimit; index += 1) { 
+  for (let index = 0; index < inputLimit; index += 1) {
     inputLine += inputSymbol;
     console.log(inputLine);
   }
@@ -64,9 +64,9 @@ if (inputFormat === 'Quadrado') {
         inputLine += inputSymbol;
       }
     }
-  console.log(inputLine);
-  inputLine = '';
-  inputPosition -= 1;
+    console.log(inputLine);
+    inputLine = '';
+    inputPosition -= 1;
   }
 } else if (inputFormat === 'Triângulo Equilátero Interno') {
   let inputLine = '';
@@ -75,7 +75,7 @@ if (inputFormat === 'Quadrado') {
   let controlLeft = inputMatrix - 1;
   let controlRight = inputMatrix + 1;
   for (let externalIndex = 1; externalIndex <= inputMatrix; externalIndex += 1) {
-    inputLine = ''; 
+    inputLine = '';
     for (let internalIndex = 1; internalIndex <= inputLimit; internalIndex += 1) {
       if (internalIndex > controlLeft && internalIndex < controlRight) {
         inputLine += inputSymbol;
@@ -83,16 +83,16 @@ if (inputFormat === 'Quadrado') {
         inputLine += ' ';
       }
     }
-  controlLeft -= 1;
-  controlRight += 1; 
-  console.log(inputLine);
+    controlLeft -= 1;
+    controlRight += 1;
+    console.log(inputLine);
   }
 } else if (inputFormat === 'Triângulo Equilátero Externo') {
   let inputLine = '';
   let inputLimit = 25;
   let inputMatrix = (inputLimit + 1) / 2;
-  let controlLeft = inputMatrix ;
-  let controlRight = inputMatrix ;
+  let controlLeft = inputMatrix;
+  let controlRight = inputMatrix;
   for (let externalIndex = 1; externalIndex <= inputMatrix; externalIndex += 1) {
     inputLine = '';
     for (let internalIndex = 1; internalIndex <= inputLimit; internalIndex += 1) {
@@ -102,8 +102,8 @@ if (inputFormat === 'Quadrado') {
         inputLine += ' ';
       }
     }
-  controlLeft -= 1;
-  controlRight += 1;
-  console.log(inputLine);
+    controlLeft -= 1;
+    controlRight += 1;
+    console.log(inputLine);
   }
 }

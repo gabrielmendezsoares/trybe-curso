@@ -1,8 +1,10 @@
-h1 , p {
+h1,
+p {
   text-align: center;
 }
 
-ul:hover, ol:hover {
+ul:hover,
+ol:hover {
   background-color: red;
 }
 

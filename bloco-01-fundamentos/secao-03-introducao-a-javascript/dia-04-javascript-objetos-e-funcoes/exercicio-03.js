@@ -11,7 +11,7 @@ const secondaryObject = {
   recorrente: 'Sim',
 };
 
-primaryObject['recorrente']= 'Sim';
+primaryObject['recorrente'] = 'Sim';
 
 for (const key in primaryObject) {
   console.log(`Chave: ${key}`);

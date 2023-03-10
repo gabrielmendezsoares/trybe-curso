@@ -12,4 +12,3 @@ if (divisors === 2) {
 } else {
   console.log(numberToCheck + ' não é primo')
 }
- 
