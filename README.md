@@ -44,7 +44,7 @@
 
   - [x] Dia 01: JavaScript - DOM e seletores
   - [x] Dia 02: JavaScript - Trabalhando com elementos
-  - [ ] Dia 03: JavaScript - Eventos
+  - [x] Dia 03: JavaScript - Eventos
   - [ ] Dia 04: JavaScript - Web Storage
 
 </details>
