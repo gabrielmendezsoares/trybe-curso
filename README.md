@@ -40,7 +40,7 @@
 </details>
 
 <details>
-  <summary><strong>Seção 04: JavaScript: DOM, Eventos e Web Storage ⏳</strong></summary></br>
+  <summary><strong>Seção 04: JavaScript: DOM, Eventos e Web Storage ✅</strong></summary></br>
 
   - [x] Dia 01: JavaScript - DOM e seletores
   - [x] Dia 02: JavaScript - Trabalhando com elementos
