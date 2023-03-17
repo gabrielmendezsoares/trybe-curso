@@ -52,7 +52,7 @@
 <details>
   <summary><strong>Seção 05: HTML e CSS: Forms, Flexbox e Responsivo ⏳</strong></summary></br>
 
-  - [ ] Dia 01: HTML & CSS - Forms
+  - [x] Dia 01: HTML & CSS - Forms
   - [ ] Dia 02: Bibliotecas JavaScript e Frameworks CSS
   - [ ] Dia 03: CSS Flexbox - Parte 1
   - [ ] Dia 04: CSS Flexbox - Parte 2
