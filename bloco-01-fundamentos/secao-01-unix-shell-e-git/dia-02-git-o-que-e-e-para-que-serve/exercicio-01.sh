@@ -1,8 +1,5 @@
 #!/bin/bash
 
-delay=2
-sleep $delay
-
 mkdir git_repository
 cd git_repository
 git init
