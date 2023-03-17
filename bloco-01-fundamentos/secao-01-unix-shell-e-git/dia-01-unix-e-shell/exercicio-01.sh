@@ -1,8 +1,5 @@
 #!/bin/bash
 
-delay=2
-sleep $delay
-
 mkdir unix_tests
 cd unix_tests
 pwd
