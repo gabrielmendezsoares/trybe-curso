@@ -1,0 +1,52 @@
+* {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: darkslateblue;
+}
+
+header {
+  background-color: black;
+}
+
+h1 {
+  margin: 0;
+  padding: 30px;
+  color: white;
+}
+
+main {
+  margin-top: 200px;
+}
+
+p {
+  font-weight: 900;
+  color: white;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  font-weight: 900;
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: cadetblue;
+  color: black;
+}
+
+#score {
+  font-weight: 100;
+}
+
+.ball {
+  margin: 10px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 100px;
+}

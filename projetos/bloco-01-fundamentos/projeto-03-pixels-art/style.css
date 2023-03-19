@@ -21,13 +21,18 @@ main {
 
 button {
   font-weight: 700;
-  background-color: red;
-  color: white;
+  height: 30px;
   border: 1px solid black;
+  border-radius: 5px;
+  background-color: darkcyan;
+  color: white;
 }
 
 input {
+  width: 120px;
+  height: 30px;
   border: 1px solid black;
+  border-radius: 5px;
 }
 
 #controls-size {
