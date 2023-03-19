@@ -17,10 +17,7 @@ h2 {
   color: black;
 }
 
-p,
-li,
-th,
-td {
+p , li , th , td {
   color: black;
 }
 
@@ -157,8 +154,7 @@ a:hover {
   border-collapse: collapse;
 }
 
-#tabela th,
-td {
+#tabela th , td {
   padding: 20px;
   border: 1px solid black;
 }
