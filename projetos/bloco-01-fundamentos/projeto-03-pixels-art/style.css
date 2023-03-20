@@ -78,7 +78,6 @@ input:focus {
 
 .color.selected {
   box-shadow: 0 0 10px white;
-  border: 2px solid white;
 }
 
 .line {
@@ -98,6 +97,14 @@ input:focus {
 }
 
 .color {
+  margin: 3px;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
   transform: rotateZ(0deg);
   transition: transform 0.5s;
 }
@@ -105,14 +112,4 @@ input:focus {
 .color:hover {
   transform: rotateZ(15deg);
   transition: transform 0.5s;
-}
-
-.color {
-  margin: 3px;
-  padding: 0;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 5px;
 }
