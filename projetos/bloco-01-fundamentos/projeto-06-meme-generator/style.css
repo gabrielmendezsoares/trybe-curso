@@ -1,11 +1,12 @@
 * {
+  text-align: center;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   margin: 0;
-  background-color: steelblue;
+  background-color: midnightblue;
 }
 
 header {
@@ -36,8 +37,15 @@ label {
 }
 
 input {
+  background-color: royalblue;
+  border: 2px solid white;
+  color: white;
   font-weight: 900;
   cursor: pointer;
+}
+
+input:focus {
+  outline: none;
 }
 
 button {
@@ -47,7 +55,17 @@ button {
   cursor: pointer;
 }
 
+#estilos {
+  margin-top: 100px;
+}
+
+#templates {
+  margin-top: 100px;
+}
+
 #meme-image-container {
+  margin: auto;
+  margin-bottom: 60px;
   position: relative;
   width: fit-content;
   border: 1px solid black;

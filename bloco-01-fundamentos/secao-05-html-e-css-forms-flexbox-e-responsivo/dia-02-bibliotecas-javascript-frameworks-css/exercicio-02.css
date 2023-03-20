@@ -1,0 +1,7 @@
+@import 'conteudo/pikaday/node_modules/pikaday/css/pikaday.css';
+
+* {
+  margin: 10;
+  padding: 0;
+  box-sizing: border-box;
+}

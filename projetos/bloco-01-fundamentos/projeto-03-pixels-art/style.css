@@ -6,12 +6,12 @@
 
 body {
   margin: 0;
-  background-color: rgb(108, 158, 116);
+  background-color: darkslateblue;
 }
 
 header {
-  background-color: black;
   text-align: center;
+  background-color: black;
 }
 
 main {
@@ -20,23 +20,30 @@ main {
 }
 
 button {
-  font-weight: 700;
   height: 30px;
-  border: 1px solid black;
+  cursor: pointer;
+  font-weight: 700;
+  border: 2px solid white;
   border-radius: 5px;
-  background-color: darkcyan;
+  background-color: darkslategrey;
   color: white;
+}
+
+button:hover {
+  box-shadow: 0 0 10px white;
 }
 
 input {
   width: 120px;
   height: 30px;
-  border: 1px solid black;
+  text-align: center;
+  border-width: 0;
   border-radius: 5px;
+  font-weight: 900;
 }
 
-#controls-size {
-  margin-top: 3px;
+input:focus {
+  outline: none;
 }
 
 #title {
@@ -50,9 +57,28 @@ input {
   padding: 0;
 }
 
+#controls-size {
+  margin-top: 5px;
+}
+
+#controls {
+  margin: auto;
+  padding: 10px;
+  width: fit-content;
+  border: 5px solid steelblue;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+
 #pixel-board {
   margin: 50px auto auto;
   width: fit-content;
+  border: 1px solid black;
+}
+
+.color.selected {
+  box-shadow: 0 0 10px white;
+  border: 2px solid white;
 }
 
 .line {
@@ -64,6 +90,21 @@ input {
   width: 40px;
   height: 40px;
   border: 1px solid black;
+  cursor: pointer;
+}
+
+.pixel:hover {
+  border: 2px solid black;
+}
+
+.color {
+  transform: rotateZ(0deg);
+  transition: transform 0.5s;
+}
+
+.color:hover {
+  transform: rotateZ(15deg);
+  transition: transform 0.5s;
 }
 
 .color {
@@ -72,6 +113,6 @@ input {
   width: 40px;
   height: 40px;
   display: inline-block;
-  border-radius: 100px;
-  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
 }

@@ -5,24 +5,53 @@
 }
 
 body {
-  background-color: darkolivegreen;
+  margin: 0;
   text-align: center;
+  background-color: royalblue;
 }
 
-input {
-  height: 20px;
-  background-color: white;
-  color: black;
-  border: 3px solid black;
-  border-radius: 5px;
+header {
+  padding: 10px;
+  background-color: black;
+}
+
+main {
+  margin-top: 50px;
 }
 
 button {
+  height: 40px;
+  background-color: chartreuse;
+  color: darkgreen;
+  border: 3px solid darkgreen;
+  border-radius: 5px;
+}
+
+input {
+  text-align: center;
   height: 30px;
-  background-color: white;
-  color: black;
   border: 3px solid black;
   border-radius: 5px;
+  background-color: darkslategrey;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+span {
+  color: black;
+  border-radius: 10px;
+}
+
+#carta-contador {
+  margin: auto;
+  padding: 10px;
+  width: fit-content;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
 }
 
 .newspaper {
