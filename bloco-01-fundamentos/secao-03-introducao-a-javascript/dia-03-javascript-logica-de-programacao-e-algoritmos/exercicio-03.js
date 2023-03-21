@@ -56,6 +56,7 @@ function criarDicionario(array) {
       dictionary[array[index]].repetitions += 1;
     }
   }
+  
   return dictionary;
 }
 
@@ -70,6 +71,7 @@ function maisRepetido(array) {
       highestScore = dictionary[key].repetitions;
     }
   }
+  
   return mostRepeated;
 }
 
@@ -83,6 +85,7 @@ function somatorio(number) {
   if (number >= 0) {
     return sum;
   }
+  
   return 'ERRO';
 }
 
@@ -99,5 +102,6 @@ function verificaFimPalavra(palavra1, palavra2) {
   if (stringWord === palavra2) {
     return true;
   }
+  
   return false;
 }

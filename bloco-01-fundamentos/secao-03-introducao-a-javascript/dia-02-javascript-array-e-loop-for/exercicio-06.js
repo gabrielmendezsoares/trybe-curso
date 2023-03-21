@@ -17,22 +17,26 @@ if (bubbleSort === '+') {
     for (let internalIndex = 0; internalIndex < externalIndex; internalIndex += 1) {
       if (arrayNumbers[externalIndex] < arrayNumbers[internalIndex]) {
         let externalObject = arrayNumbers[externalIndex];
+        
         arrayNumbers[externalIndex] = arrayNumbers[internalIndex];
         arrayNumbers[internalIndex] = externalObject;
       }
     }
   }
+  
   console.log('Números: ' + arrayNumbers);
 } else if (bubbleSort === '-') {
   for (let externalIndex = 1; externalIndex < arrayNumbers.length; externalIndex += 1) {
     for (let internalIndex = 0; internalIndex < externalIndex; internalIndex += 1) {
       if (arrayNumbers[externalIndex] > arrayNumbers[internalIndex]) {
         let externalObject = arrayNumbers[externalIndex];
+        
         arrayNumbers[externalIndex] = arrayNumbers[internalIndex];
         arrayNumbers[internalIndex] = externalObject;
       }
     }
   }
+  
   console.log('Números: ' + arrayNumbers);
 }
 
@@ -68,6 +72,7 @@ if (inputFormat === 'Quadrado') {
         inputLine += inputSymbol;
       }
     }
+    
     console.log(inputLine);
     inputLine = '';
     inputPosition -= 1;
@@ -89,6 +94,7 @@ if (inputFormat === 'Quadrado') {
         inputLine += ' ';
       }
     }
+    
     controlLeft -= 1;
     controlRight += 1;
     console.log(inputLine);
@@ -99,6 +105,7 @@ if (inputFormat === 'Quadrado') {
   let inputMatrix = (inputLimit + 1) / 2;
   let controlLeft = inputMatrix;
   let controlRight = inputMatrix;
+  
   for (let externalIndex = 1; externalIndex <= inputMatrix; externalIndex += 1) {
     inputLine = '';
     
@@ -109,6 +116,7 @@ if (inputFormat === 'Quadrado') {
         inputLine += ' ';
       }
     }
+    
     controlLeft -= 1;
     controlRight += 1;
     console.log(inputLine);

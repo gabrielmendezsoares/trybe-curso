@@ -89,12 +89,14 @@
 
     for (let index = 0; index < arrayStringNumbers.length; index += 1) {
       const elementLi = document.createElement('li');
+      
       elementLi.innerText = arrayStringNumbers[index];
       elementUl.appendChild(elementLi);
     }
 
     for (let index = 1; index <= 3; index += 1) {
       const elementDescription = document.createElement('h3');
+      
       elementDescription.innerHTML = 'Show ' + index;
       elementMainContent.appendChild(elementDescription);
     }
