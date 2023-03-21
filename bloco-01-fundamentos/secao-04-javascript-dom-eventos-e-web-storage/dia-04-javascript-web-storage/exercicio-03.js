@@ -7,39 +7,48 @@ window.onload = () => {
 
   const setBackgroundColor = (color) => {
     const content = document.querySelector(".content");
+    
     content.style.backgroundColor = color;
     localStorage.setItem("backgroundColor", color);
   };
 
   const setFontColor = (fontColor) => {
     const paragraphs = document.querySelectorAll(".paragraph");
+    
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.color = fontColor;
     }
+    
     localStorage.setItem("fontColor", fontColor);
   };
 
   const setFontSize = (fontSize) => {
     const paragraphs = document.querySelectorAll(".paragraph");
+    
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.fontSize = fontSize;
     }
+    
     localStorage.setItem("fontSize", fontSize);
   };
 
   const setLineHeight = (lineHeight) => {
     const paragraphs = document.querySelectorAll(".paragraph");
+    
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.lineHeight = lineHeight;
     }
+    
     localStorage.setItem("lineHeight", lineHeight);
   };
 
   const setFontFamily = (fontFamily) => {
     const paragraphs = document.querySelectorAll(".paragraph");
+    
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.fontFamily = fontFamily;
     }
+    
     localStorage.setItem("fontFamily", fontFamily);
   };
 
@@ -91,7 +100,7 @@ window.onload = () => {
     if (fontSizeItem) setFontSize(fontSizeItem);
     if (lineHeightItem) setLineHeight(lineHeightItem);
     if (fontColorItem) setFontFamily(fontFamilyItem);
-  }
+  };
 
   initialize();
 }

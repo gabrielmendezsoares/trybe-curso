@@ -48,6 +48,7 @@ function getNumberOfStudents(obj) {
   }
   return total;
 }
+
 console.log(getNumberOfStudents(allLessons));
 
 function verifyPair(obj, key, value) {
@@ -97,4 +98,5 @@ function createReport(allLessons, name) {
   Object.assign(report, getInfo(allLessons, name));
   return report;
 }
+
 console.log(createReport(allLessons, 'Maria Clara'));
