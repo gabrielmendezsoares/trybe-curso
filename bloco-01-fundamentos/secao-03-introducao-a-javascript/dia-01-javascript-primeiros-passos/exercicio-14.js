@@ -24,7 +24,7 @@ if (baseSalary <= 1903.98) {
   aliquotIR = (baseSalary * 0.225) - 636.13;
 } else {
   aliquotIR = (baseSalary * 0.275) - 869.36;
-};
+}
 
 console.log('Salário Bruto: ' + grossSalary);
 console.log('Salário Líquido: ' + (baseSalary - aliquotIR));

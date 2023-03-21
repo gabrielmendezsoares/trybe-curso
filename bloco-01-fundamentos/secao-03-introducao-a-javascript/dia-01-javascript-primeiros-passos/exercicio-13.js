@@ -7,6 +7,7 @@ if (purchasePrice >= 0 && salePrice >= 0) {
   const taxValue = purchasePrice * percentage;
   const costValue = purchasePrice + taxValue;
   const profitValue = (salePrice - costValue) * quantity;
+  
   console.log(profitValue);
 } else {
   console.log('Erro, valor inválido!');
