@@ -37,6 +37,7 @@
   <header>
     <h1 class="title">Desafio - JavaEscripito</h1>
   </header>
+  
   <main class="main-content">
     <section class="center-content">
       <p>Texto padrão do nosso site</p>
@@ -44,9 +45,11 @@
       <p>Trybe</p>
     </section>
   </main>
+  
   <footer>
     <p>Último parágrafo.</p>
   </footer>
+  
   <script>
     const title = document.getElementsByClassName("title")[0];
     const mainContent = document.getElementsByClassName("main-content")[0];
@@ -62,11 +65,14 @@
     const changeParagraphB = (element, string) => element.innerText = string;
     const changeParagraphC = (element, array) => {
       let newText = '';
+      
       for (let index = 0; index < array.length; index += 1) {
         newText += array[index].innerText + ' ';
       }
+      
       element.innerText = newText;
     };
+    
     changeTitle(title, 'Desafio - JavaScript');
     changeMainContent(mainContent, 'rgb(76, 164, 109)');
     changeCenterContent(centerContent, 'white');

@@ -20,6 +20,7 @@ for (let index = 0; index < numbers.length; index += 1) {
   if (numbers[index] < lowerNumber) {
     lowerNumber = numbers[index];
   }
+  
   sum += numbers[index];
   console.log('Elemento Número: ' + numbers[index]);
 }

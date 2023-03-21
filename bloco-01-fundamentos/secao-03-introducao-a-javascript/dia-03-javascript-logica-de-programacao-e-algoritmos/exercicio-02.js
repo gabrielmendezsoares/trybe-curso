@@ -12,6 +12,7 @@ function addClient(client) {
 function removeClient(client) {
   if (typeof client === 'string') {
     let clientFound = false;
+    
     for (let index = 0; index < clients.length; index += 1) {
       if (client === clients[index]) {
         clients.splice(index, 1);

@@ -18,11 +18,13 @@ const circleArea = (radius) => {
 const longestWord = (word) => {
   let wordsArray = word.split(' ');
   let higherWord = wordsArray[0];
+  
   for (const iterator of wordsArray) {
     if (iterator.length > higherWord.length) {
       higherWord = iterator;
     }
   }
+  
   return higherWord;
 };
 

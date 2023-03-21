@@ -39,15 +39,18 @@ if (bubbleSort === '+') {
 if (inputFormat === 'Quadrado') {
   let inputLine = '';
   let inputLimit = 25;
+  
   for (let index = 0; index < inputLimit; index += 1) {
     inputLine += inputSymbol;
   }
+  
   for (let index = 0; index < inputLimit; index += 1) {
     console.log(inputLine);
   }
 } else if (inputFormat === 'Triângulo Retângulo Esquerdo') {
   let inputLine = '';
   let inputLimit = 25;
+  
   for (let index = 0; index < inputLimit; index += 1) {
     inputLine += inputSymbol;
     console.log(inputLine);
@@ -56,6 +59,7 @@ if (inputFormat === 'Quadrado') {
   let inputLine = '';
   let inputLimit = 25;
   let inputPosition = inputLimit - 1;
+  
   for (let externalIndex = 0; externalIndex < inputLimit; externalIndex += 1) {
     for (let internalIndex = 0; internalIndex < inputLimit; internalIndex += 1) {
       if (internalIndex < inputPosition) {
@@ -74,8 +78,10 @@ if (inputFormat === 'Quadrado') {
   let inputMatrix = (inputLimit + 1) / 2;
   let controlLeft = inputMatrix - 1;
   let controlRight = inputMatrix + 1;
+  
   for (let externalIndex = 1; externalIndex <= inputMatrix; externalIndex += 1) {
     inputLine = '';
+    
     for (let internalIndex = 1; internalIndex <= inputLimit; internalIndex += 1) {
       if (internalIndex > controlLeft && internalIndex < controlRight) {
         inputLine += inputSymbol;
@@ -95,6 +101,7 @@ if (inputFormat === 'Quadrado') {
   let controlRight = inputMatrix;
   for (let externalIndex = 1; externalIndex <= inputMatrix; externalIndex += 1) {
     inputLine = '';
+    
     for (let internalIndex = 1; internalIndex <= inputLimit; internalIndex += 1) {
       if (internalIndex == controlLeft || internalIndex == controlRight || externalIndex == inputMatrix) {
         inputLine += inputSymbol;
