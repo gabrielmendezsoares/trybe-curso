@@ -30,9 +30,11 @@ for (let index = 0; index < unsortedFruits.length; index += 1) {
 
 for (key in sortedFruits) {
   let message = `${sortedFruits[key]} ${key}`;
+  
   if (sortedFruits[key] > 1) {
     message += 's';
   }
+  
   summaries.push(message);
 }
 

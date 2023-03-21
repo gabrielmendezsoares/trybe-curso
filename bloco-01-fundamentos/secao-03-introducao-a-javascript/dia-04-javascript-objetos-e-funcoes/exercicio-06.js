@@ -43,9 +43,11 @@ function getLength(object) {
 function getNumberOfStudents(obj) {
   let total = 0;
   let keys = Object.keys(obj);
+  
   for (index in keys) {
     total += obj[keys[index]].numeroEstudantes;
   }
+  
   return total;
 }
 
@@ -54,11 +56,13 @@ console.log(getNumberOfStudents(allLessons));
 function verifyPair(obj, key, value) {
   let entries = Object.entries(obj);
   let isEqual = false;
+  
   for (let index in entries) {
     if (entries[index][0] === key && entries[index][1] === value) {
       isEqual = true;
     }
   }
+  
   return isEqual;
 }
 
@@ -67,11 +71,13 @@ console.log(verifyPair(lesson2, 'professor', 'Carlos'));
 function getNumberOfStudentsMath(obj) {
   let total = 0;
   let keys = Object.keys(obj);
+  
   for (index in keys) {
     if (obj[keys[index]].materia === 'Matemática') {
       total += obj[keys[index]].numeroEstudantes;
     }
   }
+  
   return total;
 }
 
@@ -81,12 +87,14 @@ function getInfo(obj, name) {
   let allLessons = [];
   let numberStudents = 0;
   let values = Object.values(obj);
+  
   for (index in values) {
     if (values[index].professor === name) {
       allLessons.push(values[index].materia)
       numberStudents += values[index].numeroEstudantes;
     }
   }
+  
   return {
     aulas: allLessons, estudantes: numberStudents
   };
@@ -94,6 +102,7 @@ function getInfo(obj, name) {
 
 function createReport(allLessons, name) {
   let report = {};
+  
   report.professor = name;
   Object.assign(report, getInfo(allLessons, name));
   return report;

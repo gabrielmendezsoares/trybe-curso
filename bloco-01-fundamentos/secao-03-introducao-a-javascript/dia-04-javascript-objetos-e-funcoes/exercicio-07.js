@@ -13,15 +13,19 @@ function romanConverter(string) {
   let totalLength = string.length;
   let totalSum = romanNumerals[string[totalLength - 1]];
   let currentElement = romanNumerals[string[totalLength - 1]];
+  
   for (let index = 2; index <= totalLength; index += 1) {
     let nextElement = romanNumerals[string[totalLength - index]];
+    
     if (currentElement <= nextElement) {
       totalSum += nextElement;
     } else {
       totalSum -= nextElement;
     }
+    
     currentElement = nextElement;
   }
+  
   return totalSum;
 }
 
