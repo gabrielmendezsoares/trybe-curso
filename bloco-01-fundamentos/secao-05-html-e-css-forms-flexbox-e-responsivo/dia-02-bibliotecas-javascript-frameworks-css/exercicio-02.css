@@ -1,4 +1,4 @@
-@import 'conteudo/pikaday/node_modules/pikaday/css/pikaday.css';
+@import '../../../pacotes/pikaday/node_modules/pikaday/css/pikaday.css';
 
 * {
   margin: 10;
