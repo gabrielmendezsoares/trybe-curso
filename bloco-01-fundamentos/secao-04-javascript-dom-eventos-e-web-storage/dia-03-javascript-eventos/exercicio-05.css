@@ -11,15 +11,20 @@ button {
   margin: 20px;
 }
 
-#btn-add {
-  margin: 0;
+input {
+  margin-top: 8px;
 }
 
-.buttons-container {
-  background-color: #eee;
-  display: inline-block;
-  text-align: center;
-  width: 100%;
+label {
+  color: #666;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  vertical-align: middle;
+}
+
+#btn-add {
+  margin: 0;
 }
 
 #days {
@@ -36,22 +41,17 @@ button {
   width: 13.6%;
 }
 
+.buttons-container {
+  background-color: #eee;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
 .input-container {
   width: 49%;
   height: 100px;
   display: inline-block;
-}
-
-input {
-  margin-top: 8px;
-}
-
-label {
-  color: #666;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 2px;
-  vertical-align: middle;
 }
 
 .month-container {

@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exercício</title>
   <style>
@@ -68,7 +67,7 @@
     const elementUl = document.createElement('ul');
     const elementImg = document.createElement('img');
     const elementP = document.createElement('p');
-    const arrayStringNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez']
+    const arrayStringNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
 
     elementTitle.innerText = 'TrybeTrip - Agência de Viagens';
     elementMainContent.className = 'main-content';
@@ -89,14 +88,14 @@
 
     for (let index = 0; index < arrayStringNumbers.length; index += 1) {
       const elementLi = document.createElement('li');
-      
+
       elementLi.innerText = arrayStringNumbers[index];
       elementUl.appendChild(elementLi);
     }
 
     for (let index = 1; index <= 3; index += 1) {
       const elementDescription = document.createElement('h3');
-      
+
       elementDescription.innerHTML = 'Show ' + index;
       elementMainContent.appendChild(elementDescription);
     }
