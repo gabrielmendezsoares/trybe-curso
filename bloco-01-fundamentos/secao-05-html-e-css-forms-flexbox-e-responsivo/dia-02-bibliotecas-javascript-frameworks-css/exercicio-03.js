@@ -114,6 +114,7 @@ window.onload = function () {
   const clearBtn = document.querySelector('#clear-btn');
   const agreement = document.querySelector('#agreement');
 
+  console.log(picker);
   clearBtn.addEventListener('click', clearFields);
   agreement.addEventListener('change', enableSubmit);
 };

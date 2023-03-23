@@ -31,6 +31,32 @@ label {
   margin: 0;
 }
 
+.week-days-container {
+  margin-left: 35px;
+}
+
+.week-days li {
+  color: #666;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 13.6%;
+}
+
+.month-container {
+  background: green;
+  padding: 40px 25px;
+  text-align: center;
+}
+
+.month-container ul li {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
 #days li {
   color: #777;
   display: inline-block;
@@ -54,20 +80,6 @@ label {
   display: inline-block;
 }
 
-.month-container {
-  background: green;
-  padding: 40px 25px;
-  text-align: center;
-}
-
-.month-container ul li {
-  color: white;
-  font-size: 20px;
-  letter-spacing: 3px;
-  list-style-type: none;
-  text-transform: uppercase;
-}
-
 .my-tasks {
   clear: both;
   float: left;
@@ -79,7 +91,7 @@ label {
 .my-tasks div {
   border: 1px solid black;
   border-radius: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0 0 0 20%), 0 6px 20px 0 rgba(0 0 0 19%);
   display: inline-block;
   height: 35px;
   margin-left: 10px;
@@ -135,20 +147,8 @@ label {
   vertical-align: middle;
 }
 
-.week-days-container {
-  margin-left: 35px;
-}
-
-.week-days li {
-  color: #666;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  width: 13.6%;
-}
-
 .week-days {
   font-size: 20px;
-  margin: 0px;
+  margin: 0;
   padding: 10px 0;
 }

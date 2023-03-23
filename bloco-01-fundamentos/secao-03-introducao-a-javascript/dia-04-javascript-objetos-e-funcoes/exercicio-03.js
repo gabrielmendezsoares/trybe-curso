@@ -6,7 +6,7 @@ const primaryObject = {
 
 const secondaryObject = {
   personagem: 'Tio Patinhas',
-  origem: 'Christmas on Bear Mountain, Dells Four Color Comics #178',
+  origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
   nota: 'O último MacPatinhas',
   recorrente: 'Sim'
 };

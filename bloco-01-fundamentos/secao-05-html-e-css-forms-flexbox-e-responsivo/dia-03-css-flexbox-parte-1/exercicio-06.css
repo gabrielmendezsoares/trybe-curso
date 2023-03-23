@@ -5,11 +5,11 @@
 
 body {
   margin: 0;
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(70 70 70);
 }
 
 h1 {
-  color: rgb(238, 238, 238);
+  color: rgb(238 238 238);
   font-size: 20px;
 }
 
@@ -24,7 +24,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(50 50 50);
 }
 
 .header-img {
@@ -52,7 +52,7 @@ p {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background-color: rgb(120, 120, 120);
+  background-color: rgb(120 120 120);
   box-shadow: 0 0 10px black;
 }
 

@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(50 50 50);
 }
 
 h2 {
@@ -116,6 +116,15 @@ a:hover {
   border: 1px solid white;
 }
 
+#video {
+  margin-top: 50px;
+}
+
+#video a {
+  font-size: larger;
+  font-weight: 700;
+}
+
 #secao-bibliografia ul {
   margin: 50px 0 0;
   padding: 0;
@@ -132,15 +141,6 @@ a:hover {
   margin-top: 200px;
   margin-bottom: 200px;
   text-align: center;
-}
-
-#video {
-  margin-top: 50px;
-}
-
-#video a {
-  font-size: larger;
-  font-weight: 700;
 }
 
 #rodape {

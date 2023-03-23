@@ -51,7 +51,7 @@ function setInputs (params) {
         taskElements[index].classList.remove('selected');
       }
     }
-  };
+  }
 
   holidayButton.addEventListener('click', (event) => {
     if (!holidayButtonState) {
