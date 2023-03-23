@@ -4,20 +4,20 @@ const player = {
   age: 34,
   medals: {
     golden: 2,
-    silver: 3,
+    silver: 3
   }
 };
 
 const names = {
   person1: 'João',
   person2: 'Maria',
-  person3: 'Jorge',
+  person3: 'Jorge'
 };
 
 const car = {
   model: 'A3 Sedan',
   manufacturer: 'Audi',
-  year: 2020,
+  year: 2020
 };
 
 player.bestInTheWorld = [2006, 2007, 2008, 2009, 2010, 2018];

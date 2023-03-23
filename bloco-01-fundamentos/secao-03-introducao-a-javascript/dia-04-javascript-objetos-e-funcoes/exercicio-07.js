@@ -5,27 +5,27 @@ const romanNumerals = {
   L: 50,
   C: 100,
   D: 500,
-  M: 1000,
+  M: 1000
 };
 
-function romanConverter(string) {
+function romanConverter (string) {
   string = string.toUpperCase();
-  let totalLength = string.length;
+  const totalLength = string.length;
   let totalSum = romanNumerals[string[totalLength - 1]];
   let currentElement = romanNumerals[string[totalLength - 1]];
-  
+
   for (let index = 2; index <= totalLength; index += 1) {
-    let nextElement = romanNumerals[string[totalLength - index]];
-    
+    const nextElement = romanNumerals[string[totalLength - index]];
+
     if (currentElement <= nextElement) {
       totalSum += nextElement;
     } else {
       totalSum -= nextElement;
     }
-    
+
     currentElement = nextElement;
   }
-  
+
   return totalSum;
 }
 

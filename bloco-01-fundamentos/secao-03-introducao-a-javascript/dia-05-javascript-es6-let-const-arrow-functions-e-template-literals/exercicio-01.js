@@ -6,7 +6,7 @@ const valueB = 5;
 const sumNumber = (A, B) => A + B;
 const randomNumber = () => Math.random();
 const getHello = (string) => `Olá, ${string}!`;
-const getSpeed = (speed) => (speed >= 120) ? `Você ultrapassou o limite de velocidade` : `Você está na velocidade permitida`;
+const getSpeed = (speed) => (speed >= 120) ? 'Você ultrapassou o limite de velocidade' : 'Você está na velocidade permitida';
 const getName = (A, B) => `${A} ${B}`;
 const getAge = (A, B) => {
   for (let idade = A; idade <= B; idade += 1) {
@@ -15,7 +15,7 @@ const getAge = (A, B) => {
 };
 const pessoa = {
   nome: 'Ninguém',
-  idade: 0,
+  idade: 0
 };
 
 getAge(1, 18);
