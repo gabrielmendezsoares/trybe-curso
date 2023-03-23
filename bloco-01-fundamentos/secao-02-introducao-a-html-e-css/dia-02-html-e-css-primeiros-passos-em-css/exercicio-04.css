@@ -20,10 +20,6 @@ li {
   font-size: 2em;
 }
 
-.background-coloring {
-  background-color: whitesmoke;
-}
-
 #green {
   background-color: green;
 }
@@ -34,4 +30,8 @@ li {
 
 #blue {
   background-color: blue;
+}
+
+.background-coloring {
+  background-color: whitesmoke;
 }
