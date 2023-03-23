@@ -6,50 +6,50 @@ window.onload = () => {
   const fontFamilyButtons = document.querySelectorAll('#font-family>button');
 
   const setBackgroundColor = (color) => {
-    const content = document.querySelector(".content");
-    
+    const content = document.querySelector('.content');
+
     content.style.backgroundColor = color;
-    localStorage.setItem("backgroundColor", color);
+    localStorage.setItem('backgroundColor', color);
   };
 
   const setFontColor = (fontColor) => {
-    const paragraphs = document.querySelectorAll(".paragraph");
-    
+    const paragraphs = document.querySelectorAll('.paragraph');
+
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.color = fontColor;
     }
-    
-    localStorage.setItem("fontColor", fontColor);
+
+    localStorage.setItem('fontColor', fontColor);
   };
 
   const setFontSize = (fontSize) => {
-    const paragraphs = document.querySelectorAll(".paragraph");
-    
+    const paragraphs = document.querySelectorAll('.paragraph');
+
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.fontSize = fontSize;
     }
-    
-    localStorage.setItem("fontSize", fontSize);
+
+    localStorage.setItem('fontSize', fontSize);
   };
 
   const setLineHeight = (lineHeight) => {
-    const paragraphs = document.querySelectorAll(".paragraph");
-    
+    const paragraphs = document.querySelectorAll('.paragraph');
+
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.lineHeight = lineHeight;
     }
-    
-    localStorage.setItem("lineHeight", lineHeight);
+
+    localStorage.setItem('lineHeight', lineHeight);
   };
 
   const setFontFamily = (fontFamily) => {
-    const paragraphs = document.querySelectorAll(".paragraph");
-    
+    const paragraphs = document.querySelectorAll('.paragraph');
+
     for (let index = 0; index < paragraphs.length; index += 1) {
       paragraphs[index].style.fontFamily = fontFamily;
     }
-    
-    localStorage.setItem("fontFamily", fontFamily);
+
+    localStorage.setItem('fontFamily', fontFamily);
   };
 
   for (let index = 0; index < backgroundColorButtons.length; index += 1) {
@@ -103,4 +103,4 @@ window.onload = () => {
   };
 
   initialize();
-}
+};

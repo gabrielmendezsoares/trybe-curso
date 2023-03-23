@@ -17,24 +17,24 @@ const unsortedFruits = [
   'Abacate', 'Jaca', 'Jaca', 'Abacate', 'Uva', 'Laranja',
   'Pera', 'Melancia', 'Jaca', 'Pera', 'Laranja', 'Jaca',
   'Pera', 'Melancia', 'Jaca', 'Banana', 'Laranja', 'Jaca',
-  'Banana', 'Pera', 'Abacate', 'Uva',
+  'Banana', 'Pera', 'Abacate', 'Uva'
 ];
 
 for (let index = 0; index < unsortedFruits.length; index += 1) {
-  if (!sortedFruits.hasOwnProperty(unsortedFruits[index])) {
+  if (!sortedFruits.hasOwn(unsortedFruits[index])) {
     sortedFruits[unsortedFruits[index]] = 1;
   } else {
     sortedFruits[unsortedFruits[index]] += 1;
   }
 }
 
-for (key in sortedFruits) {
+for (const key in sortedFruits) {
   let message = `${sortedFruits[key]} ${key}`;
-  
+
   if (sortedFruits[key] > 1) {
     message += 's';
   }
-  
+
   summaries.push(message);
 }
 

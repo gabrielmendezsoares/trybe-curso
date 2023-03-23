@@ -40,18 +40,18 @@ const createDaysOfTheWeek = () => {
   }
 };
 
-function setInputs(params) {
+function setInputs (params) {
   const dayDays = document.querySelectorAll('.day');
   const holidayDays = document.querySelectorAll('.holiday');
   const fridayDays = document.querySelectorAll('.friday');
 
-  function resetTasks() {
+  function resetTasks () {
     for (let index = 0; index < taskElements.length; index += 1) {
       if (taskElements[index].classList.contains('selected')) {
         taskElements[index].classList.remove('selected');
       }
     }
-  };
+  }
 
   holidayButton.addEventListener('click', (event) => {
     if (!holidayButtonState) {
@@ -123,8 +123,8 @@ function setInputs(params) {
 
   for (let index = 0; index < dayDays.length; index += 1) {
     dayDays[index].addEventListener('click', (event) => {
-      let selectedTask = document.querySelector('.selected');
-      
+      const selectedTask = document.querySelector('.selected');
+
       if (!selectedTask || dayDays[index].style.color === selectedTask.style.backgroundColor) {
         dayDays[index].style.color = 'rgb(119,119,119)';
       } else if (selectedTask && dayDays[index].style.color !== selectedTask.style.backgroundColor) {

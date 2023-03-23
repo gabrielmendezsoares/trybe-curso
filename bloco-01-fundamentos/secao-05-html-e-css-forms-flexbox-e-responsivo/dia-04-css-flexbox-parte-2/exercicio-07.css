@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Ubuntu';
+  font-family: Ubuntu, sans-serif;
 }
 
 body {
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(247 247 247);
 }
 
 .header-container {

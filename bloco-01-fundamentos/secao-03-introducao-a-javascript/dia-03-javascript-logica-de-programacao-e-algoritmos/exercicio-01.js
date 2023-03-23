@@ -1,18 +1,18 @@
 let balance = 0;
 
-function addBalance(amount) {
+function addBalance (amount) {
   balance += amount;
 }
 
-function removeBalance(amount) {
+function removeBalance (amount) {
   balance -= amount;
 }
 
-function multiplyBalance(amount) {
+function multiplyBalance (amount) {
   balance *= amount;
 }
 
-function splitBalance(amount) {
+function splitBalance (amount) {
   balance /= amount;
 }
 

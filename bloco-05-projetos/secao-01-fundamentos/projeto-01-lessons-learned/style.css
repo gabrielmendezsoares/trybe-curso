@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 251 251);
 }
 
 h2 {
@@ -109,14 +109,14 @@ a:hover {
   scroll-margin-top: 77px;
 }
 
-#minha_foto {
+#minha-foto {
   margin-top: 100px;
   width: 200px;
   border-radius: 20px;
   border: 3px solid red;
 }
 
-#minha_foto:not( :hover) {
+#minha-foto:not(:hover) {
   margin-top: 100px;
   width: 200px;
   border-radius: 20px;
@@ -124,7 +124,7 @@ a:hover {
   transition: 0.5s;
 }
 
-#minha_foto:hover {
+#minha-foto:hover {
   margin-top: 100px;
   width: 250px;
   border-radius: 20px;
@@ -159,13 +159,13 @@ a:hover {
   border: 1px solid black;
 }
 
-#licoes_aprendidas {
+#licoes-aprendidas {
   margin: 100px 100px 150px;
   display: inline-block;
   text-align: left;
 }
 
-#licoes_a_aprender {
+#licoes-a-aprender {
   margin: 100px 100px 150px;
   display: inline-block;
   text-align: left;

@@ -1,5 +1,5 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let content = [];
+const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+const content = [];
 let higherNumber = numbers[0];
 let lowerNumber = numbers[0];
 let evenCount = 0;
@@ -20,7 +20,7 @@ for (let index = 0; index < numbers.length; index += 1) {
   if (numbers[index] < lowerNumber) {
     lowerNumber = numbers[index];
   }
-  
+
   sum += numbers[index];
   console.log('Elemento Número: ' + numbers[index]);
 }

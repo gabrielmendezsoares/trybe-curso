@@ -1,8 +1,8 @@
 const degreeAngleA = 65;
 const degreeAngleB = 100;
 const degreeAngleC = 15;
-let sumOfAngles = degreeAngleA + degreeAngleB + degreeAngleC;
-let allAnglesArePositives = degreeAngleA > 0 && degreeAngleB > 0 && degreeAngleC > 0;
+const sumOfAngles = degreeAngleA + degreeAngleB + degreeAngleC;
+const allAnglesArePositives = degreeAngleA > 0 && degreeAngleB > 0 && degreeAngleC > 0;
 
 if (allAnglesArePositives) {
   if (sumOfAngles === 180) {

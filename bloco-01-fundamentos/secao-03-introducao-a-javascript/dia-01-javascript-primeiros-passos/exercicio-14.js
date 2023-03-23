@@ -1,4 +1,4 @@
-let grossSalary = 5000.00;
+const grossSalary = 5000.00;
 let aliquotINSS;
 let aliquotIR;
 
@@ -12,7 +12,7 @@ if (grossSalary <= 1556.94) {
   aliquotINSS = 570.88;
 }
 
-let baseSalary = grossSalary - aliquotINSS;
+const baseSalary = grossSalary - aliquotINSS;
 
 if (baseSalary <= 1903.98) {
   aliquotIR = 0;

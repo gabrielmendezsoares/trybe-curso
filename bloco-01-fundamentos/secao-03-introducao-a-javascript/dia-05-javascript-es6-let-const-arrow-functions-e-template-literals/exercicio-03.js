@@ -18,7 +18,7 @@ const circleArea = (radius) => {
 };
 
 const longestWord = (word) => {
-  let wordsArray = word.split(' ');
+  const wordsArray = word.split(' ');
   let higherWord = wordsArray[0];
 
   for (const iterator of wordsArray) {
@@ -30,4 +30,9 @@ const longestWord = (word) => {
   return higherWord;
 };
 
-const longestWordSort = text => text.split(' ').sort((wordA, wordB) => wordB.length - wordA.length)[0];
+const longestWordSort = (text) => text.split(' ').sort((wordA, wordB) => wordB.length - wordA.length)[0];
+
+ligarDesligar('desligado');
+circleArea(30);
+longestWord('Essa é a minha maior palavra');
+longestWordSort('Essa é a minha maior palavra');

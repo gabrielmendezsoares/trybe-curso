@@ -1,16 +1,16 @@
-function verificaPalindromo(string) {
+function verificaPalindromo (string) {
   const reverseString = string.split('').reverse().join('');
- 
+
   if (reverseString === string) {
     return true;
   }
   return false;
 }
 
-function indiceDoMaior(array) {
+function indiceDoMaior (array) {
   let higherElement = array[0];
   let higherIndex = 0;
-  
+
   for (let index = 1; index < array.length; index += 1) {
     if (array[index] > higherElement) {
       higherElement = array[index];
@@ -20,10 +20,10 @@ function indiceDoMaior(array) {
   return higherIndex;
 }
 
-function indiceDoMenor(array) {
+function indiceDoMenor (array) {
   let lowerElement = array[0];
   let lowerIndex = 0;
-  
+
   for (let index = 1; index < array.length; index += 1) {
     if (array[index] < lowerElement) {
       lowerElement = array[index];
@@ -33,9 +33,9 @@ function indiceDoMenor(array) {
   return lowerIndex;
 }
 
-function maiorPalavra(array) {
+function maiorPalavra (array) {
   let higherString = array[0];
-  
+
   for (let index = 1; index < array.length; index += 1) {
     if (array[index].length > higherString.length) {
       higherString = array[index];
@@ -44,64 +44,72 @@ function maiorPalavra(array) {
   return higherString;
 }
 
-function criarDicionario(array) {
-  let dictionary = {};
-  
+function criarDicionario (array) {
+  const dictionary = {};
+
   for (let index = 0; index < array.length; index += 1) {
     if (!dictionary[array[index]]) {
       dictionary[array[index]] = {
-        repetitions: 0,
+        repetitions: 0
       };
     } else {
       dictionary[array[index]].repetitions += 1;
     }
   }
-  
+
   return dictionary;
 }
 
-function maisRepetido(array) {
+function maisRepetido (array) {
   const dictionary = criarDicionario(array);
   let mostRepeated = 0;
   let highestScore = 0;
-  
+
   for (const key in dictionary) {
     if (dictionary[key].repetitions > highestScore) {
       mostRepeated = Number(key);
       highestScore = dictionary[key].repetitions;
     }
   }
-  
+
   return mostRepeated;
 }
 
-function somatorio(number) {
+function somatorio (number) {
   let sum = 0;
-  
+
   for (let index = 1; index <= number; index += 1) {
     sum += index;
   }
-  
+
   if (number >= 0) {
     return sum;
   }
-  
+
   return 'ERRO';
 }
 
-function verificaFimPalavra(palavra1, palavra2) {
+function verificaFimPalavra (palavra1, palavra2) {
   const indexPosition = palavra1.length - palavra2.length;
   let stringWord = '';
-  
+
   if (indexPosition >= 0) {
     for (let index = indexPosition; index < palavra1.length; index += 1) {
       stringWord += palavra1[index];
     }
   }
-  
+
   if (stringWord === palavra2) {
     return true;
   }
-  
+
   return false;
 }
+
+verificaPalindromo('arara');
+indiceDoMaior([1, 3, 5, 7, 9, 11]);
+indiceDoMenor([1, 3, 5, 7, 9, 11]);
+maiorPalavra(['Anna', 'João', 'Gabriel']);
+maisRepetido([1, 3, 5, 7, 9, 11, 1]);
+somatorio(10);
+verificaFimPalavra('João', 'ão');

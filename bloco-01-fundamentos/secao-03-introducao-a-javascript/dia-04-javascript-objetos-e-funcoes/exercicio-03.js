@@ -1,17 +1,17 @@
 const primaryObject = {
   personagem: 'Margarida',
   origem: 'Pato Donald',
-  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald'
 };
 
 const secondaryObject = {
   personagem: 'Tio Patinhas',
-  origem: "Christmas on Bear Mountain, Dell’s Four Color Comics #178",
+  origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
   nota: 'O último MacPatinhas',
-  recorrente: 'Sim',
+  recorrente: 'Sim'
 };
 
-primaryObject['recorrente'] = 'Sim';
+primaryObject.recorrente = 'Sim';
 
 for (const key in primaryObject) {
   console.log(`Chave: ${key}`);

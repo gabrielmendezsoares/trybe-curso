@@ -10,7 +10,7 @@ const phoneValue = '+55 (62) 99332-7201';
 const githubValue = 'https://github.com/gabrielmendezsoares';
 const linkedinValue = 'https://www.linkedin.com/in/gabriel-mendez-soares';
 
-function addProperty(object, key, value) {
+function addProperty (key, value) {
   student[key] = value;
 }
 

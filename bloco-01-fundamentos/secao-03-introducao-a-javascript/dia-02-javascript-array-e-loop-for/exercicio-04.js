@@ -1,4 +1,4 @@
-let word = 'tryber';
+const word = 'tryber';
 let reverseWordLoop = '';
 let reverseWordMethod = '';
 

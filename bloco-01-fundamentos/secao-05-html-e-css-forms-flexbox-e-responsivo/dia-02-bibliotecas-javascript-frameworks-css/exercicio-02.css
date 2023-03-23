@@ -1,4 +1,4 @@
-@import '../../../pacotes/pikaday/node_modules/pikaday/css/pikaday.css';
+@import url('../../../bloco-06-pacotes/pikaday/node_modules/pikaday/css/pikaday.css');
 
 * {
   margin: 10;
