@@ -10,6 +10,7 @@ const romanNumerals = {
 
 function romanConverter (string) {
   string = string.toUpperCase();
+
   const totalLength = string.length;
   let totalSum = romanNumerals[string[totalLength - 1]];
   let currentElement = romanNumerals[string[totalLength - 1]];

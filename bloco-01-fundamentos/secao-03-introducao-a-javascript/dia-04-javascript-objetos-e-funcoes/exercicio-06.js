@@ -89,9 +89,7 @@ function getInfo (obj, name) {
     }
   }
 
-  return {
-    aulas: allLessons, estudantes: numberStudents
-  };
+  return { aulas: allLessons, estudantes: numberStudents };
 }
 
 function createReport (allLessons, name) {

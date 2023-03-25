@@ -13,6 +13,7 @@ const getAge = (A, B) => {
     console.log('Idade:', idade);
   }
 };
+
 const pessoa = {
   nome: 'Ninguém',
   idade: 0
