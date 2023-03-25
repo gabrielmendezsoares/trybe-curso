@@ -1,7 +1,7 @@
 # [Trybe](https://www.betrybe.com/) conteúdo 👨‍💻
 ## Sobre 📌
 
-- Bem vindo (a) ao meu repositório de projetos e exercícios concluídos durante meus estudos na [Trybe](https://www.betrybe.com/), neste repositório você encontrará o conteúdo produzido nas pastas específicadas pelo nome, sinta se à vontade para olhar o conteúdo!
+- Bem-vindo ao meu repositório de projetos e exercícios concluídos durante meus estudos na [Trybe](https://www.betrybe.com/), neste repositório você encontrará o conteúdo produzido nas pastas específicadas pelo nome, sinta se à vontade para olhar o conteúdo!
 
 - O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
@@ -73,9 +73,9 @@
   <summary><strong>Seção 07: Higher Order Functions do JavaScript ES6 ⏳</strong></summary></br>
 
   - [ ] Dia 01: Introdução a Higher Order Functions 
-  - [ ] Dia 02: Higher Order Functions - sort e map
-  - [ ] Dia 03: Higher Order Functions - filter e reduce
-  - [ ] Dia 04: JavaScript ES6 - spread operator, rest parameters e object destructuring
+  - [ ] Dia 02: Higher Order Functions - Sort e map
+  - [ ] Dia 03: Higher Order Functions - Filter e reduce
+  - [ ] Dia 04: JavaScript ES6 - Spread operator, rest parameters e object destructuring
   - [ ] Dia 05: JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e fault parameters
 
 </details>
