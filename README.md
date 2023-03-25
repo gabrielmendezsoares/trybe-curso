@@ -63,7 +63,7 @@
 <details>
   <summary><strong>Seção 06: Introdução à JavaScript ES6 e Testes Unitários ⏳</strong></summary></br>
 
-  - [ ] Dia 01: Fluxo de exceções e manipulação de objetos
+  - [x] Dia 01: Fluxo de exceções e manipulação de objetos
   - [ ] Dia 02: Primeiros passos em Jest
   - [ ] Dia 03: Matchers e cobertura de código
 
