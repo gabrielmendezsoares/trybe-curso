@@ -10,7 +10,7 @@
 ### Bloco 01: Fundamentos ⏳
 
 <details>
-  <summary><strong>Seção 01: Unix, Shell e Git ✅</strong></summary></br>
+  <summary><strong>Seção 01: Unix, Shell e Git ✔️</strong></summary></br>
 
   - [x] Dia 01: Unix & Shell
   - [x] Dia 02: Git - O que é e para que serve
@@ -19,7 +19,7 @@
 </details>
 
 <details>
-  <summary><strong>Seção 02: Introdução à HTML & CSS ✅</strong></summary></br>
+  <summary><strong>Seção 02: Introdução à HTML & CSS ✔️</strong></summary></br>
 
   - [x] Dia 01: HTML & CSS - Estruturas de página
   - [x] Dia 02: HTML & CSS - Primeiros passos em CSS
@@ -29,7 +29,7 @@
 </details>
 
 <details>
-  <summary><strong>Seção 03: Introdução à JavaScript ✅</strong></summary></br>
+  <summary><strong>Seção 03: Introdução à JavaScript ✔️</strong></summary></br>
 
   - [x] Dia 01: JavaScript - Primeiros passos
   - [x] Dia 02: JavaScript - Array e loop For
@@ -40,7 +40,7 @@
 </details>
 
 <details>
-  <summary><strong>Seção 04: JavaScript: DOM, Eventos e Web Storage ✅</strong></summary></br>
+  <summary><strong>Seção 04: JavaScript: DOM, Eventos e Web Storage ✔️</strong></summary></br>
 
   - [x] Dia 01: JavaScript - DOM e seletores
   - [x] Dia 02: JavaScript - Trabalhando com elementos
@@ -50,7 +50,7 @@
 </details>
 
 <details>
-  <summary><strong>Seção 05: HTML e CSS: Forms, Flexbox e Responsivo ✅</strong></summary></br>
+  <summary><strong>Seção 05: HTML e CSS: Forms, Flexbox e Responsivo ✔️</strong></summary></br>
 
   - [x] Dia 01: HTML & CSS - Forms
   - [x] Dia 02: Bibliotecas JavaScript e Frameworks CSS
