@@ -65,9 +65,6 @@ if (sum >= 0) {
 }
 
 average = sum / numbers.length;
-console.log(' ');
-console.log('----------[SUMÁRIO]----------');
-console.log(' ');
 console.log('Array [numbers]: ' + numbers);
 console.log('Array [content]: ' + content);
 console.log('Maior Número: ' + higherNumber);

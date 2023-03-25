@@ -40,7 +40,7 @@ const createDaysOfTheWeek = () => {
   }
 };
 
-function setInputs (params) {
+function setInputs () {
   const dayDays = document.querySelectorAll('.day');
   const holidayDays = document.querySelectorAll('.holiday');
   const fridayDays = document.querySelectorAll('.friday');
@@ -53,7 +53,7 @@ function setInputs (params) {
     }
   }
 
-  holidayButton.addEventListener('click', (event) => {
+  holidayButton.addEventListener('click', () => {
     if (!holidayButtonState) {
       holidayButtonState = true;
 
@@ -69,7 +69,7 @@ function setInputs (params) {
     }
   });
 
-  fridayButton.addEventListener('click', (event) => {
+  fridayButton.addEventListener('click', () => {
     if (!fridayButtonState) {
       fridayButtonState = true;
 
@@ -85,7 +85,7 @@ function setInputs (params) {
     }
   });
 
-  addButton.addEventListener('click', (event) => {
+  addButton.addEventListener('click', () => {
     if (taskInput.value.length <= 0) {
       alert('Nome inválido ou vazio!');
     } else if (taskInput.value.length > 0) {
@@ -122,7 +122,7 @@ function setInputs (params) {
   }
 
   for (let index = 0; index < dayDays.length; index += 1) {
-    dayDays[index].addEventListener('click', (event) => {
+    dayDays[index].addEventListener('click', () => {
       const selectedTask = document.querySelector('.selected');
 
       if (!selectedTask || dayDays[index].style.color === selectedTask.style.backgroundColor) {
@@ -132,7 +132,7 @@ function setInputs (params) {
       }
     });
 
-    dayDays[index].addEventListener('mouseover', (event) => {
+    dayDays[index].addEventListener('mouseover', () => {
       dayDays[index].style.fontSize = '30px';
       dayDays[index].style.fontWeight = '600';
     });

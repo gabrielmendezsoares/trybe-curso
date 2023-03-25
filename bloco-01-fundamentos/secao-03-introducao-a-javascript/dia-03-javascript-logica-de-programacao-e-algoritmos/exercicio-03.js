@@ -4,6 +4,7 @@ function verificaPalindromo (string) {
   if (reverseString === string) {
     return true;
   }
+
   return false;
 }
 
@@ -17,6 +18,7 @@ function indiceDoMaior (array) {
       higherIndex = array.indexOf(array[index]);
     }
   }
+
   return higherIndex;
 }
 
@@ -30,6 +32,7 @@ function indiceDoMenor (array) {
       lowerIndex = array.indexOf(array[index]);
     }
   }
+
   return lowerIndex;
 }
 
@@ -41,6 +44,7 @@ function maiorPalavra (array) {
       higherString = array[index];
     }
   }
+
   return higherString;
 }
 
