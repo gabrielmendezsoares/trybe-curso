@@ -13,13 +13,13 @@ const randomizeClasses = (event) => {
   const randomRotation = rotationGroup[Math.floor(Math.random() * rotationGroup.length)];
   const randomInclination = inclinationGroup[Math.floor(Math.random() * inclinationGroup.length)];
   const randomizedClasses = `${randomStyle} ${randomSize} ${randomRotation} ${randomInclination}`;
-  
+
   if (event) {
     const eventTarget = event.target;
     eventTarget.className = randomizedClasses;
     return;
   }
-  
+
   return randomizedClasses;
 };
 
