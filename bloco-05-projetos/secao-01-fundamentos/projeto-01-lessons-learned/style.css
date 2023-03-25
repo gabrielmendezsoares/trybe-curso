@@ -1,199 +1,149 @@
 * {
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  line-height: normal;
+  list-style: none;
 }
 
 body {
   margin: 0;
-  background-color: rgb(253 251 251);
+  background-color: rgb(30 30 30);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  padding: 20px 100px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(50 50 50);
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+  color: palegreen;
 }
 
 h2 {
-  margin: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  color: black;
+  color: lightgrey;
 }
 
-p , li , th , td {
-  color: black;
+p, li {
+  color: lightgrey;
 }
 
-a {
-  color: red;
-}
-
-a:not( :hover) {
-  text-decoration: none;
-  color: maroon;
-  transition: 0.5s;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: red;
-  transition: 0.5s;
-}
-
-.destaque-titulo {
-  color: cornflowerblue;
-}
-
-.destaque-secao {
-  color: red;
-}
-
-.destaque-dado {
-  color: cornflowerblue;
-}
-
-#cabecalho {
-  height: 77px;
-  width: 100%;
-  top: 0;
-  position: fixed;
-  background-color: black;
-}
-
-#titulo {
-  margin: 0;
-  display: inline-block;
-  color: white;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-
-#menu {
-  display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-#menu ul {
-  margin: 0;
-  padding: 0;
-  padding-left: 20px;
-}
-
-#menu ul li {
-  display: inline-block;
-  padding-left: 20px;
-  font-size: x-large;
-  font-weight: 700;
-}
-
-#conteudo-principal {
-  text-align: center;
-}
-
-#conteudo-secundario {
-  text-align: center;
-  border-top: 1px solid black;
-}
-
-#secao-contato {
-  margin-top: 227px;
-  scroll-margin-top: 77px;
-}
-
-#secao-dados {
-  margin-top: 150px;
-  scroll-margin-top: 77px;
-}
-
-#secao-licoes {
-  margin-top: 150px;
-  scroll-margin-top: 77px;
-}
-
-#minha-foto {
+table {
   margin-top: 100px;
-  width: 200px;
-  border-radius: 20px;
-  border: 3px solid red;
-}
-
-#minha-foto:not(:hover) {
-  margin-top: 100px;
-  width: 200px;
-  border-radius: 20px;
-  border: 3px solid maroon;
-  transition: 0.5s;
-}
-
-#minha-foto:hover {
-  margin-top: 100px;
-  width: 250px;
-  border-radius: 20px;
-  border: 3px solid red;
-  transition: 0.5s;
-}
-
-#contato ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-#contato ul li {
-  display: inline-block;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: large;
-  font-weight: 700;
-}
-
-#tabela {
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
   border-collapse: collapse;
 }
 
-#tabela th , td {
+th, td {
   padding: 20px;
-  border: 1px solid black;
+  border: 3px solid lightgrey;
+  color: lightgrey;
 }
 
-#licoes-aprendidas {
-  margin: 100px 100px 150px;
-  display: inline-block;
+a {
+  font-size: 20px;
+  color: grey;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: lightgrey;
+  transition: color 0.5s;
+}
+
+footer {
+  color: lightgrey;
   text-align: left;
+  padding: 20px;
+  background-color: rgb(50 50 50);
 }
 
-#licoes-a-aprender {
-  margin: 100px 100px 150px;
-  display: inline-block;
-  text-align: left;
+#header-menu {
+  padding-left: 50px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.lado-esquerdo {
-  margin: 150px 100px;
-  display: inline-block;
+#profile-image {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 200px;
+  border: 3px solid palegreen;
+  border-radius: 0 0 30px;
+  transition: border-radius 0.5s;
+}
+
+#profile-image:hover {
+  width: 250;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+
+#contact-menu {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#lessons {
+  padding-top: 100px;
   width: 400px;
-  text-align: justify;
+  display: flex;
+  justify-content: space-between;
 }
 
-.lado-direito {
-  margin: 150px 100px;
-  display: inline-block;
-  width: 400px;
-  text-align: justify;
+#aside {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#rodape {
-  background-color: black;
+#section-contact {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#direitos {
-  margin: 0;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  text-align: left;
-  color: white;
+#section-data {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-lessons {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight {
+  font-weight: 900;
+  color: palegreen;
+}
+
+.content {
+  max-width: 70%;
 }
