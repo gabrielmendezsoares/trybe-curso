@@ -3,7 +3,7 @@
 
 - Bem-vindo ao meu repositório de projetos e exercícios concluídos durante meus estudos na [Trybe](https://www.betrybe.com/), neste repositório você encontrará o conteúdo produzido nas pastas específicadas pelo nome, sinta se à vontade para olhar o conteúdo!
 
-- O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+- O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software / web, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 ## Status 📊
 
