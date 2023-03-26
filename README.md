@@ -13,7 +13,6 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [x] Dia 01: Unix & Shell
   - [x] Dia 02: Git - O que é e para que serve
   - [x] Dia 03: Git & GitHub - Entendendo os comandos
-
 </details>
 
 <details>
@@ -23,7 +22,6 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [x] Dia 02: HTML & CSS - Primeiros passos em CSS
   - [x] Dia 03: HTML & CSS - Seletores e posicionamento
   - [x] Dia 04: HTML Semântico
-
 </details>
 
 <details>
@@ -34,7 +32,6 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [x] Dia 03: JavaScript - Funções
   - [x] Dia 04: JavaScript - Objetos
   - [x] Dia 05: JavaScript ES6 - let, const, arrow functions e template literals
-
 </details>
 
 <details>
@@ -44,7 +41,6 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [x] Dia 02: JavaScript - Trabalhando com elementos
   - [x] Dia 03: JavaScript - Eventos
   - [x] Dia 04: JavaScript - Web Storage
-
 </details>
 
 <details>
@@ -55,7 +51,6 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [x] Dia 03: CSS Flexbox - Parte 1
   - [x] Dia 04: CSS Flexbox - Parte 2
   - [x] Dia 05: CSS Responsivo - Mobile First
-
 </details>
 
 <details>
@@ -64,7 +59,6 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [x] Dia 01: Fluxo de exceções e manipulação de objetos
   - [ ] Dia 02: Primeiros passos em Jest
   - [ ] Dia 03: Matchers e cobertura de código
-
 </details>
 
 <details>
@@ -75,7 +69,6 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [ ] Dia 03: Higher Order Functions - Filter e reduce
   - [ ] Dia 04: JavaScript ES6 - Spread operator, rest parameters e object destructuring
   - [ ] Dia 05: JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e fault parameters
-
 </details>
 
 ### Bloco 02: Front-end ⏳
