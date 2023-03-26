@@ -1,9 +1,7 @@
-# [Trybe](https://www.betrybe.com/) conteúdo 👨‍💻
-## Sobre 📌
+# 👨‍💻 Trybe Curso
+## 📌 Sobre
 
-- Bem-vindo ao meu repositório de projetos e exercícios concluídos durante meus estudos na [Trybe](https://www.betrybe.com/), neste repositório você encontrará o conteúdo produzido nas pastas específicadas pelo nome, sinta se à vontade para olhar o conteúdo!
-
-- O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software / web, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durante meus estudos na [**Trybe**](https://www.betrybe.com/). Neste repositório, você encontrará uma coleção de conteúdo organizada em pastas específicas, cada uma com um nome descritivo. Sinta-se à vontade para explorar o conteúdo. Agradeço por visitar meu repositório!
 
 ## Status 📊
 
