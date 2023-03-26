@@ -3,7 +3,7 @@
 
 Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durante meus estudos na [**Trybe**](https://www.betrybe.com/). Neste repositório, você encontrará uma coleção de conteúdo organizada em pastas específicas, cada uma com um nome descritivo. Sinta-se à vontade para explorar o conteúdo. Agradeço por visitar meu repositório!
 
-## Status 📊
+## 📊 Conclusão
 
 ### Bloco 01: Fundamentos ⏳
 
