@@ -135,4 +135,146 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 
 ## Bloco 03: Back-end ⏳
 
+<details>
+  <summary>Seção 01: Docker: Utilizando Containers ⏳</summary></br>
+
+  - [ ] Dia 01: Utilizando Containers - Docker
+  - [ ] Dia 02: Manipulando Imagens no Docker
+  - [ ] Dia 03: Orquestrando Containers com Docker Compose
+</details>
+
+<details>
+  <summary>Seção 02: Introdução à SQL ⏳</summary></br>
+
+  - [ ] Dia 01: Banco de dados SQL
+  - [ ] Dia 02: Encontrando dados em um banco de dados
+  - [ ] Dia 03: Filtrando dados de forma específica
+  - [ ] Dia 04: Manipulando tabelas
+</details>
+
+<details>
+  <summary>Seção 03: Funções SQL, JOINs e Normalização ⏳</summary></br>
+
+  - [ ] Dia 01: Funções mais usadas no SQL
+  - [ ] Dia 02: Descomplicando JOINs
+  - [ ] Dia 03: Transformando ideias em um modelo de banco de dados
+</details>
+
+<details>
+  <summary>Seção 04: Introdução ao desenvolvimento Web com Node.js ⏳</summary></br>
+
+  - [ ] Dia 01: Node.js: Runtime Assíncrono
+  - [ ] Dia 02: Node.js: API REST com Express
+  - [ ] Dia 03: Node.js: Testes de Integração
+  - [ ] Dia 04: Node.js: Express e Middlewares
+  - [ ] Dia 05: Node.js: Express e MySQL
+</details>
+
+<details>
+  <summary>Seção 05: Arquitetura de Software: Model, Service e Controller ⏳</summary></br>
+
+  - [ ] Dia 01: Arquitetura de Software: Camada Model
+  - [ ] Dia 02: Arquitetura de Software: Camada Service
+  - [ ] Dia 03: Arquitetura de Software: Camada Controller
+</details>
+
+<details>
+  <summary>Seção 06: Node.js: ORM e Autenticação ⏳</summary></br>
+
+  - [ ] Dia 01: ORM - Interface da aplicação com o banco de dados
+  - [ ] Dia 02: ORM - Associations 1:1 e 1:N
+  - [ ] Dia 03: ORM - Associations N:N e Transactions
+  - [ ] Dia 04: JWT - (JSON Web Token)
+</details>
+
+<details>
+  <summary>Seção 07: Masterclass: Implantação de Aplicações na Nuvem ⏳</summary></br>
+
+  - [ ] Dia 01: Infraestutura: Deploy com Railway
+</details>
+
+<details>
+  <summary>Seção 08: Introdução a TypeScript ⏳</summary></br>
+
+  - [ ] Dia 01: Introdução ao TypeScript
+  - [ ] Dia 02: Tipagem Estática e Generics
+  - [ ] Dia 03: Express com TypeScript
+</details>
+
+<details>
+  <summary>Seção 09: Programação Orientada a Objetos (POO) e SOLID ⏳</summary></br>
+
+  - [ ] Dia 01: Introdução à Orientação a Objetos
+  - [ ] Dia 02: Herança e Composição
+  - [ ] Dia 03: Polimorfismo
+  - [ ] Dia 04: SOLID - Introdução e Princípios S, O e D
+  - [ ] Dia 05: SOLID - Princípios L e I
+</details>
+
+<details>
+  <summary>Seção 10: Introdução ao MongoDB ⏳</summary></br>
+
+  - [ ] Dia 01: MongoDB - Introdução
+  - [ ] Dia 02: Filter Operators
+  - [ ] Dia 03: Operadores de consulta
+  - [ ] Dia 04: Updates Simples
+  - [ ] Dia 05: Updates Complexos - Arrays
+</details>
+
+<details>
+  <summary>Seção 11: APIs OO e NoSQL ⏳</summary></br>
+
+  - [ ] Dia 01: APIs orientadas a objetos e NoSQL: POO e ODMs
+  - [ ] Dia 02: APIs orientadas a objetos e NoSQL: Herança e Abstração
+</details>
+
 ## Bloco 04: Ciência da computação ⏳
+
+<details>
+  <summary>Seção 01: Introdução à Python ⏳</summary></br>
+
+  - [ ] Dia 01: Aprendendo Python
+  - [ ] Dia 02: Entrada e Saída de Dados
+  - [ ] Dia 03: Testes
+</details>
+
+<details>
+  <summary>Seção 02: Padrões de Projeto ⏳</summary></br>
+
+  - [ ] Dia 01: P.O.O em Python
+  - [ ] Dia 02: Padrões - Iterator, Adapter, Strategy
+  - [ ] Dia 03: Padrões - Decorator, Observer, Factory
+</details>
+
+<details>
+  <summary>Seção 03: Raspagem de Dados ⏳</summary></br>
+
+  - [ ] Dia 01: Raspagem de Dados
+  - [ ] Dia 02: Outras Ferramentas de Raspagem de Dados
+  - [ ] Dia 03: Dia de Atividades - Crawlers + POO
+</details>
+
+<details>
+  <summary>Seção 04: Agoritmos ⏳</summary></br>
+
+  - [ ] Dia 01: Complexidade de Algoritmos
+  - [ ] Dia 02: Recursividade e Estratégias para solução de problemas
+  - [ ] Dia 03: Algoritmos de ordenação e busca
+</details>
+
+<details>
+  <summary>Seção 05: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas ⏳</summary></br>
+
+  - [ ] Dia 01: Arquitetura de Computadores
+  - [ ] Dia 02: Arquitetura de redes
+  - [ ] Dia 03: Arrays
+  - [ ] Dia 04: Nó e Listas Encadeadas
+  - [ ] Dia 05: Pilhas e Filas
+</details>
+
+<details>
+  <summary>Seção 06: Estrutura de Dados II: Hashmaps e Sets ⏳</summary></br>
+
+  - [ ] Dia 01: Hashmap e Dict
+  - [ ] Dia 02: Set
+</details>
