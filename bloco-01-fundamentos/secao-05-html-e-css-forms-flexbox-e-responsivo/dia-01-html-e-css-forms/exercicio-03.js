@@ -12,6 +12,7 @@ INPUT_CHECKBOX.addEventListener('click', (event) => {
 
 INPUT_TEXT.addEventListener('keypress', (event) => {
   const character = event.key;
+
   if (character !== 'a') {
     event.preventDefault();
   }
