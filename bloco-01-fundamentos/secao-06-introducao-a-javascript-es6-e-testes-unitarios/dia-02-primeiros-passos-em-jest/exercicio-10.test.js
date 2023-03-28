@@ -1,4 +1,4 @@
-const hydrate = require('./hydrate.js');
+const hydrate = require('./exercicio-09.js');
 
 describe('Testa a função hydrate', () => {
   it('Testa se a função hydrate é definida', () => {

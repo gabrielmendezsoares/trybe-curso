@@ -1,4 +1,4 @@
-function getRepeaters(color) {
+function getRepeaters (color) {
   const colorElements = document.querySelectorAll('.color');
   if (color === 'black' || color === 'white') {
     return false;
@@ -11,7 +11,7 @@ function getRepeaters(color) {
   return true;
 }
 
-function generateNewColor() {
+function generateNewColor () {
   let red = Math.floor(Math.random() * 256);
   let green = Math.floor(Math.random() * 256);
   let blue = Math.floor(Math.random() * 256);
