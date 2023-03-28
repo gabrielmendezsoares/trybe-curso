@@ -1,4 +1,4 @@
-const validate = new JustValidate (
+const validate = new JustValidate(
   '#form',
   {
     errorFieldCssClass: 'is-invalid',
@@ -39,7 +39,7 @@ function enableSubmit () {
   submitBtn.disabled = !agreement.checked;
 }
 
-const picker = new Pikaday ({
+const picker = new Pikaday({
   field: document.getElementById('date'),
   format: 'D/M/YYYY',
 
