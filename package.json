@@ -1,10 +1,10 @@
 {
   "name": "trybe-conteudo",
   "version": "1.0.0",
-  "description": "- *Bem vindo (a) ao meu repositório de atividades e exercícios concluídos durante meus estudos na [Trybe](https://www.betrybe.com/), neste repositório você encontrará o conteúdo produzido nas pastas específicas, sinta se à vontade para olhar o conteúdo!*",
+  "description": "Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durante meus estudos na [**Trybe**](https://www.betrybe.com/). Neste repositório, você encontrará uma coleção de conteúdo organizada em pastas específicas, cada uma com um nome descritivo. Sinta-se à vontade para explorar o conteúdo. Agradeço por visitar meu repositório!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
+    "jest": "^29.5.0",
     "stylelint": "^15.3.0",
     "stylelint-config-standard": "^31.0.0",
     "typescript": "^5.0.2"
