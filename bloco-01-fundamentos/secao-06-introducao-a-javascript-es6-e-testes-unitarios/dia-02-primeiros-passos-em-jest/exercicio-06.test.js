@@ -1,4 +1,4 @@
-const { encode, decode } = require('./exercicio-05');
+const { encode, decode } = require('./exercicio-05.js');
 
 describe('Testa as funções encode e decode', () => {
   it('A função encode é definida', () => {

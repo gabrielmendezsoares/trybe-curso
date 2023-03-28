@@ -1,4 +1,4 @@
-const myRemove = require('./exercicio-01');
+const myRemove = require('./exercicio-01.js');
 
 describe('Testa a função myRemove', () => {
   it('Deve retornar um array removendo o item correto', () => {
