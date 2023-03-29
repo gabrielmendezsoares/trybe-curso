@@ -1,5 +1,5 @@
 TN:
-SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-01.js
+SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/source/exercicio-01.js
 FN:1,myRemove
 FNF:1
 FNH:1
@@ -18,7 +18,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-02.js
+SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/source/exercicio-02.js
 FN:1,myFizzBuzz
 FNF:1
 FNH:1
@@ -45,7 +45,7 @@ BRF:10
 BRH:10
 end_of_record
 TN:
-SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-03.js
+SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/source/exercicio-03.js
 FN:1,(anonymous_0)
 FN:19,(anonymous_1)
 FN:31,(anonymous_2)
@@ -79,7 +79,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-04.js
+SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/source/exercicio-04.js
 FN:1,(anonymous_0)
 FNF:1
 FNH:1
@@ -100,7 +100,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-05.js
+SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/source/exercicio-05.js
 FN:1,(anonymous_0)
 FNF:1
 FNH:1
@@ -127,7 +127,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
-SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-01.js
+SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/source/exercicio-01.js
 FN:1,(anonymous_0)
 FNF:1
 FNH:1
@@ -153,7 +153,7 @@ BRF:6
 BRH:6
 end_of_record
 TN:
-SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-02.js
+SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/source/exercicio-02.js
 FN:1,sum
 FNF:1
 FNH:1
@@ -172,7 +172,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
-SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-03.js
+SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/source/exercicio-03.js
 FN:7,(anonymous_0)
 FNF:1
 FNH:1
@@ -193,7 +193,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
-SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-04.js
+SF:bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/source/exercicio-04.js
 FN:40,(anonymous_0)
 FNF:1
 FNH:1

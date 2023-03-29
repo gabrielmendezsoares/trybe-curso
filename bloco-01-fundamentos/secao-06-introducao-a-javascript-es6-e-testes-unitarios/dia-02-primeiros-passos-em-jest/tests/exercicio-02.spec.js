@@ -1,4 +1,4 @@
-const myFizzBuzz = require('../src/exercicio-02');
+const myFizzBuzz = require('../source/exercicio-02');
 
 describe('Testa a função myFizzBuzz', () => {
   it('Verifica, se de acordo com o parâmetro recebido, retorna o valor esperado', () => {
