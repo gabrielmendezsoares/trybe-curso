@@ -1,4 +1,4 @@
-const hydrate = require('../src/exercicio-05');
+const hydrate = require('../source/exercicio-05');
 
 describe('Testa a função hydrate', () => {
   it('Testa se a função hydrate é definida', () => {

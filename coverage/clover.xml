@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1680057148361" clover="3.2.0">
-  <project timestamp="1680057148361" name="All files">
+<coverage generated="1680101969883" clover="3.2.0">
+  <project timestamp="1680101969883" name="All files">
     <metrics statements="81" coveredstatements="81" conditionals="40" coveredconditionals="40" methods="11" coveredmethods="11" elements="132" coveredelements="132" complexity="0" loc="81" ncloc="81" packages="2" files="9" classes="9"/>
-    <package name="dia-02-primeiros-passos-em-jest.src">
+    <package name="dia-02-primeiros-passos-em-jest.source">
       <metrics statements="49" coveredstatements="49" conditionals="20" coveredconditionals="20" methods="7" coveredmethods="7"/>
-      <file name="exercicio-01.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-01.js">
+      <file name="exercicio-01.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/source/exercicio-01.js">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
@@ -13,7 +13,7 @@
         <line num="10" count="3" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
       </file>
-      <file name="exercicio-02.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-02.js">
+      <file name="exercicio-02.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/source/exercicio-02.js">
         <metrics statements="6" coveredstatements="6" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
         <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="3" count="4" type="cond" truecount="4" falsecount="0"/>
@@ -22,7 +22,7 @@
         <line num="7" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
       </file>
-      <file name="exercicio-03.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-03.js">
+      <file name="exercicio-03.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/source/exercicio-03.js">
         <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="12" type="stmt"/>
@@ -42,7 +42,7 @@
         <line num="40" count="6" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
       </file>
-      <file name="exercicio-04.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-04.js">
+      <file name="exercicio-04.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/source/exercicio-04.js">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="2" type="cond" truecount="2" falsecount="0"/>
@@ -53,7 +53,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
       </file>
-      <file name="exercicio-05.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-05.js">
+      <file name="exercicio-05.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/source/exercicio-05.js">
         <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="5" type="stmt"/>
@@ -69,9 +69,9 @@
         <line num="22" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="dia-03-matchers-e-cobertura-de-codigo.src">
+    <package name="dia-03-matchers-e-cobertura-de-codigo.source">
       <metrics statements="32" coveredstatements="32" conditionals="20" coveredconditionals="20" methods="4" coveredmethods="4"/>
-      <file name="exercicio-01.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-01.js">
+      <file name="exercicio-01.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/source/exercicio-01.js">
         <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
@@ -83,14 +83,14 @@
         <line num="14" count="2" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
       </file>
-      <file name="exercicio-02.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-02.js">
+      <file name="exercicio-02.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/source/exercicio-02.js">
         <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="2" count="4" type="cond" truecount="4" falsecount="0"/>
         <line num="3" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="exercicio-03.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-03.js">
+      <file name="exercicio-03.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/source/exercicio-03.js">
         <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
@@ -99,7 +99,7 @@
         <line num="12" count="2" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
       </file>
-      <file name="exercicio-04.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-04.js">
+      <file name="exercicio-04.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/source/exercicio-04.js">
         <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="40" count="1" type="stmt"/>

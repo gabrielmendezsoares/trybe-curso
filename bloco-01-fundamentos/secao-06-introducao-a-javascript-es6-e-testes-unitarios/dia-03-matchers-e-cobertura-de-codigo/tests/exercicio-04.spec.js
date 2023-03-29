@@ -1,4 +1,4 @@
-const searchEmployee = require('../src/exercicio-04');
+const searchEmployee = require('../source/exercicio-04');
 
 describe('5 - Neste exercício, você irá praticar o desenvolvimento orientado a testes implementando `a função` e `os testes` para essa função', () => {
   it('Testa se searchEmployee é uma função', () => {

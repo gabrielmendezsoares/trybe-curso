@@ -1,4 +1,4 @@
-const createItem = require('../src/exercicio-01');
+const createItem = require('../source/exercicio-01');
 
 describe('A função createItem', () => {
   it('Cria um item válido', () => {

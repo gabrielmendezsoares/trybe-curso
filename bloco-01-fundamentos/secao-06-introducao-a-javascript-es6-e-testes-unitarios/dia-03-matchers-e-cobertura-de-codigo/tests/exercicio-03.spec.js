@@ -1,4 +1,4 @@
-const { info, printMessage } = require('../src/exercicio-03');
+const { info, printMessage } = require('../source/exercicio-03');
 
 describe('2 - Implemente o caso de teste para a função `printMessage`', () => {
   it('Testa a propriedade personagem no objeto.', () => {
