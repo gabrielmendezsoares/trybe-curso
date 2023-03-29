@@ -52,11 +52,11 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 </details>
 
 <details>
-  <summary>Seção 06: Introdução à JavaScript ES6 e Testes Unitários ⏳</summary></br>
+  <summary>Seção 06: Introdução à JavaScript ES6 e Testes Unitários ✔️</summary></br>
 
   - [x] Dia 01: Fluxo de exceções e manipulação de objetos
   - [x] Dia 02: Primeiros passos em Jest
-  - [ ] Dia 03: Matchers e cobertura de código
+  - [x] Dia 03: Matchers e cobertura de código
 </details>
 
 <details>
