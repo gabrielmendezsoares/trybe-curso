@@ -3,7 +3,9 @@
 
 Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durante meus estudos na [**Trybe**](https://www.betrybe.com/). Neste repositório, você encontrará uma coleção de conteúdo organizada em pastas específicas, cada uma com um nome descritivo. Sinta-se à vontade para explorar o conteúdo. Agradeço por visitar meu repositório!
 
-## Bloco 01: Fundamentos ⏳
+---
+
+### Bloco 01: Fundamentos ⏳
 
 <details>
   <summary>Seção 01: Unix, Shell e Git ✔️</summary></br>
@@ -71,7 +73,7 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 
 ---
 
-## Bloco 02: Front-end ⏳
+### Bloco 02: Front-end ⏳
 
 <details>
   <summary>Seção 01: Introdução ao Frontend e JavaScript assíncrono ⏳</summary></br>
@@ -137,7 +139,7 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 
 ---
 
-## Bloco 03: Back-end ⏳
+### Bloco 03: Back-end ⏳
 
 <details>
   <summary>Seção 01: Docker: Utilizando Containers ⏳</summary></br>
@@ -234,7 +236,7 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 
 ---
 
-## Bloco 04: Ciência da computação ⏳
+### Bloco 04: Ciência da computação ⏳
 
 <details>
   <summary>Seção 01: Introdução à Python ⏳</summary></br>
