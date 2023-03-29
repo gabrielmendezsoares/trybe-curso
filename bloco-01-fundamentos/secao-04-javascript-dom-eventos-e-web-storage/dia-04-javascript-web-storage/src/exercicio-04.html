@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="exercicio-09.css">
+</head>
+
+<body>
+  <header>
+    <h1>Meme Generator</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Gerador</h2>
+      <label for="text-input">Texto: </label>
+      <input id="text-input" type="text" name="textInput" maxlength="60">
+      <br><br>
+      <label for="meme-insert">Foto: </label>
+      <input id="meme-insert" type="file" name="memeInsert" accept="image/png">
+      <br><br>
+
+      <div id="meme-image-container">
+        <img id="meme-image" src="../images/imagem-02.png" alt="Imagem de meme">
+        <p id="meme-text"></p>
+      </div>
+    </section>
+
+    <section id="estilos">
+      <h2>Estilos</h2>
+      <button id="fire">Fire</button>
+      <button id="water">Water</button>
+      <button id="earth">Earth</button>
+    </section>
+
+    <section id="templates">
+      <h2>Templates</h2>
+      <img id="meme-1" src="../images/imagem-02.png" alt="Template 1">
+      <img id="meme-2" src="../images/imagem-03.png" alt="Template 2">
+      <img id="meme-3" src="../images/imagem-04.png" alt="Template 2">
+      <img id="meme-4" src="../images/imagem-05.png" alt="Template 3">
+    </section>
+  </main>
+  <script src="exercicio-14.js"></script>
+</body>
+
+</html>
