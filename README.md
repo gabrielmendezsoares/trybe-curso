@@ -69,6 +69,8 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [ ] Dia 05: JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e fault parameters
 </details>
 
+---
+
 ## Bloco 02: Front-end ⏳
 
 <details>
@@ -132,6 +134,8 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [ ] Dia 02: Context API
   - [ ] Dia 03: Custom Hooks
 </details>
+
+---
 
 ## Bloco 03: Back-end ⏳
 
@@ -227,6 +231,8 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [ ] Dia 01: APIs orientadas a objetos e NoSQL: POO e ODMs
   - [ ] Dia 02: APIs orientadas a objetos e NoSQL: Herança e Abstração
 </details>
+
+---
 
 ## Bloco 04: Ciência da computação ⏳
 
