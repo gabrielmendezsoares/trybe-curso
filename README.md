@@ -3,7 +3,9 @@
 
 Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durante meus estudos na [**Trybe**](https://www.betrybe.com/). Neste repositório, você encontrará uma coleção de conteúdo organizada em pastas específicas, cada uma com um nome descritivo. Sinta-se à vontade para explorar o conteúdo. Agradeço por visitar meu repositório!
 
-## Bloco 01: Fundamentos ⏳
+---
+
+### Bloco 01: Fundamentos ⏳
 
 <details>
   <summary>Seção 01: Unix, Shell e Git ✔️</summary></br>
@@ -52,11 +54,11 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 </details>
 
 <details>
-  <summary>Seção 06: Introdução à JavaScript ES6 e Testes Unitários ⏳</summary></br>
+  <summary>Seção 06: Introdução à JavaScript ES6 e Testes Unitários ✔️</summary></br>
 
   - [x] Dia 01: Fluxo de exceções e manipulação de objetos
   - [x] Dia 02: Primeiros passos em Jest
-  - [ ] Dia 03: Matchers e cobertura de código
+  - [x] Dia 03: Matchers e cobertura de código
 </details>
 
 <details>
@@ -69,7 +71,9 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [ ] Dia 05: JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e fault parameters
 </details>
 
-## Bloco 02: Front-end ⏳
+---
+
+### Bloco 02: Front-end ⏳
 
 <details>
   <summary>Seção 01: Introdução ao Frontend e JavaScript assíncrono ⏳</summary></br>
@@ -133,7 +137,9 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [ ] Dia 03: Custom Hooks
 </details>
 
-## Bloco 03: Back-end ⏳
+---
+
+### Bloco 03: Back-end ⏳
 
 <details>
   <summary>Seção 01: Docker: Utilizando Containers ⏳</summary></br>
@@ -228,7 +234,9 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [ ] Dia 02: APIs orientadas a objetos e NoSQL: Herança e Abstração
 </details>
 
-## Bloco 04: Ciência da computação ⏳
+---
+
+### Bloco 04: Ciência da computação ⏳
 
 <details>
   <summary>Seção 01: Introdução à Python ⏳</summary></br>
