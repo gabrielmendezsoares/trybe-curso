@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1680057148361" clover="3.2.0">
+  <project timestamp="1680057148361" name="All files">
+    <metrics statements="81" coveredstatements="81" conditionals="40" coveredconditionals="40" methods="11" coveredmethods="11" elements="132" coveredelements="132" complexity="0" loc="81" ncloc="81" packages="2" files="9" classes="9"/>
+    <package name="dia-02-primeiros-passos-em-jest.src">
+      <metrics statements="49" coveredstatements="49" conditionals="20" coveredconditionals="20" methods="7" coveredmethods="7"/>
+      <file name="exercicio-01.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-01.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="exercicio-02.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-02.js">
+        <metrics statements="6" coveredstatements="6" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="exercicio-03.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-03.js">
+        <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="6" count="40" type="stmt"/>
+        <line num="7" count="40" type="stmt"/>
+        <line num="9" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="19" type="stmt"/>
+        <line num="12" count="21" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+      <file name="exercicio-04.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-04.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="exercicio-05.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/src/exercicio-05.js">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="162" type="stmt"/>
+        <line num="8" count="162" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dia-03-matchers-e-cobertura-de-codigo.src">
+      <metrics statements="32" coveredstatements="32" conditionals="20" coveredconditionals="20" methods="4" coveredmethods="4"/>
+      <file name="exercicio-01.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-01.js">
+        <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="exercicio-02.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-02.js">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="exercicio-03.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-03.js">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="exercicio-04.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/src/exercicio-04.js">
+        <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="7" type="stmt"/>
+        <line num="43" count="7" type="stmt"/>
+        <line num="44" count="42" type="stmt"/>
+        <line num="46" count="42" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="51" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="55" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
