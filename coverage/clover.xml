@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1680101969883" clover="3.2.0">
-  <project timestamp="1680101969883" name="All files">
-    <metrics statements="81" coveredstatements="81" conditionals="40" coveredconditionals="40" methods="11" coveredmethods="11" elements="132" coveredelements="132" complexity="0" loc="81" ncloc="81" packages="2" files="9" classes="9"/>
-    <package name="dia-02-primeiros-passos-em-jest.source">
+<coverage generated="1680263065656" clover="3.2.0">
+  <project timestamp="1680263065657" name="All files">
+    <metrics statements="161" coveredstatements="160" conditionals="66" coveredconditionals="65" methods="27" coveredmethods="27" elements="254" coveredelements="252" complexity="0" loc="161" ncloc="161" packages="3" files="19" classes="19"/>
+    <package name="bloco-01-fundamentos.secao-06-introducao-a-javascript-es6-e-testes-unitarios.dia-02-primeiros-passos-em-jest.source">
       <metrics statements="49" coveredstatements="49" conditionals="20" coveredconditionals="20" methods="7" coveredmethods="7"/>
       <file name="exercicio-01.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-02-primeiros-passos-em-jest/source/exercicio-01.js">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
@@ -69,7 +69,7 @@
         <line num="22" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="dia-03-matchers-e-cobertura-de-codigo.source">
+    <package name="bloco-01-fundamentos.secao-06-introducao-a-javascript-es6-e-testes-unitarios.dia-03-matchers-e-cobertura-de-codigo.source">
       <metrics statements="32" coveredstatements="32" conditionals="20" coveredconditionals="20" methods="4" coveredmethods="4"/>
       <file name="exercicio-01.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/source/exercicio-01.js">
         <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
@@ -114,6 +114,119 @@
         <line num="56" count="1" type="stmt"/>
         <line num="59" count="3" type="stmt"/>
         <line num="62" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="bloco-05-projetos.secao-01-fundamentos.projeto-05-js-unit-tests.source">
+      <metrics statements="80" coveredstatements="79" conditionals="26" coveredconditionals="25" methods="16" coveredmethods="16"/>
+      <file name="script-01.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-05-js-unit-tests/source/script-01.js">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="9" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="13" count="34" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+      <file name="script-02.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-05-js-unit-tests/source/script-02.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="4" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="script-03.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-05-js-unit-tests/source/script-03.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="script-04.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-05-js-unit-tests/source/script-04.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="26" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+      </file>
+      <file name="script-05.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-05-js-unit-tests/source/script-05.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="script-06.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-05-js-unit-tests/source/script-06.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="script-07.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-05-js-unit-tests/source/script-07.js">
+        <metrics statements="10" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="7" type="cond" truecount="3" falsecount="1"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+      <file name="script-08.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-05-js-unit-tests/source/script-08.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="script-09.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-05-js-unit-tests/source/script-09.js">
+        <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+      </file>
+      <file name="script-10.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-05-js-unit-tests/source/script-10.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
       </file>
     </package>
   </project>
