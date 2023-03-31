@@ -14,7 +14,7 @@ const studentRegister = (name, age) => {
   try {
     validateInfo(name, age);
     validateLegalAge(age);
-    return `${name}, boas-vindas à AuTrybe!`;
+    return `${name}, boas-vindas à AuTer!`;
   } catch (error) {
     return error.message;
   }

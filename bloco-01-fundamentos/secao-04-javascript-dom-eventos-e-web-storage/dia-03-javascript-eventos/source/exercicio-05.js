@@ -2,7 +2,7 @@ const firstLi = document.getElementById('first-li');
 const secondLi = document.getElementById('second-li');
 const thirdLi = document.getElementById('third-li');
 const input = document.getElementById('input');
-const myWebpage = document.getElementById('my-spotrybefy');
+const myWebpage = document.getElementById('my-spoterfy');
 
 const handleChangeTech = (event) => {
   const techElement = document.querySelector('.tech');
@@ -23,7 +23,7 @@ input.addEventListener('input', (event) => {
 });
 
 myWebpage.addEventListener('dblclick', () => {
-  window.location.replace('https://blog.betrybe.com/');
+  window.location.replace('https://www.google.com/');
 });
 
 myWebpage.addEventListener('mouseover', (event) => {
