@@ -49,11 +49,11 @@ a:hover {
   transition: 0.5s;
 }
 
-#cabecalho {
+#header {
   background-color: black;
 }
 
-#titulo {
+#title {
   margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -79,39 +79,39 @@ a:hover {
   font-weight: 700;
 }
 
-#conteudo-principal {
+#primary-content {
   margin-top: 200px;
   text-align: center;
 }
 
-#conteudo-principal p {
+#primary-content p {
   margin: 0 auto;
   text-align: justify;
   width: 400px;
 }
 
-#secao-classificacao {
+#secao-classification {
   margin-top: 200px;
 }
 
-#secao-descricao {
+#section-description {
   margin-top: 200px;
 }
 
-#secao-capacidade {
+#section-capacity {
   margin-top: 200px;
 }
 
-#secao-bibliografia {
+#section-bibliography {
   margin-top: 200px;
 }
 
-#tabela {
+#table {
   margin: 50px auto 0;
   border-collapse: collapse;
 }
 
-#tabela th , td {
+#table th , td {
   padding: 20px;
   border: 1px solid white;
 }
@@ -125,29 +125,29 @@ a:hover {
   font-weight: 700;
 }
 
-#secao-bibliografia ul {
+#section-bibliography ul {
   margin: 50px 0 0;
   padding: 0;
   text-align: center;
   list-style: none;
 }
 
-#secao-bibliografia ul li a {
+#section-bibliography ul li a {
   font-size: medium;
   font-weight: 700;
 }
 
-#documentario {
+#documentary {
   margin-top: 200px;
   margin-bottom: 200px;
   text-align: center;
 }
 
-#rodape {
+#footer {
   background-color: black;
 }
 
-#direitos {
+#rights {
   margin: 0;
   padding: 20px;
   text-align: left;
