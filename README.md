@@ -5,7 +5,7 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 
 ---
 
-### Bloco 01: Fundamentos ⏳
+### Bloco 01: Fundamentos ✔️
 
 <details>
   <summary>Seção 01: Unix, Shell e Git ✔️</summary></br>
@@ -68,7 +68,7 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
   - [x] Dia 02: Higher Order Functions - sort e map
   - [x] Dia 03: Higher Order Functions - filter e reduce
   - [x] Dia 04: JavaScript ES6 - spread operator, rest parameters e object destructuring
-  - [ ] Dia 05: JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e fault parameters
+  - [x] Dia 05: JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e fault parameters
 </details>
 
 ---
