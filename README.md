@@ -62,7 +62,7 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 </details>
 
 <details>
-  <summary>Seção 07: Higher Order Functions do JavaScript ES6 ⏳</summary></br>
+  <summary>Seção 07: Higher Order Functions do JavaScript ES6 ✔️</summary></br>
 
   - [x] Dia 01: Introdução a Higher Order Functions 
   - [x] Dia 02: Higher Order Functions - sort e map
