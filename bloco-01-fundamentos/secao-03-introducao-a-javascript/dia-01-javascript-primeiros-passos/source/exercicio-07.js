@@ -3,11 +3,11 @@ const valueB = 20;
 const valueC = 30;
 
 if (valueA > valueB && valueA > valueC) {
-  console.log('O valor "A" é maior que o valor "B" e "C".');
+  console.log('The "A" value is greater than "B" and "C" value.');
 } else if (valueB > valueA && valueB > valueC) {
-  console.log('O valor "B" é maior que o valor "A" e "C".');
+  console.log('The "B" value is greater than the "A" and "C" value.');
 } else if (valueC > valueA && valueC > valueB) {
-  console.log('O valor "C" é maior que o valor "A" e "B".');
+  console.log('The "C" value is greater than the "A" and "B" value.');
 } else {
-  console.log('Erro, valor inválido!');
+  console.log('Invalid information');
 }

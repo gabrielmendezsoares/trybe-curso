@@ -1,19 +1,19 @@
-const currentStatus = 'Aprovada';
+const currentStatus = 'Approved';
 
 switch (currentStatus) {
-  case 'Aprovada':
-    console.log('Você está no grupo de pessoas aprovadas.');
+  case 'Approved':
+    console.log('You are in the group of approved people.');
     break;
 
-  case 'Lista':
-    console.log('Você está na nossa lista de espera.');
+  case 'List':
+    console.log('You are on our waiting list.');
     break;
 
-  case 'Reprovada':
-    console.log('Você reprovou.');
+  case 'Disapproved':
+    console.log('You got disapproved.');
     break;
 
   default:
-    console.log('Erro, informação incorreta!');
+    console.log('Invalid information');
     break;
 }

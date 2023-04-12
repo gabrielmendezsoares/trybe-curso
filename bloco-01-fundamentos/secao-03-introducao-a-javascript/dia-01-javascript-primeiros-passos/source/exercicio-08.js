@@ -1,9 +1,18 @@
 const valueState = 100;
 
-if (valueState > 0) {
-  console.log('Valor Positivo');
-} else if (valueState < 0) {
-  console.log('Valor Negativo');
-} else {
-  console.log('Valor Zero');
+switch (Math.sign(valueState)) {
+  case 1:
+    console.log('Positive value');
+    break;
+
+  case -1:
+    console.log('Negative value');
+    break;
+
+  case 0:
+    console.log('Zero value');
+    break;
+
+  default:
+    throw new Error('Invalid information');
 }

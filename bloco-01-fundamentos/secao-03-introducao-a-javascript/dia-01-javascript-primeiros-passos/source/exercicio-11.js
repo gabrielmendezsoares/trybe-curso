@@ -2,23 +2,28 @@ const grade = 100;
 let gradeStatus;
 
 if (grade >= 0 && grade <= 100) {
-  if (grade >= 90) {
-    gradeStatus = 'A';
-  } else if (grade >= 80) {
-    gradeStatus = 'B';
-  } else if (grade >= 70) {
-    gradeStatus = 'C';
-  } else if (grade >= 60) {
-    gradeStatus = 'D';
-  } else if (grade >= 50) {
-    gradeStatus = 'E';
-  } else if (grade < 50) {
-    gradeStatus = 'F';
-  } else {
-    console.log('Erro, nota inválida!');
+  switch (Math.floor(grade / 10)) {
+    case 10:
+    case 9:
+      gradeStatus = 'A';
+      break;
+    case 8:
+      gradeStatus = 'B';
+      break;
+    case 7:
+      gradeStatus = 'C';
+      break;
+    case 6:
+      gradeStatus = 'D';
+      break;
+    case 5:
+      gradeStatus = 'E';
+      break;
+    default:
+      gradeStatus = 'F';
   }
 } else {
-  console.log('Erro, nota inválida!');
+  throw new Error('Invalid information');
 }
 
-console.log('Status Nota: ' + gradeStatus);
+console.log(`Status Nota: ${gradeStatus}`);
