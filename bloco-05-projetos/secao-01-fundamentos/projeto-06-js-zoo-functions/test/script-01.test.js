@@ -1,19 +1,26 @@
 const handlerElephants = require('../src/handlerElephants');
 
 describe('Tests for `HandlerElephants`', () => {
-  it('retorna um valor indefinido', () => {
-    expect(handlerElephants()).toBeUndefined();
+  it('Test with `empty` parameter', () => {
+    const actual = handlerElephants();
+
+    expect(actual).toBeUndefined();
   });
 
-  it('retorna uma mensagem para parâmetros inválidos', () => {
-    expect(handlerElephants(0)).toBe('Parâmetro inválido, é necessário uma string');
+  it('Test with `0` parameter', () => {
+    const actual = handlerElephants(0);
+    const expected = 'Parâmetro inválido, é necessário uma string';
+
+    expect(actual).toBe(expected);
   });
 
-  it('retorna um valor nulo', () => {
-    expect(handlerElephants('test')).toBeNull();
+  it('Test with `test` parameter', () => {
+    const actual = handlerElephants('test');
+
+    expect(actual).toBeNull();
   });
 
-  it('retorna a quantidade de elefantes', () => {
+  it('retorna a quantida', () => {
     expect(handlerElephants('count')).toBe(4);
   });
 
