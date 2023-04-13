@@ -1,155 +1,80 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  line-height: normal;
 }
 
 body {
   margin: 0;
   background-color: rgb(50 50 50);
-}
-
-h2 {
-  margin: 0;
-  color: palegreen;
-}
-
-h3, h4 {
-  margin: 0;
-  color: white;
-}
-
-p, li, th, td {
-  color: white;
-}
-
-strong {
-  color: crimson;
+  text-align: center;
 }
 
 img {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 300px;
-}
-
-a {
-  color: orangered;
-}
-
-a:not(:hover) {
-  text-decoration: none;
-  color: palegoldenrod;
-  transition: 0.5s;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: orangered;
-  transition: 0.5s;
+  width: 400px;
+  border-radius: 20px;
 }
 
 #header {
-  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(70 70 70);
 }
 
 #title {
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  color: palegreen;
+  color: white;
 }
 
 #menu {
-  padding-bottom: 20px;
-  text-align: center;
-}
-
-#menu ul {
-  margin: 0;
-  padding: 0;
-}
-
-#menu ul li {
-  padding-left: 20px;
-  padding-right: 20px;
-  display: inline-block;
-  font-size: x-large;
-  font-weight: 700;
-}
-
-#primary-content {
-  margin-top: 200px;
-  text-align: center;
-}
-
-#primary-content p {
-  margin: 0 auto;
-  text-align: justify;
-  width: 400px;
-}
-
-#secao-classification {
-  margin-top: 200px;
-}
-
-#section-description {
-  margin-top: 200px;
-}
-
-#section-capacity {
-  margin-top: 200px;
-}
-
-#section-bibliography {
-  margin-top: 200px;
-}
-
-#table {
-  margin: 50px auto 0;
-  border-collapse: collapse;
-}
-
-#table th , td {
-  padding: 20px;
-  border: 1px solid white;
-}
-
-#video {
-  margin-top: 50px;
-}
-
-#video a {
-  font-size: larger;
-  font-weight: 700;
-}
-
-#section-bibliography ul {
-  margin: 50px 0 0;
-  padding: 0;
-  text-align: center;
-  list-style: none;
-}
-
-#section-bibliography ul li a {
-  font-size: medium;
-  font-weight: 700;
-}
-
-#documentary {
-  margin-top: 200px;
-  margin-bottom: 200px;
-  text-align: center;
+  display: none;
 }
 
 #footer {
-  background-color: black;
+  padding: 20px;
+  background-color: rgb(70 70 70);
 }
 
-#rights {
+#copyright {
   margin: 0;
-  padding: 20px;
   text-align: left;
-  color: palegreen;
+  color: grey;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  #title {
+    font-size: 25px;
+  }
+
+  #copyright {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 900px) {
+  #menu {
+    display: flex;
+  }
 }
