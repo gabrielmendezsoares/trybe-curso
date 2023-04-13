@@ -20,12 +20,18 @@ describe('Tests for `HandlerElephants`', () => {
     expect(actual).toBeNull();
   });
 
-  it('retorna a quantida', () => {
-    expect(handlerElephants('count')).toBe(4);
+  it('Test with `count` parameter', () => {
+    const actual = handlerElephants('count');
+    const expected = 4;
+
+    expect(actual).toBe(expected);
   });
 
-  it('retorna um array com a relação dos nomes de todos os elefantes', () => {
-    expect(handlerElephants('names')).toContain('Jefferson');
+  it('Test with `names` parameter', () => {
+    const actual = handlerElephants('names');
+    const expected = 'Jefferson';
+
+    expect(actual).toContain(expected);
   });
 
   it('retorna a média de idade dos elefantes', () => {
