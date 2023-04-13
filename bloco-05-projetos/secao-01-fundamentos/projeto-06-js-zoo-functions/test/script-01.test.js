@@ -1,6 +1,6 @@
 const handlerElephants = require('../src/handlerElephants');
 
-describe('Testes da função HandlerElephants', () => {
+describe('Tests for `HandlerElephants`', () => {
   it('retorna um valor indefinido', () => {
     expect(handlerElephants()).toBeUndefined();
   });
