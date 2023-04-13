@@ -1,14 +1,14 @@
-const data = require('../data/zoo_data');
+const { prices } = require('../data/zoo_data');
 
 const countEntrants = (entrants) => {
   const child = entrants
-    .filter((entrant) => entrant.age < 18);
+    .filter(({ age }) => age < 18);
 
   const adult = entrants
-    .filter((entrant) => entrant.age >= 18 && entrant.age < 50);
+    .filter(({ age }) => age >= 18 && age < 50);
 
   const senior = entrants
-    .filter((entrant) => entrant.age >= 50);
+    .filter(({ age }) => age >= 50);
 
   return {
     child: child.length,
@@ -17,14 +17,14 @@ const countEntrants = (entrants) => {
   };
 };
 
-const calculateEntry = (entrants) => {
-  if (!entrants || entrants === []) {
+const calculateEntry = (entrants = []) => {
+  if (!entrants.length) {
     return 0;
   }
 
   const bill = Object
     .entries(countEntrants(entrants))
-    .reduce((accumulator, [key, value]) => accumulator + (data.prices[key] * value), 0)
+    .reduce((accumulator, [key, value]) => accumulator + (prices[key] * value), 0)
     .toFixed(2);
 
   return parseFloat(bill);
