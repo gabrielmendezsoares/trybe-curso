@@ -1,7 +1,7 @@
 const getOpeningHours = require('../src/getOpeningHours');
 
-describe('Testes da função getOpeningHours', () => {
-  it('Test with empty parameter', () => {
+describe('Tests for `getOpeningHours`', () => {
+  it('Test with `empty` parameter', () => {
     const actual = getOpeningHours();
 
     const expected = {
