@@ -34,19 +34,31 @@ describe('Tests for `HandlerElephants`', () => {
     expect(actual).toContain(expected);
   });
 
-  it('retorna a média de idade dos elefantes', () => {
-    expect(handlerElephants('averageAge')).toBeCloseTo(10.5);
+  it('Test with `averageAge` parameter', () => {
+    const actual = handlerElephants('averageAge');
+    const expected = 10.5;
+
+    expect(actual).toBeCloseTo(expected);
   });
 
-  it('retorna a localização dos elefantes dentro do Zoológico', () => {
-    expect(handlerElephants('location')).toBe('NW');
+  it('Test with `location` parameter', () => {
+    const actual = handlerElephants('location');
+    const expected = 'NW';
+
+    expect(actual).toBe(expected);
   });
 
-  it('retorna a popularidade dos elefantes', () => {
-    expect(handlerElephants('popularity')).toBe(5);
+  it('Test with `popularity` parameter', () => {
+    const actual = handlerElephants('popularity');
+    const expected = 5;
+
+    expect(actual).toBe(expected);
   });
 
-  it('retorna um array com a relação de dias em que é possível visitar os elefantes', () => {
-    expect(handlerElephants('availability')).toEqual(['Friday', 'Saturday', 'Sunday', 'Tuesday']);
+  it('Test with `availability` parameter', () => {
+    const actual = handlerElephants('availability');
+    const expected = ['Friday', 'Saturday', 'Sunday', 'Tuesday'];
+
+    expect(actual).toEqual(expected);
   });
 });
