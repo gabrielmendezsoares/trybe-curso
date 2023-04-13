@@ -1,21 +1,23 @@
 const { species, employees } = require('../data/zoo_data');
 
 const getOldestFromFirstSpecies = (id) => {
-  const employeeObject = employees
-    .find((employee) => employee.id === id);
+  const { responsibleFor } = employees
+    .find(({ id: employeeId }) => employeeId === id);
 
-  const [firstSpecie] = employeeObject.responsibleFor;
-  const specieObject = species
-    .find((specie) => specie.id === firstSpecie);
+  const [firstSpecie] = responsibleFor;
 
-  const [firstResident] = specieObject.residents;
-  const oldestSpecie = specieObject.residents
+  const { residents } = species
+    .find(({ id: specieId }) => specieId === firstSpecie);
+
+  const [firstResident] = residents;
+
+  const oldestSpecie = residents
     .reduce((accumulator, resident) => ((resident.age > accumulator.age)
       ? resident
       : accumulator),
     firstResident);
 
-  return [...Object.values(oldestSpecie)];
+  return Object.values(oldestSpecie);
 };
 
 module.exports = getOldestFromFirstSpecies;

@@ -1,4 +1,4 @@
-const { species, hours } = require('../data/zoo_data');
+const { species, hours } = require('../data/script-01');
 
 const getZooSchedule = () => Object
   .entries(hours)
@@ -6,13 +6,13 @@ const getZooSchedule = () => Object
     const [hourMessage, availableList] = (key === 'Monday')
       ? ['CLOSED', 'The zoo will be closed!']
       : [`Open from ${value.open}am until ${value.close}pm`, species
-        .filter((specie) => specie.availability.includes(key))
-        .map((specie) => specie.name),
-      ];
+          .filter((specie) => specie.availability.includes(key))
+          .map((specie) => specie.name)
+        ];
 
     accumulator[key] = {
       officeHour: hourMessage,
-      exhibition: availableList,
+      exhibition: availableList
     };
 
     return accumulator;
@@ -21,8 +21,8 @@ const getZooSchedule = () => Object
 const getMondaySchedule = () => ({
   Monday: {
     officeHour: 'CLOSED',
-    exhibition: 'The zoo will be closed!',
-  },
+    exhibition: 'The zoo will be closed!'
+  }
 });
 
 const getDaySchedule = (day) => {
@@ -30,14 +30,14 @@ const getDaySchedule = (day) => {
     `Open from ${hours[day].open}am until ${hours[day].close}pm`,
     species
       .filter((specie) => specie.availability.includes(day))
-      .map((specie) => specie.name),
+      .map((specie) => specie.name)
   ];
 
   return {
     [day]: {
       officeHour: hourMessage,
-      exhibition: availableList,
-    },
+      exhibition: availableList
+    }
   };
 };
 

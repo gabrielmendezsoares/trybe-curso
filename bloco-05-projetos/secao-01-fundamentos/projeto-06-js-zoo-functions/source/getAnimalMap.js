@@ -40,7 +40,7 @@ const getAnimalMap = (options) => {
     NE: getLocationSpecie('NE', options),
     NW: getLocationSpecie('NW', options),
     SE: getLocationSpecie('SE', options),
-    SW: getLocationSpecie('SW', options),
+    SW: getLocationSpecie('SW', options)
   };
 
   return specieMap;

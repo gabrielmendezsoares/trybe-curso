@@ -1,9 +1,6 @@
-const { species } = require('../data/zoo_data');
+const { species } = require('../data/script-01');
 
-const getSpeciesByIds = (...ids) => {
-  return ids
-    .map((id) => species
-      .find((specie) => specie.id === id));
-};
+const getSpeciesByIds = (...ids) => species
+  .filter(({ id }) => ids.includes(id));
 
 module.exports = getSpeciesByIds;

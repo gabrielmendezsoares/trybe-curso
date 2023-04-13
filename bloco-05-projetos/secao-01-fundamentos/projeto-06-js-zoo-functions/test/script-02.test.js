@@ -1,7 +1,7 @@
 const getOpeningHours = require('../src/getOpeningHours');
 
 describe('Testes da função getOpeningHours', () => {
-  it('', () => {
+  it('Test with empty parameter', () => {
     const actual = getOpeningHours();
 
     const expected = {
@@ -11,7 +11,7 @@ describe('Testes da função getOpeningHours', () => {
       Friday: { open: 10, close: 8 },
       Saturday: { open: 8, close: 10 },
       Sunday: { open: 8, close: 8 },
-      Monday: { open: 0, close: 0 },
+      Monday: { open: 0, close: 0 }
     };
 
     expect(actual).toEqual(expected);
