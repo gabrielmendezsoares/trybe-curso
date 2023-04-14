@@ -1,4 +1,4 @@
-const data = require('../data/zoo_data');
+const data = require('../data/script-01');
 
 const getEmployeeByName = (employeeName) => {
   if (!employeeName) {
