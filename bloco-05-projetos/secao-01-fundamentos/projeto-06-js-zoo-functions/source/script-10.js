@@ -1,4 +1,4 @@
-const { species, employees } = require('../data/zoo_data');
+const { species, employees } = require('../data/script-01');
 
 Object.isObject = (value) => (
   typeof value === 'object' &&
@@ -37,13 +37,14 @@ const getEmployeeData = ({ name, id }) => {
   validateEmployeeData(employeeData);
 
   const { id: employeeId, firstName, lastName, responsibleFor } = employeeData;
-  const filteredSpecies = species.filter(({ id: specieId }) => responsibleFor.includes(specieId));
+  const filteredSpecies = species
+    .filter(({ id: specieId }) => responsibleFor.includes(specieId));
 
   return {
     id: employeeId,
     fullName: `${firstName} ${lastName}`,
     species: filteredSpecies.map(({ name: specieName }) => specieName),
-    locations: filteredSpecies.map(({ location }) => location),
+    locations: filteredSpecies.map(({ location }) => location)
   };
 };
 
@@ -51,13 +52,14 @@ const getEmployeesData = () => {
   const data = [];
 
   employees.forEach(({ id, firstName, lastName, responsibleFor }) => {
-    const filteredSpecies = species.filter(({ id: specieId }) => responsibleFor.includes(specieId));
+    const filteredSpecies = species
+      .filter(({ id: specieId }) => responsibleFor.includes(specieId));
 
     data.push({
       id,
       fullName: `${firstName} ${lastName}`,
       species: filteredSpecies.map(({ name: specieName }) => specieName),
-      locations: filteredSpecies.map(({ location }) => location),
+      locations: filteredSpecies.map(({ location }) => location)
     });
   });
 
