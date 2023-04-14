@@ -42,17 +42,26 @@ const getDaySchedule = (day) => {
 };
 
 const getSchedule = (scheduleTarget) => {
-  if (!scheduleTarget) return getZooSchedule();
-  if (scheduleTarget === 'Monday') return getMondaySchedule();
+  if (!scheduleTarget) {
+    return getZooSchedule();
+  }
+
+  if (scheduleTarget === 'Monday') {
+    return getMondaySchedule();
+  }
 
   const weekDays = Object.keys(hours);
 
-  if (weekDays.includes(scheduleTarget)) return getDaySchedule(scheduleTarget);
+  if (weekDays.includes(scheduleTarget)) {
+    return getDaySchedule(scheduleTarget);
+  }
 
   const specieObject = species
-    .find((specie) => specie.name === scheduleTarget);
+    .find(({ name }) => name === scheduleTarget);
 
-  if (!specieObject) return getZooSchedule();
+  if (!specieObject) {
+    return getZooSchedule();
+  }
 
   return specieObject.availability;
 };
