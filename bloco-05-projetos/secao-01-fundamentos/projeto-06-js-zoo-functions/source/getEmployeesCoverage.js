@@ -1,9 +1,9 @@
 const { species, employees } = require('../data/zoo_data');
 
 Object.isObject = (value) => (
-  typeof value === 'object'
-  && value !== null
-  && !Array.isArray(value)
+  typeof value === 'object' &&
+  value !== null &&
+  !Array.isArray(value)
 );
 
 const validateInfo = (info) => {
@@ -29,9 +29,9 @@ const validateEmployeeData = (data) => {
 const getEmployeeData = ({ name, id }) => {
   const employeeData = employees
     .find((employee) => (
-      employee.id === id
-      || employee.firstName === name
-      || employee.lastName === name
+      employee.id === id ||
+      employee.firstName === name ||
+      employee.lastName === name
     ));
 
   validateEmployeeData(employeeData);
