@@ -1,7 +1,7 @@
-const getOpeningHours = require('../src/getOpeningHours');
+const getOpeningHours = require('../source/script-11');
 
 describe('Tests for `getOpeningHours`', () => {
-  it('Test with `empty` parameter', () => {
+  test('Testing with `empty` parameter', () => {
     const actual = getOpeningHours();
 
     const expected = {
@@ -17,63 +17,63 @@ describe('Tests for `getOpeningHours`', () => {
     expect(actual).toEqual(expected);
   });
 
-  it('Test with `Monday` and `09:00-AM` parameters', () => {
+  test('Testing with `Monday` and `09:00-AM` parameters', () => {
     const actual = getOpeningHours('Monday', '09:00-AM');
     const expected = 'The zoo is closed';
 
     expect(actual).toBe(expected);
   });
 
-  it('Test with `Tuesday` and `09:00-AM` parameters', () => {
+  test('Testing with `Tuesday` and `09:00-AM` parameters', () => {
     const actual = getOpeningHours('Tuesday', '09:00-AM');
     const expected = 'The zoo is open';
 
     expect(actual).toBe(expected);
   });
 
-  it('Test with `Wednesday` and `09:00-PM` parameters', () => {
+  test('Testing with `Wednesday` and `09:00-PM` parameters', () => {
     const actual = getOpeningHours('Wednesday', '09:00-PM');
     const expected = 'The zoo is closed';
 
     expect(actual).toBe(expected);
   });
 
-  it('Test with `Thu` and `09:00-AM` parameters', () => {
+  test('Testing with `Thu` and `09:00-AM` parameters', () => {
     const actual = () => getOpeningHours('Thu', '09:00-AM');
     const expected = 'The day must be valid. Example: Monday';
 
     expect(actual).toThrow(expected);
   });
 
-  it('Test with `Friday` and `09:00-ZM` parameters', () => {
+  test('Testing with `Friday` and `09:00-ZM` parameters', () => {
     const actual = () => getOpeningHours('Friday', '09:00-ZM');
     const expected = 'The abbreviation must be \'AM\' or \'PM\'';
 
     expect(actual).toThrow(expected);
   });
 
-  it('Test with `Saturday` and `C9:00-AM` parameters', () => {
+  test('Testing with `Saturday` and `C9:00-AM` parameters', () => {
     const actual = () => getOpeningHours('Saturday', 'C9:00-AM');
     const expected = 'The hour should represent a number';
 
     expect(actual).toThrow(expected);
   });
 
-  it('Test with `Sunday` and `09:c0-AM` parameters', () => {
+  test('Testing with `Sunday` and `09:c0-AM` parameters', () => {
     const actual = () => getOpeningHours('Sunday', '09:c0-AM');
     const expected = 'The minutes should represent a number';
 
     expect(actual).toThrow(expected);
   });
 
-  it('Test with `Monday` and `13:00-AM` parameters', () => {
+  test('Testing with `Monday` and `13:00-AM` parameters', () => {
     const actual = () => getOpeningHours('Monday', '13:00-AM');
     const expected = 'The hour must be between 0 and 12';
 
     expect(actual).toThrow(expected);
   });
 
-  it('Test with `Tuesday` and `09:60-AM` parameters', () => {
+  test('Testing with `Tuesday` and `09:60-AM` parameters', () => {
     const actual = () => getOpeningHours('Tuesday', '09:60-AM');
     const expected = 'The minutes must be between 0 and 59';
 
