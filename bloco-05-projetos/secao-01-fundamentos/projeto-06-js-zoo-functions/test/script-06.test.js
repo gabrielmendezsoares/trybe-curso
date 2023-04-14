@@ -1,6 +1,6 @@
 const handlerElephants = require('../source/script-06');
 
-describe('Tests for `HandlerElephants`', () => {
+describe('06 - Tests for `HandlerElephants`', () => {
   test('Testing with `empty` parameter', () => {
     const actual = handlerElephants();
 

@@ -28,6 +28,7 @@ describe('01 - Tests for `getSpeciesByIds`', () => {
 
       expect(actual).toEqual(expected);
     }
+
     {
       const actual = getSpeciesByIds('01422318-ca2d-46b8-b66c-3e9e188244ed');
 

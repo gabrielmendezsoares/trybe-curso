@@ -1,7 +1,7 @@
 const { name } = require('faker/locale/pt_BR');
 const { calculateEntry, countEntrants } = require('../src/calculateEntry');
 
-describe('8 - Implemente a função `calculateEntry` que calcula o valor total da entrada', () => {
+describe('08 - Implemente a função `calculateEntry` que calcula o valor total da entrada', () => {
   it('ao receber um array de visitantes, retorna um objeto com a contagem', () => {
     const entrants = [
       { name: name.findName(), age: 5 },
@@ -9,7 +9,7 @@ describe('8 - Implemente a função `calculateEntry` que calcula o valor total d
       { name: name.findName(), age: 5 },
       { name: name.findName(), age: 18 },
       { name: name.findName(), age: 18 },
-      { name: name.findName(), age: 50 },
+      { name: name.findName(), age: 50 }
     ];
 
     const actual = countEntrants(entrants);
