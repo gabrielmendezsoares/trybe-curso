@@ -28,10 +28,10 @@ const validateEmployeeData = (data) => {
 
 const getEmployeeData = ({ name, id }) => {
   const employeeData = employees
-    .find((employee) => (
-      employee.id === id ||
-      employee.firstName === name ||
-      employee.lastName === name
+    .find(({ id: employeeId, firstName, lastName }) => (
+      employeeId === id ||
+      firstName === name ||
+      lastName === name
     ));
 
   validateEmployeeData(employeeData);
