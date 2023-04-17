@@ -6,8 +6,8 @@ const getZooSchedule = () => Object
     const [hourMessage, availableList] = (key === 'Monday')
       ? ['CLOSED', 'The zoo will be closed!']
       : [`Open from ${value.open}am until ${value.close}pm`, species
-          .filter((specie) => specie.availability.includes(key))
-          .map((specie) => specie.name)
+          .filter(({ availability }) => availability.includes(key))
+          .map(({ name }) => name)
         ];
 
     accumulator[key] = {
@@ -29,8 +29,8 @@ const getDaySchedule = (day) => {
   const [hourMessage, availableList] = [
     `Open from ${hours[day].open}am until ${hours[day].close}pm`,
     species
-      .filter((specie) => specie.availability.includes(day))
-      .map((specie) => specie.name)
+      .filter(({ availability }) => availability.includes(day))
+      .map(({ name }) => name)
   ];
 
   return {

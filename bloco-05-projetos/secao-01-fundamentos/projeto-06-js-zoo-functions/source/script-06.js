@@ -13,7 +13,7 @@ const computeData = (param, elephants) => {
 
     case 'names':
       return elephants.residents
-        .map((elephant) => elephant.name);
+        .map(({ name }) => name);
 
     case 'averageAge':
       return averageAge(elephants);
