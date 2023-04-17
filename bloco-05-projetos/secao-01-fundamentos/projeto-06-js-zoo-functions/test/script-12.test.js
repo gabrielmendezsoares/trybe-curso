@@ -1,25 +1,25 @@
-const getAnimalMap = require('../src/getAnimalMap');
+const getAnimalMap = require('../source/script-12');
 
-describe('14 - Implemente a função `getAnimalMap` para fazer o mapeamento geográfico dos animais de cada espécie', () => {
-  it('sem parâmetros, retorna animais categorizados por localização', () => {
+describe('12 - Tests for `getAnimalMap`', () => {
+  test('Tests with empty parameter', () => {
     const actual = getAnimalMap();
 
     const expected = {
       NE: ['lions', 'giraffes'],
       NW: ['tigers', 'bears', 'elephants'],
       SE: ['penguins', 'otters'],
-      SW: ['frogs', 'snakes'],
+      SW: ['frogs', 'snakes']
     };
 
     expect(actual).toEqual(expected);
   });
 
-  it('sem a opção `includeNames` especificada e somente com a opção `sex: female` especificada, retorna todos os animais categorizados por localização sem aplicar o filtro `sex`', () => {
+  test('Testes with `sex` key', () => {
     const expected = {
       NE: ['lions', 'giraffes'],
       NW: ['tigers', 'bears', 'elephants'],
       SE: ['penguins', 'otters'],
-      SW: ['frogs', 'snakes'],
+      SW: ['frogs', 'snakes']
     };
 
     const options = { sex: 'female' };
@@ -28,12 +28,12 @@ describe('14 - Implemente a função `getAnimalMap` para fazer o mapeamento geog
     expect(actual).toEqual(expected);
   });
 
-  it('sem a opção `includeNames` especificada e as opções `sex: female` e `sorted: true` forem especificadas, retorna animais categorizados por localização sem aplicar os filtros `sex` e `sorted`', () => {
+  test('Tests without `includeNames` key and with `sorted` key', () => {
     const expected = {
       NE: ['lions', 'giraffes'],
       NW: ['tigers', 'bears', 'elephants'],
       SE: ['penguins', 'otters'],
-      SW: ['frogs', 'snakes'],
+      SW: ['frogs', 'snakes']
     };
 
     const options = { sex: 'female', sorted: true };
@@ -42,108 +42,108 @@ describe('14 - Implemente a função `getAnimalMap` para fazer o mapeamento geog
     expect(actual).toEqual(expected);
   });
 
-  it('com a opção `includeNames: true` especificada, retorna nomes de animais', () => {
+  test('Tests with `includeNames` key', () => {
     const options = { includeNames: true };
     const actual = getAnimalMap(options);
 
     const expected = {
       NE: [
         { lions: ['Zena', 'Maxwell', 'Faustino', 'Dee'] },
-        { giraffes: ['Gracia', 'Antone', 'Vicky', 'Clay', 'Arron', 'Bernard'] },
+        { giraffes: ['Gracia', 'Antone', 'Vicky', 'Clay', 'Arron', 'Bernard'] }
       ],
       NW: [
         { tigers: ['Shu', 'Esther'] },
         { bears: ['Hiram', 'Edwardo', 'Milan'] },
-        { elephants: ['Ilana', 'Orval', 'Bea', 'Jefferson'] },
+        { elephants: ['Ilana', 'Orval', 'Bea', 'Jefferson'] }
       ],
       SE: [
         { penguins: ['Joe', 'Tad', 'Keri', 'Nicholas'] },
-        { otters: ['Neville', 'Lloyd', 'Mercedes', 'Margherita'] },
+        { otters: ['Neville', 'Lloyd', 'Mercedes', 'Margherita'] }
       ],
       SW: [
         { frogs: ['Cathey', 'Annice'] },
-        { snakes: ['Paulette', 'Bill'] },
-      ],
+        { snakes: ['Paulette', 'Bill'] }
+      ]
     };
 
     expect(actual).toEqual(expected);
   });
 
-  it('com a opção `sorted: true` especificada, retorna nomes de animais ordenados', () => {
+  test('Tests with `includeNames` and `sorted` keys', () => {
     const options = { includeNames: true, sorted: true };
     const actual = getAnimalMap(options);
 
     const expected = {
       NE: [
         { lions: ['Dee', 'Faustino', 'Maxwell', 'Zena'] },
-        { giraffes: ['Antone', 'Arron', 'Bernard', 'Clay', 'Gracia', 'Vicky'] },
+        { giraffes: ['Antone', 'Arron', 'Bernard', 'Clay', 'Gracia', 'Vicky'] }
       ],
       NW: [
         { tigers: ['Esther', 'Shu'] },
         { bears: ['Edwardo', 'Hiram', 'Milan'] },
-        { elephants: ['Bea', 'Ilana', 'Jefferson', 'Orval'] },
+        { elephants: ['Bea', 'Ilana', 'Jefferson', 'Orval'] }
       ],
       SE: [
         { penguins: ['Joe', 'Keri', 'Nicholas', 'Tad'] },
-        { otters: ['Lloyd', 'Margherita', 'Mercedes', 'Neville'] },
+        { otters: ['Lloyd', 'Margherita', 'Mercedes', 'Neville'] }
       ],
       SW: [
-        { frogs: ['Annice', 'Cathey'] }, { snakes: ['Bill', 'Paulette'] },
-      ],
+        { frogs: ['Annice', 'Cathey'] }, { snakes: ['Bill', 'Paulette'] }
+      ]
     };
 
     expect(actual).toEqual(expected);
   });
 
-  it('com a opção `sex: \'female\'` ou `sex: \'male\'` especificada, retorna somente nomes de animais macho/fêmea', () => {
+  test('Tests for `includeNames` and `sex` keys', () => {
     const options = { includeNames: true, sex: 'female' };
     const actual = getAnimalMap(options);
 
     const expected = {
       NE: [
         { lions: ['Zena', 'Dee'] },
-        { giraffes: ['Gracia', 'Vicky'] },
+        { giraffes: ['Gracia', 'Vicky'] }
       ],
       NW: [
         { tigers: ['Shu', 'Esther'] },
         { bears: [] },
-        { elephants: ['Ilana', 'Bea'] },
+        { elephants: ['Ilana', 'Bea'] }
       ],
       SE: [
         { penguins: ['Keri'] },
-        { otters: ['Mercedes', 'Margherita'] },
+        { otters: ['Mercedes', 'Margherita'] }
       ],
       SW: [
         { frogs: ['Cathey', 'Annice'] },
-        { snakes: ['Paulette'] },
-      ],
+        { snakes: ['Paulette'] }
+      ]
     };
 
     expect(actual).toEqual(expected);
   });
 
-  it('com a opção `sex: \'female\'` ou `sex: \'male\'` especificada e a opção `sort: true` especificada, retorna somente nomes de animais macho/fêmea com os nomes dos animais ordenados', () => {
+  test('Tests for `includeNames`, `sex` and `sorted` keys', () => {
     const options = { includeNames: true, sex: 'female', sorted: true };
     const actual = getAnimalMap(options);
-    
+
     const expected = {
       NE: [
         { lions: ['Dee', 'Zena'] },
-        { giraffes: ['Gracia', 'Vicky'] },
+        { giraffes: ['Gracia', 'Vicky'] }
       ],
       NW: [
         { tigers: ['Esther', 'Shu'] },
         { bears: [] },
-        { elephants: ['Bea', 'Ilana'] },
+        { elephants: ['Bea', 'Ilana'] }
       ],
       SE: [
         { penguins: ['Keri'] },
-        { otters: ['Margherita', 'Mercedes'] },
+        { otters: ['Margherita', 'Mercedes'] }
       ],
       SW: [
         { frogs: ['Annice', 'Cathey'] },
-        { snakes: ['Paulette'] },
-      ],
+        { snakes: ['Paulette'] }
+      ]
     };
 
     expect(actual).toEqual(expected);

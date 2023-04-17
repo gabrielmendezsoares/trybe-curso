@@ -1,4 +1,4 @@
-const { hours } = require('../data/script-01');
+const { hours } = require('../data/script');
 
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 const dayError = 'The day must be valid. Example: Monday';

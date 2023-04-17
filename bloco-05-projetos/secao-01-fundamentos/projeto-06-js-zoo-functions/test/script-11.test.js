@@ -1,6 +1,6 @@
 const getOpeningHours = require('../source/script-11');
 
-describe('02 - Tests for `getOpeningHours`', () => {
+describe('11 - Tests for `getOpeningHours`', () => {
   test('Testing with `empty` parameter', () => {
     const actual = getOpeningHours();
 

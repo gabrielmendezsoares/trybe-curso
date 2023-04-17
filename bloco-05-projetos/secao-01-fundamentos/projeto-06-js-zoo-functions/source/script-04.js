@@ -1,4 +1,4 @@
-const { employees } = require('../data/script-01');
+const { employees } = require('../data/script');
 
 const isManager = (id) => employees
   .some(({ managers }) => managers.includes(id));

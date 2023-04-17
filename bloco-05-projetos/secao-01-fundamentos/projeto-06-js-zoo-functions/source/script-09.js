@@ -1,4 +1,4 @@
-const { species, employees } = require('../data/script-01');
+const { species, employees } = require('../data/script');
 
 const getOldestFromFirstSpecies = (id) => {
   const { responsibleFor } = employees

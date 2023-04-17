@@ -1,4 +1,4 @@
-const { prices } = require('../data/script-01');
+const { prices } = require('../data/script');
 
 const countEntrants = (entrants) => {
   const child = entrants
