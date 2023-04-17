@@ -1,14 +1,14 @@
 const getSpeciesByIds = require('../source/script-01');
 
 describe('01 - Tests for `getSpeciesByIds`', () => {
-  test('Testing with empty parameter', () => {
+  test('Tests with empty parameter', () => {
     const actual = getSpeciesByIds();
     const expected = [];
 
     expect(actual).toEqual(expected);
   });
 
-  test('Testing with unique Id parameter', () => {
+  test('Tests with unique Id parameter', () => {
     {
       const actual = getSpeciesByIds('0938aa23-f153-4937-9f88-4858b24d6bce');
 
@@ -52,7 +52,7 @@ describe('01 - Tests for `getSpeciesByIds`', () => {
     }
   });
 
-  test('Testing with multiple Id parameters', () => {
+  test('Tests with multiple Id parameters', () => {
     const actual = getSpeciesByIds(
       '0938aa23-f153-4937-9f88-4858b24d6bce',
       'e8481c1d-42ea-4610-8e11-1752cfc05a46'

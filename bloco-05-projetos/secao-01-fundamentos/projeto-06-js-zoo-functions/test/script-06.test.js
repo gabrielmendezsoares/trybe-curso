@@ -1,61 +1,61 @@
 const handlerElephants = require('../source/script-06');
 
-describe('01 - Tests for `HandlerElephants`', () => {
-  test('Testing with `empty` parameter', () => {
+describe('06 - Tests for `HandlerElephants`', () => {
+  test('Tests with empty parameter', () => {
     const actual = handlerElephants();
 
     expect(actual).toBeUndefined();
   });
 
-  test('Testing with `0` parameter', () => {
+  test('Tests with `0` parameter', () => {
     const actual = handlerElephants(0);
     const expected = 'Parâmetro inválido, é necessário uma string';
 
     expect(actual).toBe(expected);
   });
 
-  test('Testing with `test` parameter', () => {
+  test('Tests with `test` parameter', () => {
     const actual = handlerElephants('test');
 
     expect(actual).toBeNull();
   });
 
-  test('Testing with `count` parameter', () => {
+  test('Tests with `count` parameter', () => {
     const actual = handlerElephants('count');
     const expected = 4;
 
     expect(actual).toBe(expected);
   });
 
-  test('Testing with `names` parameter', () => {
+  test('Tests with `names` parameter', () => {
     const actual = handlerElephants('names');
     const expected = 'Jefferson';
 
     expect(actual).toContain(expected);
   });
 
-  test('Testing with `averageAge` parameter', () => {
+  test('Tests with `averageAge` parameter', () => {
     const actual = handlerElephants('averageAge');
     const expected = 10.5;
 
     expect(actual).toBeCloseTo(expected);
   });
 
-  test('Testing with `location` parameter', () => {
+  test('Tests with `location` parameter', () => {
     const actual = handlerElephants('location');
     const expected = 'NW';
 
     expect(actual).toBe(expected);
   });
 
-  test('Testing with `popularity` parameter', () => {
+  test('Tests with `popularity` parameter', () => {
     const actual = handlerElephants('popularity');
     const expected = 5;
 
     expect(actual).toBe(expected);
   });
 
-  it('Testing with `availability` parameter', () => {
+  test('Tests with `availability` parameter', () => {
     const actual = handlerElephants('availability');
     const expected = ['Friday', 'Saturday', 'Sunday', 'Tuesday'];
 

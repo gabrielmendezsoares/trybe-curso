@@ -1,18 +1,19 @@
-const getEmployeeByName = require('../src/getEmployeeByName');
+const getEmployeeByName = require('../source/script-03');
 
 const lionId = '0938aa23-f153-4937-9f88-4858b24d6bce';
 const elephantsId = 'bb2a76d8-5fe3-4d03-84b7-dba9cfc048b5';
 const bearsId = 'baa6e93a-f295-44e7-8f70-2bcdc6f6948d';
 const snakesId = '78460a91-f4da-4dea-a469-86fd2b8ccc84';
 
-describe('3 - Implemente a função `getEmployeeByName` que busca as pessoas colaboradoras a partir do primeiro ou último nome', () => {
-  it('sem parâmetros, retorna um objeto vazio', () => {
+describe('03 - Tests for `getEmployeeByName`', () => {
+  test('Tests with empty parameter', () => {
     const actual = getEmployeeByName();
     const expected = {};
+
     expect(actual).toEqual(expected);
   });
 
-  it('quando provido o primeiro nome da pessoa colaboradora, retorna o objeto da pessoa colaboradora', () => {
+  test('Tests with first name as parameter', () => {
     const actual = getEmployeeByName('Emery');
 
     const expected = {
@@ -23,14 +24,14 @@ describe('3 - Implemente a função `getEmployeeByName` que busca as pessoas col
       responsibleFor: [
         lionId,
         bearsId,
-        elephantsId,
-      ],
+        elephantsId
+      ]
     };
 
     expect(actual).toEqual(expected);
   });
 
-  it('quando provido o último nome da pessoa colaboradora, retorna o objeto da pessoa colaboradora', () => {
+  test('Tests with last name as parameter', () => {
     const actual = getEmployeeByName('Wishart');
 
     const expected = {
@@ -39,12 +40,12 @@ describe('3 - Implemente a função `getEmployeeByName` que busca as pessoas col
       lastName: 'Wishart',
       managers: [
         '0e7b460e-acf4-4e17-bcb3-ee472265db83',
-        'fdb2543b-5662-46a7-badc-93d960fdc0a8',
+        'fdb2543b-5662-46a7-badc-93d960fdc0a8'
       ],
       responsibleFor: [
         snakesId,
-        elephantsId,
-      ],
+        elephantsId
+      ]
     };
 
     expect(actual).toEqual(expected);
