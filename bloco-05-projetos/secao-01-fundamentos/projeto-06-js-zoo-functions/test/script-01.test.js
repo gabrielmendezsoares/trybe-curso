@@ -1,63 +1,85 @@
-const handlerElephants = require('../source/script-06');
+const getSpeciesByIds = require('../source/script-01');
 
-describe('01 - Tests for `HandlerElephants`', () => {
-  test('Testing with `empty` parameter', () => {
-    const actual = handlerElephants();
-
-    expect(actual).toBeUndefined();
+describe('1 - Implemente a função `getSpeciesByIds` que busca as espécies de animais por id', () => {
+  it('caso receba nenhum parâmetro, é necessário retornar um array vazio', () => {
+    const actual = getSpeciesByIds();
+    const expected = [];
+    expect(actual).toEqual(expected);
   });
 
-  test('Testing with `0` parameter', () => {
-    const actual = handlerElephants(0);
-    const expected = 'Parâmetro inválido, é necessário uma string';
+  it('ao receber como parâmetro um único id, retorna um array com a espécie referente à esse id', () => {
+    {
+      const actual = getSpeciesByIds('0938aa23-f153-4937-9f88-4858b24d6bce');
 
-    expect(actual).toBe(expected);
+      const expected = [{
+        id: '0938aa23-f153-4937-9f88-4858b24d6bce',
+        name: 'lions',
+        popularity: 4,
+        location: 'NE',
+        availability: ['Tuesday', 'Thursday', 'Saturday', 'Sunday'],
+        residents: [
+          { name: 'Zena', sex: 'female', age: 12 },
+          { name: 'Maxwell', sex: 'male', age: 15 },
+          { name: 'Faustino', sex: 'male', age: 7 },
+          { name: 'Dee', sex: 'female', age: 14 },
+        ],
+      }];
+
+      expect(actual).toEqual(expected);
+    }
+    {
+      const actual = getSpeciesByIds('01422318-ca2d-46b8-b66c-3e9e188244ed');
+
+      const expected = [{
+        id: '01422318-ca2d-46b8-b66c-3e9e188244ed',
+        name: 'giraffes',
+        popularity: 4,
+        location: 'NE',
+        availability: ['Wednesday', 'Thursday', 'Tuesday', 'Friday'],
+        residents: [
+          { name: 'Gracia', sex: 'female', age: 11 },
+          { name: 'Antone', sex: 'male', age: 9 },
+          { name: 'Vicky', sex: 'female', age: 12 },
+          { name: 'Clay', sex: 'male', age: 4 },
+          { name: 'Arron', sex: 'male', age: 7 },
+          { name: 'Bernard', sex: 'male', age: 6 },
+        ],
+      }];
+
+      expect(actual).toEqual(expected);
+    }
   });
 
-  test('Testing with `test` parameter', () => {
-    const actual = handlerElephants('test');
+  it('ao receber mais de um id, retorna um array com as espécies referentes aos ids', () => {
+    const actual = getSpeciesByIds(
+      '0938aa23-f153-4937-9f88-4858b24d6bce',
+      'e8481c1d-42ea-4610-8e11-1752cfc05a46',
+    );
 
-    expect(actual).toBeNull();
-  });
-
-  test('Testing with `count` parameter', () => {
-    const actual = handlerElephants('count');
-    const expected = 4;
-
-    expect(actual).toBe(expected);
-  });
-
-  test('Testing with `names` parameter', () => {
-    const actual = handlerElephants('names');
-    const expected = 'Jefferson';
-
-    expect(actual).toContain(expected);
-  });
-
-  test('Testing with `averageAge` parameter', () => {
-    const actual = handlerElephants('averageAge');
-    const expected = 10.5;
-
-    expect(actual).toBeCloseTo(expected);
-  });
-
-  test('Testing with `location` parameter', () => {
-    const actual = handlerElephants('location');
-    const expected = 'NW';
-
-    expect(actual).toBe(expected);
-  });
-
-  test('Testing with `popularity` parameter', () => {
-    const actual = handlerElephants('popularity');
-    const expected = 5;
-
-    expect(actual).toBe(expected);
-  });
-
-  it('Testing with `availability` parameter', () => {
-    const actual = handlerElephants('availability');
-    const expected = ['Friday', 'Saturday', 'Sunday', 'Tuesday'];
+    const expected = [{
+      id: '0938aa23-f153-4937-9f88-4858b24d6bce',
+      name: 'lions',
+      popularity: 4,
+      location: 'NE',
+      availability: ['Tuesday', 'Thursday', 'Saturday', 'Sunday'],
+      residents: [
+        { name: 'Zena', sex: 'female', age: 12 },
+        { name: 'Maxwell', sex: 'male', age: 15 },
+        { name: 'Faustino', sex: 'male', age: 7 },
+        { name: 'Dee', sex: 'female', age: 14 },
+      ],
+    },
+    {
+      id: 'e8481c1d-42ea-4610-8e11-1752cfc05a46',
+      name: 'tigers',
+      popularity: 5,
+      location: 'NW',
+      availability: ['Wednesday', 'Friday', 'Saturday', 'Tuesday'],
+      residents: [
+        { name: 'Shu', sex: 'female', age: 19 },
+        { name: 'Esther', sex: 'female', age: 17 },
+      ],
+    }];
 
     expect(actual).toEqual(expected);
   });

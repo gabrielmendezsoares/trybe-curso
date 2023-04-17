@@ -1,4 +1,4 @@
-const { species } = require('../data/zoo_data');
+const { species } = require('../data/script-01');
 
 const getCompactInfo = (filteredSpecies) => filteredSpecies.map(({ name }) => name);
 
