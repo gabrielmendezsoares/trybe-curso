@@ -27,20 +27,20 @@ describe('10 - Tests for `getEmployeesCoverage`', () => {
     expect(actual).toEqual(expected);
   });
 
-  it('se o objeto de opções tiver a propriedade id retorna somente a pessoa correspondente', () => {
+  test('Tests for `id` key', () => {
     const actual = getEmployeesCoverage({ id: 'c1f50212-35a6-4ecd-8223-f835538526c2' });
 
     const expected = {
       id: 'c1f50212-35a6-4ecd-8223-f835538526c2',
       fullName: 'Ardith Azevado',
       species: ['tigers', 'bears'],
-      locations: ['NW', 'NW'],
+      locations: ['NW', 'NW']
     };
 
     expect(actual).toEqual(expected);
   });
 
-  it('sem parâmetros, retorna uma lista com a cobertura de todas as pessoas colaboradoras', () => {
+  test('Tests for empty parameter', () => {
     const actual = getEmployeesCoverage();
 
     const expected = [
