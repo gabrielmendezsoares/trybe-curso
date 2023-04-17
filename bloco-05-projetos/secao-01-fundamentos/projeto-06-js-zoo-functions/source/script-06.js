@@ -1,4 +1,4 @@
-const { species } = require('../data/script-01');
+const { species } = require('../data/script');
 
 const getElephants = () => species
   .find(({ name }) => name === 'elephants');

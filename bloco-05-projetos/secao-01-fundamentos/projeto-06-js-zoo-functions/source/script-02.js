@@ -1,4 +1,4 @@
-const { species } = require('../data/script-01');
+const { species } = require('../data/script');
 
 const getAnimalsOlderThan = (animal, age) => species
   .find(({ name }) => name === animal).residents
