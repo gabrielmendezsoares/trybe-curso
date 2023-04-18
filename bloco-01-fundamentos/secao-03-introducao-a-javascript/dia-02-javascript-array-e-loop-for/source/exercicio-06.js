@@ -1,6 +1,6 @@
 const arrayNumbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 const arrayMultiplied = [];
-const inputFormat = 'Quadrado';
+const inputFormat = 'Square';
 const inputSymbol = '*';
 const bubbleSort = '+';
 
@@ -24,7 +24,7 @@ if (bubbleSort === '+') {
     }
   }
 
-  console.log('Números: ' + arrayNumbers);
+  console.log('Numbers: ' + arrayNumbers);
 } else if (bubbleSort === '-') {
   for (let externalIndex = 1; externalIndex < arrayNumbers.length; externalIndex += 1) {
     for (let internalIndex = 0; internalIndex < externalIndex; internalIndex += 1) {
@@ -37,10 +37,10 @@ if (bubbleSort === '+') {
     }
   }
 
-  console.log('Números: ' + arrayNumbers);
+  console.log('Numbers: ' + arrayNumbers);
 }
 
-if (inputFormat === 'Quadrado') {
+if (inputFormat === 'Square') {
   let inputLine = '';
   const inputLimit = 25;
 
@@ -51,7 +51,7 @@ if (inputFormat === 'Quadrado') {
   for (let index = 0; index < inputLimit; index += 1) {
     console.log(inputLine);
   }
-} else if (inputFormat === 'Triângulo Retângulo Esquerdo') {
+} else if (inputFormat === 'Left triangle rectangle') {
   let inputLine = '';
   const inputLimit = 25;
 
@@ -59,7 +59,7 @@ if (inputFormat === 'Quadrado') {
     inputLine += inputSymbol;
     console.log(inputLine);
   }
-} else if (inputFormat === 'Triângulo Retângulo Direito') {
+} else if (inputFormat === 'Right triangle rectangle') {
   let inputLine = '';
   const inputLimit = 25;
   let inputPosition = inputLimit - 1;
@@ -77,7 +77,7 @@ if (inputFormat === 'Quadrado') {
     inputLine = '';
     inputPosition -= 1;
   }
-} else if (inputFormat === 'Triângulo Equilátero Interno') {
+} else if (inputFormat === 'Internal equilateral triangle') {
   let inputLine = '';
   const inputLimit = 25;
   const inputMatrix = (inputLimit + 1) / 2;
@@ -99,7 +99,7 @@ if (inputFormat === 'Quadrado') {
     controlRight += 1;
     console.log(inputLine);
   }
-} else if (inputFormat === 'Triângulo Equilátero Externo') {
+} else if (inputFormat === 'External equilateral triangle') {
   let inputLine = '';
   const inputLimit = 25;
   const inputMatrix = (inputLimit + 1) / 2;

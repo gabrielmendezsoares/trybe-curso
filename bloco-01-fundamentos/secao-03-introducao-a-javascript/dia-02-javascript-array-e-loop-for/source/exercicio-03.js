@@ -22,7 +22,7 @@ for (let index = 0; index < numbers.length; index += 1) {
   }
 
   sum += numbers[index];
-  console.log('Elemento Número: ' + numbers[index]);
+  console.log('Element number: ' + numbers[index]);
 }
 
 for (let index = 1; index <= 20; index += 1) {
@@ -31,45 +31,45 @@ for (let index = 1; index <= 20; index += 1) {
 
 for (let index = 0; index < content.length; index += 1) {
   const operation = content[index] / 2;
-  console.log('Resultado Divisão: ' + operation);
+  console.log('Division result: ' + operation);
 }
 
 if (evenCount > 0) {
-  console.log('Valores pares achados: ' + evenCount);
+  console.log('Even values: ' + evenCount);
 } else if (evenCount === 0) {
-  console.log('Nenhum valor par achado.');
+  console.log('No even value found');
 } else {
-  console.log('Erro, valor inválido!');
+  console.log('Invalid information');
 }
 
 if (oddCount > 0) {
-  console.log('Valores ímpares achados: ' + oddCount);
+  console.log('Odd values: ' + oddCount);
 } else if (oddCount === 0) {
-  console.log('Nenhum valor ímpar achado.');
+  console.log('No odd value found');
 } else {
-  console.log('Erro, valor inválido!');
+  console.log('Invalid information');
 }
 
 if (sum >= 0) {
   if (sum > 10) {
-    console.log('A soma total é maior que 10.');
+    console.log('+ 10');
   } else if (sum < 10) {
-    console.log('A soma total é menor que 10.');
+    console.log('- 10');
   } else if (sum === 10) {
-    console.log('A soma total é igual a 10.');
+    console.log('10');
   } else if (sum === 0) {
-    console.log('A soma total é igual a 0.');
+    console.log('0');
   }
 } else {
-  console.log('A soma total é negativa.');
+  console.log('Total sum is negative');
 }
 
 average = sum / numbers.length;
 console.log('Array [numbers]: ' + numbers);
 console.log('Array [content]: ' + content);
-console.log('Maior Número: ' + higherNumber);
-console.log('Menor Número: ' + lowerNumber);
-console.log('Pares: ' + evenCount);
-console.log('Ímpares: ' + oddCount);
-console.log('Soma Total: ' + sum);
-console.log('Média: ' + average);
+console.log('Highest number: ' + higherNumber);
+console.log('Lowest number: ' + lowerNumber);
+console.log('Even: ' + evenCount);
+console.log('Odd: ' + oddCount);
+console.log('Total sum: ' + sum);
+console.log('Average: ' + average);
