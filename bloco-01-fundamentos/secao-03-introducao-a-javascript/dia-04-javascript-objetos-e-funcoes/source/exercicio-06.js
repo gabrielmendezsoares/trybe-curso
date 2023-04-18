@@ -1,21 +1,21 @@
 const lesson1 = {
-  materia: 'Matemática',
-  numeroEstudantes: 20,
-  professor: 'Maria Clara',
-  turno: 'manhã'
+  subject: 'Mathematic',
+  studentNumber: 20,
+  teacher: 'Maria Clara',
+  turn: 'morning'
 };
 
 const lesson2 = {
-  materia: 'História',
-  numeroEstudantes: 20,
-  professor: 'Carlos'
+  subject: 'History',
+  studentNumber: 20,
+  teacher: 'Carlos'
 };
 
 const lesson3 = {
-  materia: 'Matemática',
-  numeroEstudantes: 10,
-  professor: 'Maria Clara',
-  turno: 'noite'
+  subject: 'Mathematic',
+  studentNumber: 10,
+  teacher: 'Maria Clara',
+  turn: 'night'
 };
 
 const allLessons = Object.assign({}, {
@@ -45,7 +45,7 @@ function getNumberOfStudents (obj) {
   const keys = Object.keys(obj);
 
   for (const index in keys) {
-    total += obj[keys[index]].numeroEstudantes;
+    total += obj[keys[index]].studentNumber;
   }
 
   return total;
@@ -69,8 +69,8 @@ function getNumberOfStudentsMath (obj) {
   const keys = Object.keys(obj);
 
   for (const index in keys) {
-    if (obj[keys[index]].materia === 'Matemática') {
-      total += obj[keys[index]].numeroEstudantes;
+    if (obj[keys[index]].subject === 'Matemática') {
+      total += obj[keys[index]].studentNumber;
     }
   }
 
@@ -83,9 +83,9 @@ function getInfo (obj, name) {
   const values = Object.values(obj);
 
   for (const index in values) {
-    if (values[index].professor === name) {
-      allLessons.push(values[index].materia);
-      numberStudents += values[index].numeroEstudantes;
+    if (values[index].teacher === name) {
+      allLessons.push(values[index].subject);
+      numberStudents += values[index].studentNumber;
     }
   }
 
@@ -95,16 +95,16 @@ function getInfo (obj, name) {
 function createReport (allLessons, name) {
   const report = {};
 
-  report.professor = name;
+  report.teacher = name;
   Object.assign(report, getInfo(allLessons, name));
   return report;
 }
 
-addKey(lesson2, 'turno', 'tarde');
+addKey(lesson2, 'turn', 'afternoon');
 getKeys(lesson1);
 getValues(lesson1);
 getLength(lesson1);
 console.log(getNumberOfStudents(allLessons));
-console.log(verifyPair(lesson2, 'professor', 'Carlos'));
+console.log(verifyPair(lesson2, 'teacher', 'Carlos'));
 console.log(getNumberOfStudentsMath(allLessons));
 console.log(createReport(allLessons, 'Maria Clara'));
