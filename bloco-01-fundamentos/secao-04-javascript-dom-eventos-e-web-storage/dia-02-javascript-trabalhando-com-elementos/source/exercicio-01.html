@@ -26,15 +26,15 @@
   </main>
   <script>
     const selected = document.getElementById('selected');
-    const ancestor = selected.parentElement;
+    const pai = selected.parentElement;
     const primeiroFilhoDoFilho = selected.firstElementChild;
-    const primeiroFilho = ancestor.firstElementChild;
+    const primeiroFilho = pai.firstElementChild;
     const primeiroFilho2 = selected.previousElementSibling;
     const textElement = selected.nextSibling;
     const terceiroFilho = selected.nextElementSibling;
-    const terceiroFilho2 = ancestor.lastElementChild.previousElementSibling;
+    const terceiroFilho2 = pai.lastElementChild.previousElementSibling;
 
-    ancestor.style.color = 'red';
+    pai.style.color = 'red';
     primeiroFilhoDoFilho.innerText = 'primeiroFilhoDoFilho';
   </script>
 </body>
