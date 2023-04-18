@@ -10,4 +10,4 @@ if ([valueA, valueB, valueC].some((value) => value % 2 !== 0)) {
   valueStatus = 'Even';
 }
 
-console.log(`Status value: ${valueStatus}`);
+console.log(`Value: ${valueStatus}`);
