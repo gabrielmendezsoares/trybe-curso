@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1681744794437" clover="3.2.0">
-  <project timestamp="1681744794437" name="All files">
+<coverage generated="1681836374604" clover="3.2.0">
+  <project timestamp="1681836374605" name="All files">
     <metrics statements="391" coveredstatements="388" conditionals="158" coveredconditionals="152" methods="102" coveredmethods="102" elements="651" coveredelements="642" complexity="0" loc="391" ncloc="391" packages="5" files="32" classes="32"/>
     <package name="bloco-01-fundamentos.secao-06-introducao-a-javascript-es6-e-testes-unitarios.dia-02-primeiros-passos-em-jest.source">
       <metrics statements="49" coveredstatements="49" conditionals="20" coveredconditionals="20" methods="7" coveredmethods="7"/>
@@ -231,7 +231,7 @@
     </package>
     <package name="bloco-05-projetos.secao-01-fundamentos.projeto-06-js-zoo-functions.data">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="script-01.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-06-js-zoo-functions/data/script-01.js">
+      <file name="script.js" path="/home/gabriel/Área de Trabalho/Workspace/trybe-curso/bloco-05-projetos/secao-01-fundamentos/projeto-06-js-zoo-functions/data/script.js">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="12" type="stmt"/>
         <line num="2" count="12" type="stmt"/>
