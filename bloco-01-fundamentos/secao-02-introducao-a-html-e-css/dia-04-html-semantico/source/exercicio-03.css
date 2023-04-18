@@ -9,18 +9,18 @@ body {
   background-color: rgb(50 50 50);
 }
 
-h2 {
+h1, h2 {
   margin: 0;
-  color: palegreen;
+  color: lightgrey;
 }
 
 h3, h4 {
   margin: 0;
-  color: white;
+  color: darkgrey;
 }
 
 p, li, th, td {
-  color: white;
+  color: grey;
 }
 
 strong {
@@ -34,23 +34,24 @@ img {
 }
 
 a {
-  color: orangered;
+  text-decoration: none;
+  font-weight: 100;
+  color: rgb(240 190 140);
 }
 
 a:not(:hover) {
-  text-decoration: none;
-  color: palegoldenrod;
+  
+  color: tan;
   transition: 0.5s;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: orangered;
+  color: palegoldenrod;
   transition: 0.5s;
 }
 
 #header {
-  background-color: black;
+  background-color: rgb(70 70 70);
 }
 
 #title {
@@ -58,7 +59,6 @@ a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  color: palegreen;
 }
 
 #menu {
@@ -144,12 +144,12 @@ a:hover {
 }
 
 #footer {
-  background-color: black;
+  background-color: rgb(70 70 70);
 }
 
-#rights {
+#copyright {
   margin: 0;
   padding: 20px;
   text-align: left;
-  color: palegreen;
+  color: grey;
 }
