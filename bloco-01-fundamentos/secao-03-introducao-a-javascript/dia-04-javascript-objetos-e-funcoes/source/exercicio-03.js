@@ -1,29 +1,29 @@
 const primaryObject = {
-  personagem: 'Margarida',
-  origem: 'Pato Donald',
-  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald'
+  character: 'Margarida',
+  origin: 'Pato Donald',
+  note: 'Lorem ipsum'
 };
 
 const secondaryObject = {
-  personagem: 'Tio Patinhas',
-  origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
-  nota: 'O último MacPatinhas',
-  recorrente: 'Sim'
+  character: 'Tio Patinhas',
+  origin: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
+  note: 'Lorem ipsum',
+  recurrent: 'Yes'
 };
 
-primaryObject.recorrente = 'Sim';
+primaryObject.recurrent = 'Yes';
 
 for (const key in primaryObject) {
-  console.log(`Chave: ${key}`);
+  console.log(`Key: ${key}`);
 }
 
 for (const key in primaryObject) {
-  console.log(`Valor: ${primaryObject[key]}`);
+  console.log(`Value: ${primaryObject[key]}`);
 }
 
 for (const key in primaryObject) {
-  if (key === 'recorrente' && primaryObject[key] === 'Sim' && secondaryObject[key] === 'Sim') {
-    console.log('Ambos recorrentes');
+  if (key === 'recurrent' && primaryObject[key] === 'Yes' && secondaryObject[key] === 'Yes') {
+    console.log('Both recurrents');
   } else {
     console.log(`${primaryObject[key]} e ${secondaryObject[key]}`);
   }

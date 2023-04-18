@@ -22,12 +22,12 @@ const car = {
 
 player.bestInTheWorld = [2006, 2007, 2008, 2009, 2010, 2018];
 console.table(player.bestInTheWorld);
-console.log(`A jogadora ${player.name} ${player.lastName} tem ${player.age} anos de idade.`);
-console.log(`A jogadora ${player.name} ${player.lastName} possui ${player.medals.golden} medalhas de ouro e ${player.medals.silver} medalhas de prata.`);
+console.log(`The player ${player.name} ${player.lastName} has ${player.age} years.`);
+console.log(`The player ${player.name} ${player.lastName} has ${player.medals.golden} golden medals and ${player.medals.silver} silver medals .`);
 console.table(names);
 
 for (const key in names) {
-  console.log(`Pessoa: ${names[key]}`);
+  console.log(`Person: ${names[key]}`);
 }
 
 console.table(car);
