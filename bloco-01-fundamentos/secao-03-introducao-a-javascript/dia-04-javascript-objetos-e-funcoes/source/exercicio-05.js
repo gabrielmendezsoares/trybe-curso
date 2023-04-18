@@ -35,7 +35,7 @@ const order = {
 };
 
 function customerInfo (order) {
-  console.log(`Olá, ${order.order.delivery.deliveryPerson}, entrega para: ${order.name}, Telefone: ${order.phoneNumber}, R. ${order.address.street}, Nº: ${order.address.number}, AP: ${order.address.apartment}`);
+  console.log(`Hi, ${order.order.delivery.deliveryPerson}, delivery for: ${order.name}, phone: ${order.phoneNumber}, S. ${order.address.street}, Nº: ${order.address.number}, AP: ${order.address.apartment}`);
 }
 
 customerInfo(order);
@@ -46,7 +46,7 @@ function orderModifier (order) {
   const pizzas = Object.keys(order.order.pizza);
   const drinks = order.order.drinks.coke.type;
 
-  console.log('Olá, ' + newBuyer + ', o total do seu pedido de ' + pizzas[0] + ', ' + pizzas[1] + ' e ' + drinks + ' é R$ ' + newTotal + ',00.');
+  console.log('Hi, ' + newBuyer + ', your delivery ' + pizzas[0] + ', ' + pizzas[1] + ' and ' + drinks + ' is $ ' + newTotal + ',00.');
 }
 
 orderModifier(order);
