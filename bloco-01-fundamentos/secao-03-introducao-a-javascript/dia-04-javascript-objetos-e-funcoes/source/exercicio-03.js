@@ -1,11 +1,11 @@
 const primaryObject = {
-  character: 'Margarida',
-  origin: 'Pato Donald',
+  character: 'Daisy Duck',
+  origin: 'Donald Duck',
   note: 'Lorem ipsum'
 };
 
 const secondaryObject = {
-  character: 'Tio Patinhas',
+  character: 'Scrooge McDuck',
   origin: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
   note: 'Lorem ipsum',
   recurrent: 'Yes'
