@@ -1,4 +1,4 @@
-function verificaPalindromo (string) {
+function verifyPalindrome (string) {
   const reverseString = string.split('').reverse().join('');
 
   if (reverseString === string) {
@@ -8,7 +8,7 @@ function verificaPalindromo (string) {
   return false;
 }
 
-function indiceDoMaior (array) {
+function indexOfHighest (array) {
   let higherElement = array[0];
   let higherIndex = 0;
 
@@ -22,7 +22,7 @@ function indiceDoMaior (array) {
   return higherIndex;
 }
 
-function indiceDoMenor (array) {
+function indexOfLowest (array) {
   let lowerElement = array[0];
   let lowerIndex = 0;
 
@@ -36,7 +36,7 @@ function indiceDoMenor (array) {
   return lowerIndex;
 }
 
-function maiorPalavra (array) {
+function biggestWord (array) {
   let higherString = array[0];
 
   for (let index = 1; index < array.length; index += 1) {
@@ -48,7 +48,7 @@ function maiorPalavra (array) {
   return higherString;
 }
 
-function criarDicionario (array) {
+function createDictionary (array) {
   const dictionary = {};
 
   for (let index = 0; index < array.length; index += 1) {
@@ -64,8 +64,8 @@ function criarDicionario (array) {
   return dictionary;
 }
 
-function maisRepetido (array) {
-  const dictionary = criarDicionario(array);
+function mostRepeated (array) {
+  const dictionary = createDictionary(array);
   let mostRepeated = 0;
   let highestScore = 0;
 
@@ -79,7 +79,7 @@ function maisRepetido (array) {
   return mostRepeated;
 }
 
-function somatorio (number) {
+function sum (number) {
   let sum = 0;
 
   for (let index = 1; index <= number; index += 1) {
@@ -90,10 +90,10 @@ function somatorio (number) {
     return sum;
   }
 
-  return 'ERRO';
+  return 'Invalid information';
 }
 
-function verificaFimPalavra (palavra1, palavra2) {
+function verifyWordEnd (palavra1, palavra2) {
   const indexPosition = palavra1.length - palavra2.length;
   let stringWord = '';
 
@@ -110,10 +110,10 @@ function verificaFimPalavra (palavra1, palavra2) {
   return false;
 }
 
-verificaPalindromo('arara');
-indiceDoMaior([1, 3, 5, 7, 9, 11]);
-indiceDoMenor([1, 3, 5, 7, 9, 11]);
-maiorPalavra(['Anna', 'João', 'Gabriel']);
-maisRepetido([1, 3, 5, 7, 9, 11, 1]);
-somatorio(10);
-verificaFimPalavra('João', 'ão');
+verifyPalindrome('arara');
+indexOfHighest([1, 3, 5, 7, 9, 11]);
+indexOfLowest([1, 3, 5, 7, 9, 11]);
+biggestWord(['Anna', 'João', 'Gabriel']);
+mostRepeated([1, 3, 5, 7, 9, 11, 1]);
+sum(10);
+verifyWordEnd('João', 'ão');

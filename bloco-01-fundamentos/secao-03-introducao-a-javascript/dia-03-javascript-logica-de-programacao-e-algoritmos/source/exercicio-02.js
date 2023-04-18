@@ -3,9 +3,9 @@ const clients = ['Ada', 'John', 'Gus'];
 function addClient (client) {
   if (typeof client === 'string') {
     clients.push(client);
-    return `${client} Adicionado.`;
+    return `${client} Added`;
   } else {
-    return 'Erro, o parâmetro passado precisa ser do tipo "string"!';
+    return 'Invalid information';
   }
 }
 
@@ -17,14 +17,14 @@ function removeClient (client) {
       if (client === clients[index]) {
         clients.splice(index, 1);
         clientFound = true;
-        return `${client} Removido.`;
+        return `${client} Removed`;
       }
     }
     if (!clientFound) {
-      return 'Client not found.';
+      return 'Client not found';
     }
   } else {
-    return 'Erro, o parâmetro passado precisa ser do tipo "string"!';
+    return 'Invalid information';
   }
 }
 
