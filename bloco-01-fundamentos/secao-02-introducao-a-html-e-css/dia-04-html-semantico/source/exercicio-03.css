@@ -1,7 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  line-height: normal;
 }
 
 body {
@@ -9,48 +8,53 @@ body {
   background-color: rgb(50 50 50);
 }
 
-h2 {
-  margin: 0;
-  color: palegreen;
+h1 {
+  color: lightgrey;
 }
 
-h3, h4 {
-  margin: 0;
-  color: white;
+h2, h3 {
+  font-weight: 100;
+  color: darkgrey;
 }
 
-p, li, th, td {
-  color: white;
+th {
+  color: lightgrey;
+}
+
+p, td {
+  color: darkgrey;
 }
 
 strong {
-  color: crimson;
+  color: white;
 }
 
 img {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 300px;
+  border-radius: 10px;
 }
 
 a {
-  color: orangered;
+  text-decoration: none;
+  font-weight: 100;
+  color: tan;
 }
 
 a:not(:hover) {
-  text-decoration: none;
-  color: palegoldenrod;
+  
+  color: tan;
   transition: 0.5s;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: orangered;
+  color: palegoldenrod;
   transition: 0.5s;
 }
 
 #header {
-  background-color: black;
+  background-color: rgb(70 70 70);
 }
 
 #title {
@@ -58,7 +62,6 @@ a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  color: palegreen;
 }
 
 #menu {
@@ -85,35 +88,44 @@ a:hover {
 }
 
 #primary-content p {
-  margin: 0 auto;
   text-align: justify;
-  width: 400px;
+  width: 800px;
 }
 
-#secao-classification {
-  margin-top: 200px;
+#section-classification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #section-description {
   margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #section-capacity {
   margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #section-bibliography {
   margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#table {
-  margin: 50px auto 0;
+#data {
   border-collapse: collapse;
 }
 
-#table th , td {
+#data th , td {
   padding: 20px;
-  border: 1px solid white;
+  border: 1px solid lightgrey;
 }
 
 #video {
@@ -126,7 +138,6 @@ a:hover {
 }
 
 #section-bibliography ul {
-  margin: 50px 0 0;
   padding: 0;
   text-align: center;
   list-style: none;
@@ -144,12 +155,11 @@ a:hover {
 }
 
 #footer {
-  background-color: black;
+  background-color: rgb(70 70 70);
 }
 
-#rights {
+#copyright {
   margin: 0;
   padding: 20px;
   text-align: left;
-  color: palegreen;
 }
