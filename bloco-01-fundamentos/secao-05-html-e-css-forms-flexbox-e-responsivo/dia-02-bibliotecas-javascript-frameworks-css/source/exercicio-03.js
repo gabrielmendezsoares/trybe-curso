@@ -64,49 +64,49 @@ validate
   .addField('#fullName', [
     {
       rule: 'required',
-      errorMessage: 'O campo de nome é obrigatório.'
+      errorMessage: 'Name is required.'
     },
     {
       rule: 'maxLength',
       value: 40,
-      errorMessage: 'O limite é de 40 caracteres.'
+      errorMessage: 'Limit 40 characters.'
     },
     {
       rule: 'minLength',
       value: 10,
-      errorMessage: 'O mínimo é de 10 caracteres.'
+      errorMessage: 'Minimum 10 character.'
     }
   ])
   .addField('#email', [
     {
       rule: 'required',
-      errorMessage: 'O campo de email é obrigatório.'
+      errorMessage: 'Email is required.'
     },
     {
       rule: 'email',
-      errorMessage: 'O email digitado não é válido.'
+      errorMessage: 'Email is not valid.'
     },
     {
       rule: 'maxLength',
       value: 50,
-      errorMessage: 'O limite é de 50 caracteres.'
+      errorMessage: 'Limit is 50 characters.'
     }
   ])
   .addField('#why', [
     {
       rule: 'required',
-      errorMessage: 'O campo de resposta é obrigatório.'
+      errorMessage: 'Answer is required.'
     },
     {
       rule: 'maxLength',
       value: 500,
-      errorMessage: 'O limite é de 500 caracteres'
+      errorMessage: 'Limit is 500 character'
     }
   ])
   .addField('#date', [
     {
       rule: 'required',
-      errorMessage: 'O campo de data é obrigatório.'
+      errorMessage: 'Date is required.'
     }
   ]);
 
