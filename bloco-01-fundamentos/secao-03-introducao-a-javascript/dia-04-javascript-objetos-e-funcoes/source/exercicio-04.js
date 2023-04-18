@@ -1,4 +1,4 @@
-const leitor = {
+const reader = {
   name: 'Julia',
   lastName: 'Pessoa',
   age: 21,
@@ -11,7 +11,7 @@ const leitor = {
   ]
 };
 
-leitor.favoriteBooks.push(
+reader.favoriteBooks.push(
   {
     title: 'Harry Potter e o Prisioneiro de Azkaban',
     author: 'JK Rowling',
@@ -19,5 +19,5 @@ leitor.favoriteBooks.push(
   }
 );
 
-console.log(`The favorite book of ${leitor.name} ${leitor.lastName} is '${leitor.favoriteBooks[0].title}'`);
-console.log(`${leitor.name} ${leitor.lastName} has ${leitor.favoriteBooks.length} favorite books`);
+console.log(`The favorite book of ${reader.name} ${reader.lastName} is '${reader.favoriteBooks[0].title}'`);
+console.log(`${reader.name} ${reader.lastName} has ${reader.favoriteBooks.length} favorite books`);
