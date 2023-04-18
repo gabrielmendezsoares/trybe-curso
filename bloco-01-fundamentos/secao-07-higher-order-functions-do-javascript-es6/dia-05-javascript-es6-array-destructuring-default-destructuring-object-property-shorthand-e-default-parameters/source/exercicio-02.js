@@ -1,6 +1,6 @@
-let comida = 'gato';
-let animal = 'água';
-let bebida = 'arroz';
+let food = 'cat';
+let animal = 'water';
+let drink = 'rice';
 
-[comida, animal, bebida] = [bebida, comida, animal];
-console.log(comida, animal, bebida);
+[food, animal, drink] = [drink, food, animal];
+console.log(food, animal, drink);

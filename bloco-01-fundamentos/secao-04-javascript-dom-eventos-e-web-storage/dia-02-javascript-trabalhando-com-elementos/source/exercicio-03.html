@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercício</title>
+  <title>Exercise</title>
 </head>
 
 <body>
-  <main id="paiDoPai">
-    <section id="pai">
-      <section id="primeiroFilho">
-        <h2>Primeiro Filho</h2>
+  <main>
+    <section>
+      <section>
+        <h2>A</h2>
       </section>
 
-      <section id="elementoOndeVoceEsta">
-        <h2>Elemento que você deve remover</h2>
+      <section id="selected">
+        <h2>B</h2>
       </section>
 
-      <section id="terceiroFilho">
-        <h2>Terceiro Filho</h2>
+      <section>
+        <h2>C</h2>
       </section>
 
-      <section id="quartoEUltimoFilho">
-        <h2>Quarto Filho</h2>
+      <section>
+        <h2>D</h2>
       </section>
     </section>
   </main>
   <script>
-    const pai = document.getElementById('elementoOndeVoceEsta');
+    const ancestor = document.getElementById('selected');
 
-    pai.removeChild(pai.firstElementChild);
+    ancestor.removeChild(ancestor.firstElementChild);
   </script>
 </body>
 

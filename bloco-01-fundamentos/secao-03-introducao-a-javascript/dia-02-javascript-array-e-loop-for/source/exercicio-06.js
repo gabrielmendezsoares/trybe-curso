@@ -51,7 +51,7 @@ if (inputFormat === 'Square') {
   for (let index = 0; index < inputLimit; index += 1) {
     console.log(inputLine);
   }
-} else if (inputFormat === 'Left triangle rectangle') {
+} else if (inputFormat === 'Rectangle A') {
   let inputLine = '';
   const inputLimit = 25;
 
@@ -59,7 +59,7 @@ if (inputFormat === 'Square') {
     inputLine += inputSymbol;
     console.log(inputLine);
   }
-} else if (inputFormat === 'Right triangle rectangle') {
+} else if (inputFormat === 'Rectangle B') {
   let inputLine = '';
   const inputLimit = 25;
   let inputPosition = inputLimit - 1;
@@ -77,7 +77,7 @@ if (inputFormat === 'Square') {
     inputLine = '';
     inputPosition -= 1;
   }
-} else if (inputFormat === 'Internal equilateral triangle') {
+} else if (inputFormat === 'Equilateral A') {
   let inputLine = '';
   const inputLimit = 25;
   const inputMatrix = (inputLimit + 1) / 2;
@@ -99,7 +99,7 @@ if (inputFormat === 'Square') {
     controlRight += 1;
     console.log(inputLine);
   }
-} else if (inputFormat === 'External equilateral triangle') {
+} else if (inputFormat === 'Equilateral B') {
   let inputLine = '';
   const inputLimit = 25;
   const inputMatrix = (inputLimit + 1) / 2;

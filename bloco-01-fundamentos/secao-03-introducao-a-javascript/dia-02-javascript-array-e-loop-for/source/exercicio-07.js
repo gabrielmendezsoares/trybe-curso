@@ -8,7 +8,7 @@ for (let index = 2; index <= numberToCheck; index += 1) {
 }
 
 if (divisors === 2) {
-  console.log(numberToCheck + ' is cousin');
+  console.log(numberToCheck + ' A');
 } else {
-  console.log(numberToCheck + ' its not cousin');
+  console.log(numberToCheck + ' B');
 }

@@ -1,12 +1,12 @@
-const taskInput = document.getElementById('texto-tarefa');
-const taskButton = document.getElementById('criar-tarefa');
-const taskList = document.getElementById('lista-tarefas');
-const moveUpButton = document.getElementById('mover-cima');
-const moveDownButton = document.getElementById('mover-baixo');
-const clearSelectedButton = document.getElementById('remover-selecionado');
-const clearCompletedButton = document.getElementById('remover-finalizados');
-const clearButton = document.getElementById('apaga-tudo');
-const saveButton = document.getElementById('salvar-tarefas');
+const taskInput = document.getElementById('a-text');
+const taskButton = document.getElementById('a-create');
+const taskList = document.getElementById('a-list');
+const moveUpButton = document.getElementById('move-up');
+const moveDownButton = document.getElementById('move-down');
+const clearSelectedButton = document.getElementById('remove-selected');
+const clearCompletedButton = document.getElementById('remove-done');
+const clearButton = document.getElementById('clear');
+const saveButton = document.getElementById('save');
 
 const connectSelected = (element) => {
   element.addEventListener('click', () => {

@@ -1,5 +1,5 @@
 const stringInserter = (string) => {
-  const word = 'Tryber x aqui!';
+  const word = 'Tryber x here!';
   const wordArray = word.split(' ');
 
   for (let index = 0; index < wordArray.length; index += 1) {
@@ -16,7 +16,7 @@ const stringFormatter = (callback) => {
   let string = `
   ${callback}
   
-  Minhas três principais habilidades são:`;
+  Top 3 skills:`;
 
   for (let index = 0; index < skills.length; index += 1) {
     string = `${string}

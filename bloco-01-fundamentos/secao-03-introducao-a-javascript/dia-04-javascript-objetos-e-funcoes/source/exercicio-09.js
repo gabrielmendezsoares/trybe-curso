@@ -38,4 +38,4 @@ for (const key in sortedFruits) {
   summaries.push(message);
 }
 
-console.log(`Sua cesta possui: ${summaries.join(', ')}.`);
+console.log(`Fruits: ${summaries.join(', ')}.`);

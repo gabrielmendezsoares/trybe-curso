@@ -31,6 +31,7 @@ for (let index = 1; index <= 20; index += 1) {
 
 for (let index = 0; index < content.length; index += 1) {
   const operation = content[index] / 2;
+
   console.log('Division result: ' + operation);
 }
 
