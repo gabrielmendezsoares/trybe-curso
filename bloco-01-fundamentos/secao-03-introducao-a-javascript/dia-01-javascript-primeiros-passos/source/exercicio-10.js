@@ -2,27 +2,27 @@ const chessPiece = 'king';
 
 switch (chessPiece.toLowerCase()) {
   case 'king':
-    console.log('Rei -> A house just for any direction.');
+    console.log('King -> A');
     break;
 
   case 'queen':
-    console.log('Rainha -> Diagonal, horizontal and vertical.');
+    console.log('Queen -> B');
     break;
 
   case 'bishop':
-    console.log('Bispo -> Diagonal.');
+    console.log('Bishop -> C');
     break;
 
   case 'horse':
-    console.log('Cavalo -> "L" can jump over pieces.');
+    console.log('Horse -> D');
     break;
 
   case 'tower':
-    console.log('Torre -> Horizontal and vertical.');
+    console.log('Tower -> E');
     break;
 
   case 'pawn':
-    console.log('Peão -> Only one square forward, on the first move there can be two squares.');
+    console.log('Pawn -> F');
     break;
 
   default:
