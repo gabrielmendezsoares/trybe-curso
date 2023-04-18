@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercício</title>
+  <title>Exercise</title>
 </head>
 
 <body>
@@ -13,7 +13,7 @@
     <section id="pai">
       <section id="primeiroFilho"></section>
 
-      <section id="elementoOndeVoceEsta">
+      <section id="selected">
         <section id="primeiroFilhoDoFilho"></section>
         <section id="segundoEUltimoFilhoDoFilho"></section>
       </section>
@@ -25,16 +25,16 @@
     </section>
   </main>
   <script>
-    const elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
-    const pai = elementoOndeVoceEsta.parentElement;
-    const primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
-    const primeiroFilho = pai.firstElementChild;
-    const primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
-    const textElement = elementoOndeVoceEsta.nextSibling;
-    const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
-    const terceiroFilho2 = pai.lastElementChild.previousElementSibling;
+    const selected = document.getElementById('selected');
+    const ancestor = selected.parentElement;
+    const primeiroFilhoDoFilho = selected.firstElementChild;
+    const primeiroFilho = ancestor.firstElementChild;
+    const primeiroFilho2 = selected.previousElementSibling;
+    const textElement = selected.nextSibling;
+    const terceiroFilho = selected.nextElementSibling;
+    const terceiroFilho2 = ancestor.lastElementChild.previousElementSibling;
 
-    pai.style.color = 'red';
+    ancestor.style.color = 'red';
     primeiroFilhoDoFilho.innerText = 'primeiroFilhoDoFilho';
   </script>
 </body>

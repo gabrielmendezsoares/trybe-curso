@@ -1,7 +1,7 @@
 const decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 const holidayDaysList = [24, 25, 31];
 const fridayDaysList = [4, 11, 18, 25];
-const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
+const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const holidayButton = document.querySelector('#btn-holiday');
 const fridayButton = document.querySelector('#btn-friday');
 const addButton = document.querySelector('#btn-add');
@@ -87,7 +87,7 @@ function setInputs () {
 
   addButton.addEventListener('click', () => {
     if (taskInput.value.length <= 0) {
-      alert('Nome inválido ou vazio!');
+      alert('Name invalid or empty!');
     } else if (taskInput.value.length > 0) {
       const taskListItem = document.createElement('li');
 
@@ -99,7 +99,7 @@ function setInputs () {
   taskInput.addEventListener('keyup', (event) => {
     if (event.key === 'Enter') {
       if (taskInput.value.length <= 0) {
-        alert('Nome inválido ou vazio!');
+        alert('Name invalid or empty!');
       } else if (taskInput.value.length > 0) {
         const taskListItem = document.createElement('li');
 

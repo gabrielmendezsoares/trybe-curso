@@ -1,7 +1,7 @@
-const textInput = document.getElementById('carta-texto');
-const generateButton = document.getElementById('criar-carta');
-const textParagraph = document.getElementById('carta-gerada');
-const counterParagraph = document.getElementById('carta-contador');
+const textInput = document.getElementById('c-text');
+const generateButton = document.getElementById('c-create');
+const textParagraph = document.getElementById('c-generated');
+const counterParagraph = document.getElementById('c-counter');
 const styleGroup = ['newspaper', 'magazine1', 'magazine2'];
 const sizeGroup = ['medium', 'big', 'reallybig'];
 const rotationGroup = ['rotateleft', 'rotateright'];
@@ -33,7 +33,7 @@ const connectSpans = () => {
 
 generateButton.addEventListener('click', () => {
   if (!textInput.value.trim()) {
-    textParagraph.innerHTML = 'Por favor, digite o conteúdo da carta.';
+    textParagraph.innerHTML = 'Enter something.';
     counterParagraph.innerHTML = 0;
     return;
   }
