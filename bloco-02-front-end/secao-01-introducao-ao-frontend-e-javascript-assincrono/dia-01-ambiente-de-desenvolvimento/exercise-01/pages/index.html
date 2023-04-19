@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Field Validator</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <h1>Field Validator</h1>
+
+    <form action="" method="get">
+      <input type="text" placeholder="Enter here the value" id="value">
+
+      <select name="validator" id="option">
+        <option value="taxID">Tax ID</option>
+        <option value="hexColor">Hex color</option>
+        <option value="email">Email</option>
+        <option value="uuid">UUID</option>
+        <option value="url">URL</option>
+      </select>
+
+      <button id="button">Validate</button>
+    </form>
+
+    <p id="answer">Enter the value, select the validator and click validate</p>
+  </div>
+
+  <script src="../source/main.js" type="module"></script>
+</body>
+
+</html>

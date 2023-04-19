@@ -9,8 +9,7 @@
         "plugin:jest/recommended",
         "standard-with-typescript"
     ],
-    "overrides": [
-    ],
+    "overrides": [],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
@@ -20,6 +19,13 @@
         "jest"
     ],
     "rules": {
-        "semi": [2, "always"]
+        "semi": [
+            "error",
+            "always"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ]
     }
 }
