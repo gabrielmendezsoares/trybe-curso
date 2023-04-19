@@ -1,6 +1,6 @@
 import validator from 'validator';
 
-const value = document.querySelector('#value');
+const textInput = document.querySelector('#text-input');
 const option = document.querySelector('#option');
 const button = document.querySelector('#button');
 const answer = document.querySelector('#answer');
@@ -10,12 +10,12 @@ button.addEventListener('click', (event) => {
   event.preventDefault();
 
   const fields = {
-    taxID: validator.isTaxID(value.value, 'pt-BR'),
-    hexColor: validator.isHexColor(value.value),
-    email: validator.isEmail(value.value),
-    uuid: validator.isUUID(value.value, UUID_VERSION),
-    url: validator.isURL(value.value)
+    'tax-id': validator.isTaxID(textInput.value, 'pt-BR'),
+    'hex-color': validator.isHexColor(textInput.value),
+    email: validator.isEmail(textInput.value),
+    uuid: validator.isUUID(textInput.value, UUID_VERSION),
+    url: validator.isURL(textInput.value)
   };
 
-  answer.innerHTML = `A validação retornou ${fields[option.value]}`;
+  answer.innerHTML = `Validation returned ${fields[option.value]}`;
 });
