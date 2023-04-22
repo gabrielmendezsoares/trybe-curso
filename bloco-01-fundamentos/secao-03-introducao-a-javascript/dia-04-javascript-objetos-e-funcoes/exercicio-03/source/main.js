@@ -6,7 +6,7 @@ const primaryObject = {
 
 const secondaryObject = {
   character: 'Scrooge McDuck',
-  origin: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
+  origin: 'Christmas on Bear Mountain, Dell\'s Four Color Comics #178',
   note: 'Lorem ipsum',
   recurrent: 'Yes'
 };
