@@ -1,6 +1,6 @@
 let firstName = 'João';
 let lastName = 'Silva';
-let favoriteFood = "McDonald's";
+let favoriteFood = 'McDonald\'s';
 const valueA = 3;
 const valueB = 5;
 const sumNumber = (A, B) => A + B;
