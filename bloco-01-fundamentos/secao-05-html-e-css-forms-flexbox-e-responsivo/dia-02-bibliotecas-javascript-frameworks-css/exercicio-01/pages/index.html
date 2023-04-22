@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form Trip</title>
-  <link rel="stylesheet" href="exercicio-02.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
   <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
 </head>
@@ -18,24 +19,30 @@
   <form class="js-form" id="form">
     <fieldset class="form-group">
       <label class="form-label" for="fullName">Name:</label>
-      <input class="form-control" data-validate-field="name" type="text" id="fullName" name="fullName" placeholder="Enter name" maxlength="40" minlength="10" required>
+      <input class="form-control" data-validate-field="name" type="text" id="fullName" name="fullName"
+        placeholder="Enter name" maxlength="40" minlength="10" required>
       <br>
 
       <label class="form-label" for="email">Email:</label>
-      <input class="form-control" data-validate-field="email" type="email" id="email" name="email" placeholder="Enter email" maxlength="50" minlength="10" required>
+      <input class="form-control" data-validate-field="email" type="email" id="email" name="email"
+        placeholder="Enter email" maxlength="50" minlength="10" required>
       <br>
 
       <label class="form-label" for="destination1">City</label>
-      <input class="form-check-input" type="radio" id="destination1" className="radios" name="destinations" value="City" data-validate-field="destination" required>
+      <input class="form-check-input" type="radio" id="destination1" className="radios" name="destinations" value="City"
+        data-validate-field="destination" required>
 
       <label class="form-label" for="destination2">Countryside</label>
-      <input class="form-check-input" type="radio" id="destination2" className="radios" name="destinations" value="Countryside" data-validate-field="destination" required>
+      <input class="form-check-input" type="radio" id="destination2" className="radios" name="destinations"
+        value="Countryside" data-validate-field="destination" required>
 
       <label class="form-label" for="destination3">Beach</label>
-      <input class="form-check-input" type="radio" id="destination3" className="radios" name="destinations" value="Beach" data-validate-field="destination" required>
+      <input class="form-check-input" type="radio" id="destination3" className="radios" name="destinations"
+        value="Beach" data-validate-field="destination" required>
 
       <label class="form-label" for="destination4">Mountains</label>
-      <input class="form-check-input" type="radio" id="destination4" className="radios" name="destinations" value="Mountains" data-validate-field="destination" required>
+      <input class="form-check-input" type="radio" id="destination4" className="radios" name="destinations"
+        value="Mountains" data-validate-field="destination" required>
       <br>
 
       <label class="form-label" for="why">Lorem ipsum?</label>
@@ -61,7 +68,7 @@
   </form>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
-  <script src="exercicio-03.js"></script>
+  <script src="../source/main.js"></script>
 </body>
 
 </html>
