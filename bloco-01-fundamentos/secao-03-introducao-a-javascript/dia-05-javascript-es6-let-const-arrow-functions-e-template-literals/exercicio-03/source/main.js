@@ -1,4 +1,4 @@
-const ligarDesligar = (state) => {
+const toggleState = (state) => {
   const status = (state === 'off')
     ? 'on'
     : 'off';
@@ -32,7 +32,7 @@ const longestWord = (word) => {
 
 const longestWordSort = (text) => text.split(' ').sort((wordA, wordB) => wordB.length - wordA.length)[0];
 
-ligarDesligar('off');
+toggleState('off');
 circleArea(30);
 longestWord('Longest word');
 longestWordSort('Longest word');
