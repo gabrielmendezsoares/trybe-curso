@@ -1,23 +1,23 @@
 const summaries = [];
 const sortedFruits = {};
 const unsortedFruits = [
-  'Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva', 'Laranja',
-  'Jaca', 'Pera', 'Melancia', 'Uva', 'Laranja', 'Melancia',
-  'Banana', 'Uva', 'Pera', 'Abacate', 'Laranja', 'Abacate',
-  'Banana', 'Melancia', 'Laranja', 'Laranja', 'Jaca', 'Uva',
-  'Banana', 'Uva', 'Laranja', 'Pera', 'Melancia', 'Uva',
-  'Jaca', 'Banana', 'Pera', 'Abacate', 'Melancia', 'Melancia',
-  'Laranja', 'Pera', 'Banana', 'Jaca', 'Laranja', 'Melancia',
-  'Abacate', 'Abacate', 'Pera', 'Melancia', 'Banana', 'Banana',
-  'Abacate', 'Uva', 'Laranja', 'Banana', 'Abacate', 'Uva',
-  'Uva', 'Abacate', 'Abacate', 'Melancia', 'Uva', 'Jaca',
-  'Uva', 'Banana', 'Abacate', 'Banana', 'Uva', 'Banana',
-  'Laranja', 'Laranja', 'Jaca', 'Jaca', 'Abacate', 'Jaca',
-  'Laranja', 'Melancia', 'Pera', 'Jaca', 'Melancia', 'Uva',
-  'Abacate', 'Jaca', 'Jaca', 'Abacate', 'Uva', 'Laranja',
-  'Pera', 'Melancia', 'Jaca', 'Pera', 'Laranja', 'Jaca',
-  'Pera', 'Melancia', 'Jaca', 'Banana', 'Laranja', 'Jaca',
-  'Banana', 'Pera', 'Abacate', 'Uva'
+  'Watermelon', 'Avocado', 'Watermelon', 'Watermelon', 'Grape', 'Orange',
+  'Jackfruit', 'Pear', 'Watermelon', 'Grape', 'Orange', 'Watermelon',
+  'Banana', 'Grape', 'Pear', 'Avocado', 'Orange', 'Avocado',
+  'Banana', 'Watermelon', 'Orange', 'Orange', 'Jackfruit', 'Grape',
+  'Banana', 'Grape', 'Orange', 'Pear', 'Watermelon', 'Grape',
+  'Jackfruit', 'Banana', 'Pear', 'Avocado', 'Watermelon', 'Watermelon',
+  'Orange', 'Pear', 'Banana', 'Jackfruit', 'Orange', 'Watermelon',
+  'Avocado', 'Avocado', 'Pear', 'Watermelon', 'Banana', 'Banana',
+  'Avocado', 'Grape', 'Orange', 'Banana', 'Avocado', 'Grape',
+  'Grape', 'Avocado', 'Avocado', 'Watermelon', 'Grape', 'Jackfruit',
+  'Grape', 'Banana', 'Avocado', 'Banana', 'Grape', 'Banana',
+  'Orange', 'Orange', 'Jackfruit', 'Jackfruit', 'Avocado', 'Jackfruit',
+  'Orange', 'Watermelon', 'Pear', 'Jackfruit', 'Watermelon', 'Grape',
+  'Avocado', 'Jackfruit', 'Jackfruit', 'Avocado', 'Grape', 'Orange',
+  'Pear', 'Watermelon', 'Jackfruit', 'Pear', 'Orange', 'Jackfruit',
+  'Pear', 'Watermelon', 'Jackfruit', 'Banana', 'Orange', 'Jackfruit',
+  'Banana', 'Pear', 'Avocado', 'Grape'
 ];
 
 for (let index = 0; index < unsortedFruits.length; index += 1) {
