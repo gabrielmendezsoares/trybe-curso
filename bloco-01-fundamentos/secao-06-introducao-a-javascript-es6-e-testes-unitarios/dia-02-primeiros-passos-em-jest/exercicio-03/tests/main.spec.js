@@ -1,67 +1,67 @@
 const { encode, decode } = require('../source/exercicio-03.js');
 
-describe('Testa as funções encode e decode', () => {
-  it('A função encode é definida', () => {
+describe('Tests the encode and decode functions', () => {
+  test('The encode function is defined', () => {
     expect(encode).toBeDefined();
   });
 
-  it('encode é uma função', () => {
+  test('encode is a function', () => {
     expect(typeof encode).toEqual('function');
   });
 
-  it('Converte apenas a vogal "a" no número 1', () => {
+  test('Converts only vowel "a" to number 1', () => {
     expect(encode('ana')).toEqual('1n1');
   });
 
-  it('Converte a vogal "e" no número 2', () => {
+  test('Convert an "e" vowel into the number 2', () => {
     expect(encode('ele')).toEqual('2l2');
   });
 
-  it('Converte a vogal "i" no número 3', () => {
+  test('Converts the vowel "i" into the number 3', () => {
     expect(encode('xixi')).toEqual('x3x3');
   });
 
-  it('Converte a vogal "o" no número 4', () => {
+  test('Converts the vowel "o" into the number 4', () => {
     expect(encode('ovo')).toEqual('4v4');
   });
 
-  it('Converte a vogal "u" no número 5', () => {
+  test('Converts the vowel "u" into the number 5', () => {
     expect(encode('nu')).toEqual('n5');
   });
 
-  it('Checa se o retorno da função encode tem o mesmo número de caracteres', () => {
+  test('Checks if the encode function return has the same number of characters', () => {
     expect(encode('trybe').length).toEqual(5);
   });
 
-  it('A função decode é definida', () => {
+  test('The decode function is defined', () => {
     expect(decode).toBeDefined();
   });
 
-  it('decode é uma função', () => {
+  test('decode is a function', () => {
     expect(typeof decode).toEqual('function');
   });
 
-  it('Converte apenas o número 1 na vogal a', () => {
+  test('Converts only the number 1 into the vowel a', () => {
     expect(decode('1n1')).toEqual('ana');
   });
 
-  it('Converte apenas o número 2 na vogal e', () => {
+  test('Converts only the number 2 into the vowel and', () => {
     expect(decode('2l2')).toEqual('ele');
   });
 
-  it('Converte apenas o número 3 na vogal i', () => {
+  test('Converts only the number 3 to the vowel i', () => {
     expect(decode('x3x3')).toEqual('xixi');
   });
 
-  it('Converte apenas o número 4 na vogal o', () => {
+  test('Converts only the number 4 into the vowel o', () => {
     expect(decode('4v4')).toEqual('ovo');
   });
 
-  it('Converte apenas o número 5 na vogal u', () => {
+  test('Converts only the number 5 to the vowel u', () => {
     expect(decode('n5')).toEqual('nu');
   });
 
-  it('Checa se o retorno da função decode tem o mesmo número de caracteres', () => {
+  test('Checks if the decode function return has the same number of characters', () => {
     expect(decode('trybe').length).toEqual(5);
   });
 });

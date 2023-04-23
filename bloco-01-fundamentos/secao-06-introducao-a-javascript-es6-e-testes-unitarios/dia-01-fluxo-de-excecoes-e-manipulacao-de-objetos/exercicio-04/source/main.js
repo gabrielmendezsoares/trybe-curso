@@ -1,12 +1,12 @@
 const validateInfo = (name, age) => {
   if (!name || !age) {
-    throw new Error('Todas as informações são necessárias');
+    throw new Error('All information is required');
   }
 };
 
 const validateLegalAge = (age) => {
   if (age < 18) {
-    throw new Error('Ops, infelizmente nesse momento você não pode fazer as aulas');
+    throw new Error('Oops, unfortunately at this moment you can\'t take the classes');
   }
 };
 
@@ -14,7 +14,7 @@ const studentRegister = (name, age) => {
   try {
     validateInfo(name, age);
     validateLegalAge(age);
-    return `${name}, boas-vindas à AuTer!`;
+    return `${name}, welcome to AuTer!`;
   } catch (error) {
     return error.message;
   }

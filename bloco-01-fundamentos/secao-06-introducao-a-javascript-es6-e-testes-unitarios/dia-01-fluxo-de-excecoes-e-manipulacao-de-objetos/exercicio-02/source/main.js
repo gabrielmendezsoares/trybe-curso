@@ -3,11 +3,11 @@ function verifyValues () {
   const value2 = document.getElementById('value2').value;
 
   if (!value1 || !value2) {
-    throw new Error('Preencha os campos para realizar a soma');
+    throw new Error('Fill in the fields to perform the sum');
   }
 
   if (Number.isNaN(Number(value1)) || Number.isNaN(Number(value2))) {
-    throw new Error('Informe dois números para realizar a soma');
+    throw new Error('Enter two numbers to add');
   }
 }
 
@@ -18,9 +18,9 @@ function sum () {
 
   try {
     verifyValues();
-    resultInput.innerHTML = `Resultado: ${Number(value1.value) + Number(value2.value)}`;
+    resultInput.innerHTML = `Result: ${Number(value1.value) + Number(value2.value)}`;
   } catch (error) {
-    resultInput.innerHTML = `Resultado: ${error.message}`;
+    resultInput.innerHTML = `Result: ${error.message}`;
   } finally {
     value1.value = '';
     value2.value = '';

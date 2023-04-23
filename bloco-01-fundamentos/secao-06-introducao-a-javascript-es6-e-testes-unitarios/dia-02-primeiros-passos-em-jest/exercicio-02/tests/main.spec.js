@@ -1,7 +1,7 @@
-const myFizzBuzz = require('../source/exercicio-02');
+const myFizzBuzz = require('../source/main');
 
-describe('Testa a função myFizzBuzz', () => {
-  it('Verifica, se de acordo com o parâmetro recebido, retorna o valor esperado', () => {
+describe('Tests the myFizzBuzz function', () => {
+  test('Checks whether, according to the received parameter, it returns the expected value', () => {
     expect(myFizzBuzz(15)).toBe('fizzbuzz');
     expect(myFizzBuzz(3)).toBe('fizz');
     expect(myFizzBuzz(5)).toBe('buzz');

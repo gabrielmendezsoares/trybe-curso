@@ -106,11 +106,11 @@ const findPersonByName = (name) => {
     }
 
     if (!person) {
-      throw new Error('Pessoa não encontrada, tente novamente');
+      throw new Error('Person not found, try again');
     }
 
-    const receiverName = `Destinatário: ${person.name}`;
-    const fullAddress = `Endereço: ${person.address.street}, ${person.address.number}, ${person.address.neighborhood}, ${person.address.city} - ${person.address.state}`;
+    const receiverName = `Addressee: ${person.name}`;
+    const fullAddress = `Address: ${person.address.street}, ${person.address.number}, ${person.address.neighborhood}, ${person.address.city} - ${person.address.state}`;
     const cep = `CEP: ${person.address.cep}`;
 
     return `${receiverName}. ${fullAddress}. ${cep}`;
@@ -127,10 +127,10 @@ const findPersonByPosition = (position) => {
     const person = clients[position];
 
     if (!person) {
-      throw new Error('Posição inválida, tente novamente');
+      throw new Error('Invalid position, try again');
     }
 
-    return `Cliente: ${person.name}. email: ${person.email}`;
+    return `Client: ${person.name}. email: ${person.email}`;
   } catch (error) {
     return error.message;
   }
@@ -141,7 +141,7 @@ console.log(findPersonByPosition(10));
 
 const arrayValidation = (array) => {
   if (array.length === 0) {
-    throw new Error('Ops, nenhuma pessoa mora nesse estado, tente outro');
+    throw new Error('Oops, no one lives in that state, try another one');
   }
 };
 
