@@ -1,4 +1,4 @@
-const { species } = require('../data/script');
+const { species } = require('../data/zoo');
 
 const countAnimals = (animal) => {
   if (!animal) {

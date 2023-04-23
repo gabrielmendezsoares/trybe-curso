@@ -1,4 +1,4 @@
-const { species, employees } = require('../data/script');
+const { species, employees } = require('../data/zoo');
 
 const getOldestFromFirstSpecies = (id) => {
   const { responsibleFor } = employees
@@ -14,8 +14,7 @@ const getOldestFromFirstSpecies = (id) => {
   const oldestSpecie = residents
     .reduce((accumulator, resident) => ((resident.age > accumulator.age)
       ? resident
-      : accumulator),
-    firstResident);
+      : accumulator), firstResident);
 
   return Object.values(oldestSpecie);
 };

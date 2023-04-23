@@ -1,4 +1,4 @@
-const { hours } = require('../data/script');
+const { hours } = require('../data/zoo');
 
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 const dayError = 'The day must be valid. Example: Monday';

@@ -1,4 +1,4 @@
-const { species, employees } = require('../data/script');
+const { species, employees } = require('../data/zoo');
 
 Object.isObject = (value) => (
   typeof value === 'object' &&
