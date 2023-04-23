@@ -1,15 +1,15 @@
 const info = {
-  personagem: 'Margarida',
-  origem: 'Pato Donald',
-  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald'
+  character: 'Daisy Duck',
+  origin: 'Donald Duck',
+  note: 'Girlfriend of the main character in the Donald Duck comics'
 };
 
 const printMessage = (characterInfo) => {
-  if (!characterInfo || characterInfo.personagem === undefined) {
-    throw new Error('objeto inválido');
+  if (!characterInfo || characterInfo.character === undefined) {
+    throw new Error('Invalid object');
   }
 
-  return (`Boas vindas, ${characterInfo.personagem}`);
+  return (`Welcome, ${characterInfo.character}`);
 };
 
 module.exports = { info, printMessage };

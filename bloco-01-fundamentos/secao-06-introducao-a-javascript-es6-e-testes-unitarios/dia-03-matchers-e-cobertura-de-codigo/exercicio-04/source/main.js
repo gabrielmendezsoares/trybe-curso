@@ -49,11 +49,11 @@ const searchEmployee = (id, detail) => {
   }
 
   if (!employee) {
-    throw new Error('ID não identificada');
+    throw new Error('Unidentified ID');
   }
 
   if (!employee[detail]) {
-    throw new Error('Informação indisponível');
+    throw new Error('Invalid information');
   }
 
   return employee[detail];

@@ -1,15 +1,15 @@
-const techList = require('../source/exercicio-04');
+const techList = require('../source/main');
 
-describe('Testa a função techList', () => {
-  it('Testa se a função techList é definida', () => {
+describe('Test the techList function', () => {
+  test('Tests if the techList function is defined', () => {
     expect(techList).toBeDefined();
   });
 
-  it('Testa se techList é uma função', () => {
+  test('Tests if techList is a function', () => {
     expect(typeof techList).toBe('function');
   });
 
-  it('Lista com 5 tecnologias deve retornar uma lista de objetos ordenados', () => {
+  test('List with 5 technologies should return an ordered list of objects', () => {
     expect(techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'Gabriel')).toEqual([
       {
         tech: 'CSS',
@@ -34,7 +34,7 @@ describe('Testa a função techList', () => {
     ]);
   });
 
-  it('Lista com 0 tecnologias deve retornar uma mensagem de erro "Vazio!"', () => {
-    expect(techList([], 'Gabriel')).toBe('Vazio!');
+  test('List of 0 technologies should return an "Empty!"', () => {
+    expect(techList([], 'Gabriel')).toBe('Empty!');
   });
 });

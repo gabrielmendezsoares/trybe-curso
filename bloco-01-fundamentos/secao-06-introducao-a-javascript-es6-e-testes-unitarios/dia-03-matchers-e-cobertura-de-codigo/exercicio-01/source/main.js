@@ -1,10 +1,10 @@
 const createItem = (itemName, itemUnit, itemPrice, itemQuantity) => {
   if (typeof itemName !== 'string') {
-    throw new Error('O nome do item deve ser uma string');
+    throw new Error('Item name must be a string');
   }
 
   if (itemPrice <= 0) {
-    throw new Error('O preço do item deve ser maior que zero');
+    throw new Error('Item price must be greater than zero');
   }
 
   if (itemQuantity === undefined) {

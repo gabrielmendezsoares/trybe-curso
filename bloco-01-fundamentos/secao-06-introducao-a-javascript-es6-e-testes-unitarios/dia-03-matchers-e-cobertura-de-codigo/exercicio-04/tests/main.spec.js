@@ -1,43 +1,43 @@
-const searchEmployee = require('../source/exercicio-04');
+const searchEmployee = require('../source/main');
 
-describe('5 - Neste exercício, você irá praticar o desenvolvimento orientado a testes implementando `a função` e `os testes` para essa função', () => {
-  it('Testa se searchEmployee é uma função', () => {
+describe('5 - In this exercise, you will practice test-driven development by implementing `the function` and `the tests` for that function', () => {
+  test('Tests whether searchEmployee is a role', () => {
     expect(typeof searchEmployee).toBe('function');
   });
 
-  it('Testa se searchEmployee(id, "firstName") retorna o primeiro nome do usuário da id consultada', () => {
+  test('Tests whether searchEmployee(id, "firstName") returns the first username of the queried id', () => {
     const actual = searchEmployee('1256-4', 'firstName');
     const expected = 'Linda';
 
     expect(actual).toBe(expected);
   });
 
-  it('Testa se searchEmployee(id, "lastName") retorna o segundo nome do usuário da id consultada', () => {
+  test('Tests whether searchEmployee(id, "lastName") returns the second username of the queried id', () => {
     const actual = searchEmployee('1256-4', 'lastName');
     const expected = 'Bezos';
 
     expect(actual).toBe(expected);
   });
 
-  it('Testa se searchEmployee(id, "specialities") retorna um array com todas as habilidades da id pesquisado', () => {
+  test('Tests whether searchEmployee(id, "specialities") returns an array with all the skills of the searched id', () => {
     const actual = searchEmployee('1256-4', 'specialities');
 
     expect(actual).toContain('Hooks', 'Context API', 'Tailwind CSS');
   });
 
-  it('Testa se um erro com a mensagem "ID não identificada" é retornado quando a ID não existir', () => {
+  test('Tests whether an error with the message "Unidentified ID" is returned when the ID does not exist', () => {
     expect(() => { searchEmployee('1256-8', 'specialities'); }).toThrow();
   });
 
-  it('Testa a mensagem do erro para ID inexistente', () => {
-    expect(() => { searchEmployee('1256-8', 'specialities'); }).toThrow(new Error('ID não identificada'));
+  test('Testing error message for non-existent ID', () => {
+    expect(() => { searchEmployee('1256-8', 'specialities'); }).toThrow(new Error('Unidentified ID'));
   });
 
-  it('Testa se lança um erro quando a informação e a ID são inexistentes', () => {
+  test('Tests whether an error is thrown when the information and ID are non-existent', () => {
     expect(() => { searchEmployee(); }).toThrow();
   });
 
-  it('Testa a mensagem do erro para informação inexistente', () => {
-    expect(() => { searchEmployee('4678-2', 'shift'); }).toThrow(new Error('Informação indisponível'));
+  test('Testing the error message for missing information', () => {
+    expect(() => { searchEmployee('4678-2', 'shift'); }).toThrow(new Error('Invalid information'));
   });
 });

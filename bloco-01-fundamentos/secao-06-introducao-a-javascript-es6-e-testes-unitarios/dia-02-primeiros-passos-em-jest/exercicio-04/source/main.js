@@ -1,5 +1,5 @@
 const techList = (arrayTechnologies, name) => {
-  if (arrayTechnologies.length === 0) return 'Vazio!';
+  if (arrayTechnologies.length === 0) return 'Empty!';
 
   const sortedArray = arrayTechnologies.sort();
   const technologyList = [];

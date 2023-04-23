@@ -1,19 +1,19 @@
-const hydrate = require('../source/exercicio-05');
+const hydrate = require('../source/main');
 
-describe('Testa a função hydrate', () => {
-  it('Testa se a função hydrate é definida', () => {
+describe('Test the hydrate function', () => {
+  test('Tests if the hydrate function is defined', () => {
     expect(hydrate).toBeDefined();
   });
 
-  it('Testa se hydrate é uma função', () => {
+  test('Tests if hydrate is a function', () => {
     expect(typeof hydrate).toBe('function');
   });
 
-  it('Ao receber uma string retorne a sugestão de quantos copos de água deve-se beber', () => {
-    expect(hydrate('1 cerveja')).toBe('1 copo de água');
-    expect(hydrate('1 cachaça, 5 cervejas e 1 copo de vinho')).toBe('7 copos de água');
-    expect(hydrate('2 shots de tequila, 2 cervejas e 1 corote')).toBe('5 copos de água');
-    expect(hydrate('1 copo de catuaba, 1 cervejas e 1 copo de vinho')).toBe('3 copos de água');
-    expect(hydrate('4 caipirinhas e 2 cervejas')).toBe('6 copos de água');
+  test('When receiving a string, return the suggestion of how many glasses of water to drink', () => {
+    expect(hydrate('1 beer')).toBe('1 glass of water');
+    expect(hydrate('1 cachaça, 5 beers and 1 glass of wine')).toBe('7 glasses of water');
+    expect(hydrate('2 shots of tequila, 2 beers and 1 corote')).toBe('5 glasses of water');
+    expect(hydrate('1 glass of catuaba, 1 beer and 1 glass of wine')).toBe('3 glasses of water');
+    expect(hydrate('4 caipirinhas and 2 beers')).toBe('6 glasses of water');
   });
 });

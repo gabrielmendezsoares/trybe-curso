@@ -10,13 +10,13 @@ const hydrate = (string) => {
     }
   }
 
-  let glass = 'copo';
+  let glass = 'glass';
 
   if (glassesOfWater > 1) {
-    glass = 'copos';
+    glass = 'glasses';
   }
 
-  return `${glassesOfWater} ${glass} de água`;
+  return `${glassesOfWater} ${glass} of water`;
 };
 
 module.exports = hydrate;

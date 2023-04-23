@@ -1,23 +1,23 @@
-const { info, printMessage } = require('../source/exercicio-03');
+const { info, printMessage } = require('../source/main');
 
-describe('2 - Implemente o caso de teste para a função `printMessage`', () => {
-  it('Testa a propriedade personagem no objeto.', () => {
-    expect(info).toHaveProperty('personagem');
+describe('2 - Implement the test case for the `printMessage` function', () => {
+  test('Tests the character property on the object.', () => {
+    expect(info).toHaveProperty('character');
   });
 });
 
-describe('3 - Ainda sobre a função `printMessage`, adicione os casos de teste a seguir`', () => {
-  it('Testa a informação de boas vindas.', () => {
-    expect(printMessage(info)).toMatch('Boas vindas,');
+describe('3 - Still on the `printMessage` function, add the following test cases`', () => {
+  test('the welcome information.', () => {
+    expect(printMessage(info)).toMatch('Welcome,');
   });
 
-  it('Testa a informação referente ao nome da personagem.', () => {
-    expect(printMessage(info)).toMatch(info.personagem);
+  test('Tests the information regarding the character\'s name.', () => {
+    expect(printMessage(info)).toMatch(info.character);
   });
 });
 
-describe('4 - Crie um fluxo de exceção para a função `printMessage`', () => {
-  it('Testa o fluxo de exceção da função printMessage.', () => {
-    expect(() => printMessage('Margarida')).toThrow('objeto inválido');
+describe('4 - Create an exception flow for the `printMessage` function', () => {
+  test('Tests the exception flow of the printMessage function.', () => {
+    expect(() => printMessage('Daisy Duck')).toThrow('Invalid object');
   });
 });
