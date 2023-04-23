@@ -1,4 +1,4 @@
-const { species, hours } = require('../data/script');
+const { species, hours } = require('../data/zoo');
 
 const getZooSchedule = () => Object
   .entries(hours)

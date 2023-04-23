@@ -38,7 +38,8 @@ h2 {
   color: lightgrey;
 }
 
-p, li {
+p,
+li {
   color: lightgrey;
 }
 
@@ -47,9 +48,10 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   padding: 20px;
-  border: 3px solid lightgrey;
+  border: 3px solid rgb(50 50 50);
   color: lightgrey;
 }
 
@@ -62,6 +64,10 @@ a {
 a:hover {
   color: lightgrey;
   transition: color 0.5s;
+}
+
+hr {
+  border-color: black;
 }
 
 footer {
