@@ -78,9 +78,9 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 <details>
   <summary>Seção 01: Introdução ao Frontend e JavaScript assíncrono ⏳</summary></br>
 
-  - [ ] Dia 01: Ambiente de desenvolvimento
-  - [ ] Dia 02: JavaScript Assíncrono - Promises e fetch
-  - [ ] Dia 03: Prática - Casa de câmbio
+  - [x] Dia 01: Ambiente de desenvolvimento
+  - [x] Dia 02: JavaScript Assíncrono - Promises e fetch
+  - [x] Dia 03: Prática - Casa de câmbio
   - [ ] Dia 04: Async, await e testes assíncronos 
 </details>
 
