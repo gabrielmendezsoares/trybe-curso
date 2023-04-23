@@ -20,7 +20,7 @@ const countPoints = (rightAnswers, studentAnswers, action) => {
     contador += actionReturn;
   }
 
-  return `Resultado final: ${contador} pontos`;
+  return `Result: ${contador} points`;
 };
 
 console.log(countPoints(RIGHT_ANSWERS, STUDENT_ANSWERS, compareAnswers));

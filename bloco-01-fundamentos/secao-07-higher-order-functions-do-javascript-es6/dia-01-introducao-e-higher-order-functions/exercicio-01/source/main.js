@@ -6,7 +6,7 @@ const emailList = [
 ];
 
 const emailRetriever = (email) => {
-  console.log(`O email ${email} está cadastrado!`);
+  console.log(`The email ${email} is registered!`);
 };
 
 emailList.forEach(emailRetriever);

@@ -1,4 +1,4 @@
-const { books } = require('../data/exercicio-01');
+const { books } = require('../data/books');
 
 const formatedAuthorNamesBirth = () =>
   books.map((book) =>

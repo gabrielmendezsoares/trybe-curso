@@ -1,4 +1,4 @@
-const countries = require('../data/exercicio-03');
+const countries = require('../data/countries');
 
 const names = [
   'Aanemarie', 'Adervandes', 'Akifusa',
