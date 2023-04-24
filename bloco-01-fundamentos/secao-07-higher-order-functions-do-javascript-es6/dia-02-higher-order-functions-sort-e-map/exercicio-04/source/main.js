@@ -1,4 +1,6 @@
-const { books } = require('../data/books');
+import data from '../data/books.js';
+
+const { books } = data;
 
 const nameAndAge = () =>
   books.map((book) => ({

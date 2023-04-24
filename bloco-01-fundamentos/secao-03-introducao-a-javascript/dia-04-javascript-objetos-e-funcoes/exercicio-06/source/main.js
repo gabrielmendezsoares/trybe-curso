@@ -69,7 +69,7 @@ function getNumberOfStudentsMath (obj) {
   const keys = Object.keys(obj);
 
   for (const index in keys) {
-    if (obj[keys[index]].subject === 'Matemática') {
+    if (obj[keys[index]].subject === 'Mathematic') {
       total += obj[keys[index]].studentNumber;
     }
   }
@@ -89,7 +89,7 @@ function getInfo (obj, name) {
     }
   }
 
-  return { aulas: allLessons, estudantes: numberStudents };
+  return { classes: allLessons, students: numberStudents };
 }
 
 function createReport (allLessons, name) {

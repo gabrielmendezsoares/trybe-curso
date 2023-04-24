@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   books: [
     {
       id: 1,

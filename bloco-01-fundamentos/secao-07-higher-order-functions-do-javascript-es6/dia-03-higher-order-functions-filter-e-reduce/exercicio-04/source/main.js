@@ -1,4 +1,4 @@
-const countries = require('../data/countries');
+import data from '../data/countries.js';
 
 const names = [
   'Aanemarie', 'Adervandes', 'Akifusa',
@@ -11,15 +11,15 @@ const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 const pattern = /[Aa]/g;
 
 const getPopulation = () =>
-  countries.reduce((accumulator, country) =>
+  data.reduce((accumulator, country) =>
     accumulator + country.population, 0);
 
 const getTotalArea = () =>
-  countries.reduce((accumulator, country) =>
+  data.reduce((accumulator, country) =>
     accumulator + country.area, 0);
 
 const longestName = () =>
-  countries.reduce((accumulator, country) =>
+  data.reduce((accumulator, country) =>
     (country.name.length > accumulator.name.length)
       ? country
       : accumulator);
