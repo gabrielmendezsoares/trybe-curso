@@ -1,7 +1,8 @@
-const students = require('../data/students');
+import data from '../data/students.js';
+
 const getSubject = (accumulator, subject) => (subject.nota > accumulator.nota) ? subject : accumulator;
 
-const getStudents = () => students.map((student) => ({
+const getStudents = () => data.map((student) => ({
   name: student.nome,
   materia: student.materias.reduce(getSubject).name
 }));
