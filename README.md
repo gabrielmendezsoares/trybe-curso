@@ -76,12 +76,12 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 ### Bloco 02: Front-end ⏳
 
 <details>
-  <summary>Seção 01: Introdução ao Frontend e JavaScript assíncrono ⏳</summary></br>
+  <summary>Seção 01: Introdução ao Frontend e JavaScript assíncrono ✔️</summary></br>
 
   - [x] Dia 01: Ambiente de desenvolvimento
   - [x] Dia 02: JavaScript Assíncrono - Promises e fetch
   - [x] Dia 03: Prática - Casa de câmbio
-  - [ ] Dia 04: Async, await e testes assíncronos 
+  - [x] Dia 04: Async, await e testes assíncronos 
 </details>
 
 <details>
