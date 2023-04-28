@@ -87,7 +87,7 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 <details>
   <summary>Seção 02: Introdução ao React ⏳</summary></br>
 
-  - [X] Dia 01: 'Hello, world!' no React!
+  - [ ] Dia 01: 'Hello, world!' no React!
   - [ ] Dia 02: Componentes React
 </details>
 
