@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise</title>
+  <style>
+    main, section {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="title">JavaScript</h1>
+  </header>
+
+  <main class="main-content">
+    <section class="center-content">
+      <p>Default text</p>
+      <p>-----</p>
+      <p>Trybe</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Paragraph</p>
+  </footer>
+
+  <script>
+    const title = document.getElementsByClassName("title")[0];
+    const mainContent = document.getElementsByClassName("main-content")[0];
+    const centerContent = document.getElementsByClassName("center-content")[0];
+    const paragraphs = document.getElementsByTagName("p");
+    const paragraphA = paragraphs[0];
+    const paragraphB = paragraphs[1];
+    const paragraphC = paragraphs[paragraphs.length - 1];
+    const changeTitle = (element, value) => element.innerText = value;
+    const changeMainContent = (element, value) => element.style.backgroundColor = value;
+    const changeCenterContent = (element, value) => element.style.backgroundColor = value;
+    const changeParagraphA = (element, value) => element.innerText = value.toUpperCase();
+    const changeParagraphB = (element, string) => element.innerText = string;
+    const changeParagraphC = (element, array) => {
+      let newText = '';
+
+      for (let index = 0; index < array.length; index += 1) {
+        newText += array[index].innerText + ' ';
+      }
+
+      element.innerText = newText;
+    };
+
+    changeTitle(title, 'Test - JavaScript');
+    changeMainContent(mainContent, 'rgb(76, 164, 109)');
+    changeCenterContent(centerContent, 'white');
+    changeParagraphA(paragraphA, paragraphA.innerText);
+    changeParagraphB(paragraphB, 'Lorem ipsum');
+    changeParagraphC(paragraphC, paragraphs);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise</title>
+  <style>
+    section {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+
+    .main-content .left-content {
+      background-color: green;
+      width: 60%;
+      margin-left: 0;
+      margin-right: auto;
+    }
+
+    .main-content .left-content .small-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100%;
+    }
+
+    .main-content .right-content {
+      background-color: blue;
+      width: 60%;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    .main-content .description {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    const elementTitle = document.createElement('h1');
+    const elementMainContent = document.createElement('main');
+    const elementCenterContent = document.createElement('section');
+    const elementLeftContent = document.createElement('section');
+    const elementRightContent = document.createElement('section');
+    const elementUl = document.createElement('ul');
+    const elementImg = document.createElement('img');
+    const elementP = document.createElement('p');
+    const arrayStringNumbers = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eigth', 'Nine', 'Ten'];
+
+    elementTitle.innerText = 'TrybeTrip';
+    elementMainContent.className = 'main-content';
+    elementCenterContent.className = 'center-content';
+    elementLeftContent.className = 'left-content';
+    elementRightContent.className = 'right-content';
+    elementImg.className = 'small-image';
+    elementImg.src = 'https://picsum.photos/200';
+    elementP.innerText = 'Texter';
+    document.body.appendChild(elementTitle);
+    document.body.appendChild(elementMainContent);
+    elementMainContent.appendChild(elementCenterContent);
+    elementMainContent.appendChild(elementLeftContent);
+    elementMainContent.appendChild(elementRightContent);
+    elementRightContent.appendChild(elementUl);
+    elementLeftContent.appendChild(elementImg);
+    elementCenterContent.appendChild(elementP);
+
+    for (let index = 0; index < arrayStringNumbers.length; index += 1) {
+      const elementLi = document.createElement('li');
+
+      elementLi.innerText = arrayStringNumbers[index];
+      elementUl.appendChild(elementLi);
+    }
+
+    for (let index = 1; index <= 3; index += 1) {
+      const elementDescription = document.createElement('h3');
+
+      elementDescription.innerHTML = 'Show ' + index;
+      elementMainContent.appendChild(elementDescription);
+    }
+
+    const title = document.querySelector('h1');
+    const centerContent = document.getElementsByClassName('center-content')[0];
+    const leftContent = document.getElementsByClassName('left-content')[0];
+    const rightContent = document.getElementsByClassName('right-content')[0];
+    const ul = document.getElementsByTagName('ul')[0];
+    const description = document.getElementsByTagName('h3');
+
+    title.className = 'title';
+    elementMainContent.removeChild(leftContent);
+    centerContent.parentNode.style.backgroundColor = 'green';
+    rightContent.style.marginRight = 'auto';
+    ul.lastChild.remove();
+    ul.lastChild.remove();
+
+    for (let index = 0; index < 3; index += 1) {
+      description[index].className = 'description';
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS FLEXBOX - ALIGN SELF</title>
+  <style>
+    .container {
+      border: 1px solid black;
+      display: flex;
+      height: 300px;
+      margin: auto;
+      width: 500px;
+    }
+
+    .keep {
+      align-self: center;
+      background-color: #FAA488;
+      display: flex;
+      justify-content: center;
+      width: 150px;
+      list-style: none;
+    }
+
+    .change {
+      align-self: center;
+      background-color: #FBD26A;
+      display: flex;
+      justify-content: center;
+      width: 200px;
+      list-style: none;
+    }
+  </style>
+</head>
+
+<body>
+  <ul class="container">
+    <li class="keep">REFERENCE</li>
+    <li class="change">TEST ELEMENT</li>
+    <li class="keep">REFERENCE</li>
+  </ul>
+</body>
+
+</html>
