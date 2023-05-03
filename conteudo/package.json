@@ -1,10 +1,9 @@
 {
   "name": "trybe-curso",
-  "version": "1.0.0",
-  "type": "module",
   "author": "Gabriel Mendez Soares",
+  "version": "1.0.0",
   "license": "ISC",
-  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
