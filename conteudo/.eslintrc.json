@@ -9,8 +9,7 @@
         "plugin:react/recommended",
         "plugin:react/jsx-runtime",
         "plugin:react-hooks/recommended",
-        "plugin:jest/recommended",
-        "standard-with-typescript"
+        "plugin:jest/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
