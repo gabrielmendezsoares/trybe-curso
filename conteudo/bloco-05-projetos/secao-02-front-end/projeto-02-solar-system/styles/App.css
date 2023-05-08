@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Comfortaa;
+  src: url('../fonts/Comfortaa.ttf')
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Comfortaa, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url('../assets/Background.png');
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

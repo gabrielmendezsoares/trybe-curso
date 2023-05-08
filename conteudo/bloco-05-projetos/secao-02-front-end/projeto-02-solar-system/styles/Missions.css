@@ -1,0 +1,22 @@
+.Missions {
+  width: 100%;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MissionsContainer {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0.3vh solid white;
+  border-radius: 1vh;
+}
+
+.MissionListContainer {
+  padding: 0 1vh 1vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  column-gap: 1vh;
+  row-gap: 1vh;
+}

@@ -1,0 +1,14 @@
+.SolarSystem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SolarSystemContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
