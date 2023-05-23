@@ -91,6 +91,7 @@ body {
   padding: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 50px auto 100px;
   column-gap: 10px;
   row-gap: 10px;
 }

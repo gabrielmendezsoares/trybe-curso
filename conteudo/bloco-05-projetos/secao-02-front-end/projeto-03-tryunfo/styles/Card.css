@@ -1,0 +1,266 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-wrapper {
+  width: 400px;
+  height: 600px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+
+.card-main-container {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(3, 107, 82, 1);
+  border-radius: 20px;
+}
+
+.card-title-container {
+  width: 100%;
+  height: 60px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-style: italic;
+  background-color: rgba(2, 48, 49, 1);
+  border-radius: 15px 15px 0 0;
+}
+
+.card-title-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  user-select: none;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card-logo-container {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(214, 214, 214);
+}
+
+.card-logo-image {
+  width: 100%;
+  max-height: 250px;
+  display: flex;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgba(61, 73, 92, 1);
+  overflow-wrap: break-word;
+  user-select: none;
+}
+
+.card-logo-trunfo {
+  position: absolute;
+  width: 150px;
+  top: 0;
+  right: 0;
+  user-select: none;
+}
+
+.card-about-container {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  flex-grow: 1;
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+}
+
+.card-scroll-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.card-description-text {
+  width: 90%;
+  font-style: italic;
+  background-color: rgb(214, 214, 214);
+  color: rgba(61, 73, 92, 1);
+  border-radius: 10px;
+  overflow-wrap: break-word;
+  user-select: none;
+}
+
+.card-description-text:not(:empty) {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card-rare-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-rare-text {
+  padding: 10px;
+  font-style: italic;
+  background-color: rgb(214, 214, 214);
+  color: rgba(61, 73, 92, 1);
+  border-radius: 10px 0 0 10px;
+  user-select: none;
+}
+
+.card-rare-box {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  background-color: rgba(2, 48, 49, 1);
+  color: white;
+  border-radius: 0 10px 10px 0;
+  text-transform: capitalize;
+  user-select: none;
+}
+
+.card-rare-text::after {
+  content: "....................";
+}
+
+.card-attr01-container {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-attr01-text {
+  padding: 10px;
+  font-style: italic;
+  background-color: rgb(214, 214, 214);
+  color: rgba(61, 73, 92, 1);
+  border-radius: 10px 0 0 10px;
+  user-select: none;
+}
+
+.card-attr01-box {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  background-color: rgba(2, 48, 49, 1);
+  color: white;
+  border-radius: 0 10px 10px 0;
+  user-select: none;
+}
+
+.card-attr01-text::after {
+  content: ".........................";
+}
+
+.card-attr02-container {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-attr02-text {
+  padding: 10px;
+  font-style: italic;
+  background-color: rgb(214, 214, 214);
+  color: rgba(61, 73, 92, 1);
+  border-radius: 10px 0 0 10px;
+  user-select: none;
+}
+
+.card-attr02-box {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  background-color: rgba(2, 48, 49, 1);
+  color: white;
+  border-radius: 0 10px 10px 0;
+  user-select: none;
+}
+
+.card-attr02-text::after {
+  content: ".........................";
+}
+
+.card-attr03-container {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-attr03-text {
+  padding: 10px;
+  font-style: italic;
+  background-color: rgb(214, 214, 214);
+  color: rgba(61, 73, 92, 1);
+  border-radius: 10px 0 0 10px;
+  user-select: none;
+}
+
+.card-attr03-box {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  background-color: rgba(2, 48, 49, 1);
+  color: white;
+  border-radius: 0 10px 10px 0;
+  user-select: none;
+}
+
+.card-attr03-text::after {
+  content: ".........................";
+}
+
+.card-delete-button {
+  margin-top: 10px;
+  width: 180px;
+  height: 50px;
+  font-weight: 700;
+  background-color: rgb(193, 47, 47);
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(193, 47, 47, 0);
+  transition: box-shadow 0.5s;
+}
+
+.card-delete-button:hover {
+  box-shadow: 0 0 30px rgba(193, 47, 47, 1);
+  transition: box-shadow 0.5s;
+}
