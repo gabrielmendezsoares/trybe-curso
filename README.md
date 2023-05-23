@@ -85,30 +85,30 @@ Seja bem-vindo ao meu repositório de projetos e exercícios que concluí durant
 </details>
 
 <details>
-  <summary>Seção 02: Introdução ao React ⏳</summary></br>
+  <summary>Seção 02: Introdução ao React ✔️</summary></br>
 
   - [x] Dia 01: 'Hello, world!' no React!
-  - [ ] Dia 02: Componentes React
+  - [x] Dia 02: Componentes React
 </details>
 
 <details>
-  <summary>Seção 03: Componentes com Estado, Eventos e Formulários com React ⏳</summary></br>
+  <summary>Seção 03: Componentes com Estado, Eventos e Formulários com React ✔️</summary></br>
 
-  - [ ] Dia 01: Componentes com estado e eventos
-  - [ ] Dia 02: Formulários no React
+  - [x] Dia 01: Componentes com estado e eventos
+  - [x] Dia 02: Formulários no React
 </details>
 
 <details>
-  <summary>Seção 04: Ciclo de Vida de Componentes e React Router ⏳</summary></br>
+  <summary>Seção 04: Ciclo de Vida de Componentes e React Router ✔️</summary></br>
 
-  - [ ] Dia 01: Ciclo de vida de componentes
-  - [ ] Dia 02: React Router
+  - [x] Dia 01: Ciclo de vida de componentes
+  - [x] Dia 02: React Router
 </details>
 
 <details>
-  <summary>Seção 05: Metodologias Ágeis ⏳</summary></br>
+  <summary>Seção 05: Metodologias Ágeis ✔️</summary></br>
 
-  - [ ] Dia 01: Metodologias Ágeis
+  - [x] Dia 01: Metodologias Ágeis
 </details>
 
 <details>
