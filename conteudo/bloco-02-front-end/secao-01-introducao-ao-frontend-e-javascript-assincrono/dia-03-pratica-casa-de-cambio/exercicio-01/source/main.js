@@ -1,5 +1,6 @@
-import '../styles/style.css';
 import Swal from 'sweetalert2';
+import coin from './assets/coin.svg'
+import './style.css';
 
 const searchBar = document.querySelector('#search-bar');
 const searchButton = document.querySelector('#search-button');
@@ -25,7 +26,7 @@ const createCurrency = (key, value) => {
   const newCurrencyValue = document.createElement('p');
 
   newContainer.id = 'currency-wrapper';
-  newIcon.src = '../assets/coin.svg';
+  newIcon.src = coin;
   newCurrencyName.innerHTML = `${key}`;
   newCurrencyValue.innerHTML = `${value}`;
   newCurrencyValue.className = 'value-highlight';
