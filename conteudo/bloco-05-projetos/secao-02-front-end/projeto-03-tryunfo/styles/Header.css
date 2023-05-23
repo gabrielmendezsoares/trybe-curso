@@ -1,0 +1,96 @@
+.header-main-container {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(3, 107, 82, 1);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.header-main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+  user-select: none;
+}
+
+.header-filter-container {
+  margin-left: 30px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-filter-name {
+  width: 250px;
+  padding: 10px;
+  background-color: rgba(3, 107, 82, 1);
+  color: white;
+  border: 1px solid white;
+  outline: none;
+}
+
+.header-filter-name::placeholder {
+  color: rgb(200, 200, 200);
+}
+
+.header-filter-rare {
+  width: 150px;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: rgba(3, 107, 82, 1);
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  appearance: none;
+  background-image: url('../assets/DropdownWhite.png');
+  background-repeat: no-repeat;
+  background-position: right 5px center;
+  cursor: pointer;
+}
+
+.header-trunfo-container {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-filter-trunfo {
+  width: 10px;
+  height: 100%;
+  padding: 12px;
+}
+
+.header-filter-trunfo:not(:checked) {
+  background-image: url('../assets/CheckboxWhiteOff.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  appearance: none;
+  cursor: pointer;
+}
+
+.header-filter-trunfo:checked {
+  background-image: url('../assets/CheckboxWhiteOn.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  appearance: none;
+  cursor: pointer;
+}
+
+.header-label-trunfo {
+  margin-left: 10px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
