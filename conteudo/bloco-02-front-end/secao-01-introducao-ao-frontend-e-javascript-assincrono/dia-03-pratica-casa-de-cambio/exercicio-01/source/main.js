@@ -1,6 +1,6 @@
 import Swal from 'sweetalert2';
-import coin from './assets/coin.svg'
-import './style.css';
+import coin from './assets/coin.svg';
+import './styles/style.css';
 
 const searchBar = document.querySelector('#search-bar');
 const searchButton = document.querySelector('#search-button');

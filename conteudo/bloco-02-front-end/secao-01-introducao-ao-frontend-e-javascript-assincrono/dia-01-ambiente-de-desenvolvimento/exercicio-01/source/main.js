@@ -1,5 +1,5 @@
 import validator from 'validator';
-import './style.css';
+import './styles/style.css';
 
 const textInput = document.querySelector('#text-input');
 const option = document.querySelector('#option');
