@@ -16,7 +16,7 @@
 }
 
 body {
-  background-image: url('../assets/background.svg');
+  background-image: url('./assets/background.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,8 +46,7 @@ h2 {
   color: white;
 }
 
-input,
-button {
+input, button {
   width: 170px;
   height: 50px;
   border-radius: 10px;
